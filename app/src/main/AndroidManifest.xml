@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Core Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+
+    <!-- Storage Permissions (Android 13+ vs Legacy) -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+
+    <!-- Location Permissions (Weather Widget) -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Control Center & Overlay Permissions -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <!-- Control Center Toggles (Flashlight, Wi-Fi, Bluetooth) -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+    <application
+        android:name=".ThemeApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:enableOnBackInvokedCallback="true"
+        android:theme="@style/Theme.MyApplication">
+
+        <!-- Google AdMob App ID (Required for Google Mobile Ads SDK initialization) -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+
+        <!-- Facebook SDK App ID & Client Token (For Ads Mediation) -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <!-- Launcher Onboarding Permission Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_main.PermissionActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+
+        <!-- Main Dashboard Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_main.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_main.SplashPreviewActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Setting Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_setting.SettingActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Icon Changer Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_icon.IconChangerActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Theme Preview Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_theme.ThemePreviewActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <!-- My Themes List Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_theme.my_theme.MyThemeActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Widget Configuration Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_widget.WidgetConfigActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <!-- Download & Apply Wallpaper Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_wallpaper.DownloadWallpaperActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+ 
+        <!-- Charging Animation Screen -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_charging.ChargingActivity"
+            android:exported="true"
+            android:showOnLockScreen="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_widget.DownloadThemeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_icon.DownloadIconActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <!-- Widget Theme Detail Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_widget.WidgetThemeDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <!-- Info Guide Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_setting.InfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <!-- Shortcut Proxy Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_widget.ChangeIconActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+
+        <!-- Collections Downloaded Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_collections.DownloadedActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <!-- Control Center Preview & Detail Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_control_center.ControlCenterPreviewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <!-- Control Center Permission Activity -->
+        <activity
+            android:name="com.widget.themes.controlcenter.feature_control_center.ControlCenterPermissionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <!-- Control Center Overlay Service -->
+        <service
+            android:name="com.widget.themes.controlcenter.feature_control_center.service.ControlCenterOverlayService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Control Center Overlay Trigger Service" />
+        </service>
+
+
+        <!-- Widget 2x2 Provider (Small Widget) -->
+        <receiver
+            android:name="com.widget.themes.controlcenter.feature_widget.Widget2x2Provider"
+            android:label="2x2 Analog Clock"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.widget.themes.controlcenter.WIDGET_AUTO_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_small" />
+        </receiver>
+
+        <!-- Widget 4x2 Provider (Medium Widget) -->
+        <receiver
+            android:name="com.widget.themes.controlcenter.feature_widget.Widget4x2Provider"
+            android:label="4x2 Dashboard"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.widget.themes.controlcenter.WIDGET_AUTO_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_medium" />
+        </receiver>
+
+        <!-- Widget 4x4 Provider (Large Widget) -->
+        <receiver
+            android:name="com.widget.themes.controlcenter.feature_widget.Widget4x4Provider"
+            android:label="4x4 Calendar Grid"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.widget.themes.controlcenter.WIDGET_AUTO_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_large" />
+        </receiver>
+
+
+
+        <!-- Widget Pinning Callback Receiver -->
+        <receiver
+            android:name="com.widget.themes.controlcenter.feature_widget.WidgetReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.widget.themes.controlcenter.WIDGET_PINNED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Single 1x1 Icon Widget Provider -->
+        <receiver
+            android:name="com.widget.themes.controlcenter.feature_widget.SingleIconWidgetProvider"
+            android:label="Themed Icon"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_single_icon" />
+        </receiver>
+
+        <!-- Single 1x1 Icon Widget Pinning Callback Receiver -->
+        <receiver
+            android:name="com.widget.themes.controlcenter.feature_widget.SingleIconWidgetReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.widget.themes.controlcenter.SINGLE_ICON_WIDGET_PINNED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

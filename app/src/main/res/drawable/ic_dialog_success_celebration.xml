@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Soft Pastel Outer Glow Circle -->
+    <path
+        android:pathData="M60,60m-52,0a52,52 0,1 1,104 0a52,52 0,1 1,-104 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="20"
+                android:startY="10"
+                android:endX="100"
+                android:endY="110">
+                <item android:color="#33FF5678" android:offset="0.0" />
+                <item android:color="#1AFF9EAA" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Main Gradient Celebration Circle -->
+    <path
+        android:pathData="M60,60m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="30"
+                android:startY="20"
+                android:endX="90"
+                android:endY="100">
+                <item android:color="#FFFF5678" android:offset="0.0" />
+                <item android:color="#FFFF7B94" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Crisp White Rounded Checkmark -->
+    <path
+        android:pathData="M46,60 L55,69 L74,50"
+        android:strokeWidth="5.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Top-Right Gold Sparkle Star -->
+    <path
+        android:pathData="M98,30 Q98,38 106,38 Q98,38 98,46 Q98,38 90,38 Q98,38 98,30 Z"
+        android:fillColor="#FFD13B" />
+
+    <!-- Top-Left Pink Sparkle Star -->
+    <path
+        android:pathData="M24,24 Q24,30 30,30 Q24,30 24,36 Q24,30 18,30 Q24,30 24,24 Z"
+        android:fillColor="#FFA5BA" />
+
+    <!-- Bottom-Right Small Star -->
+    <path
+        android:pathData="M96,86 Q96,90 100,90 Q96,90 96,94 Q96,90 92,90 Q96,90 96,86 Z"
+        android:fillColor="#FF85A0" />
+
+    <!-- Bottom-Left Gold Sparkle -->
+    <path
+        android:pathData="M22,82 Q22,86 26,86 Q22,86 22,90 Q22,86 18,86 Q22,86 22,82 Z"
+        android:fillColor="#FFD13B" />
+
+</vector>

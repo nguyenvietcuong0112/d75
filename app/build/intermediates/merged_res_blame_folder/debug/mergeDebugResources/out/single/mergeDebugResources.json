@@ -1,0 +1,2474 @@
+[
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_app_selection.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_app_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_setting_card_rounded.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_setting_card_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_on_surface_emphasis_medium.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_on_surface_emphasis_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_nav_control_true.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_nav_control_true.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_play.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_btn_state_list_anim.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_btn_state_list_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_tab_indicator_select.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\tab_indicator_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_keyboard_key_popup_lxx_base.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_keyboard_key_popup_lxx_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_chip_state_list_anim.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_chip_state_list_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_slider_thumb_color_legacy.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_slider_thumb_color_legacy.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_phone_device.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_phone_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_corner_12.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_corner_12.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_icon_pack_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_icon_pack_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_keyboard_key_pressed_lxx_base_border.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_keyboard_key_pressed_lxx_base_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_control_card_rounded.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_control_card_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_tonal_button_ripple_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_tonal_button_ripple_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_navigation_rail_item_with_indicator_icon_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_navigation_rail_item_with_indicator_icon_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_keyboard_background_lxx_base.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\keyboard_background_lxx_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_pause.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_clock_1_seconds_dark.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_clock_1_seconds_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_selection_control_ripple_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_selection_control_ripple_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_banner_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_banner_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_split_button_chevron_rotation.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_split_button_chevron_rotation.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_intro_slide_1.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\intro_slide_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_banner_type_ai.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_banner_type_ai.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_play_unlock.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_play_unlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_on_primary_emphasis_medium.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_on_primary_emphasis_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_settings_languages.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_settings_languages.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_hint_foreground.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_hint_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_nav_collections_false.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_nav_collections_false.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_circle_icon_gray.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_circle_icon_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_com_android_billingclient_phenotype.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\com_android_billingclient_phenotype.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_tabs_icon_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_tabs_icon_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_layout_native_collapsible.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\layout_native_collapsible.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_top.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_top.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_download_dialog.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_download_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_timepicker_display_ripple_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_timepicker_display_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_calendar_item_disabled_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_calendar_item_disabled_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_m3_bottom_sheet_slide_in.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\m3_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_favorite_selected.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_favorite_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_premium.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_premium.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_card_foreground_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_card_foreground_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_corner_8_bottom_left.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_corner_8_bottom_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_sleep_2x2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_sleep_2x2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_it.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_it.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_split_button_chevron_overshoot_interpolator.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_split_button_chevron_overshoot_interpolator.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_overlay_wallpaper.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_overlay_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_setup_succeed_dialog.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_setup_succeed_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_successful.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_successful.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_intro_slide_3.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\intro_slide_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_settings_languages_foreground.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_settings_languages_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_nav_default_pop_enter_anim.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\nav_default_pop_enter_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_native_collapsible_card.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_native_collapsible_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_stop_onehanded_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_stop_onehanded_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_btn_explore_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_btn_explore_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_information.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_information.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_chip_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_chip_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_m3_alert_dialog.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\m3_alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_timepicker_button_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_timepicker_button_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\raw_loading.json.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\raw\\loading.json"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_tab_collection_selected.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_tab_collection_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_home_action_wallpaper.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_home_action_wallpaper.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_keyboard_key_lxx_base_border.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_keyboard_key_lxx_base_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_custom_theme.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_custom_theme.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_clock_1_minutes_dark.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_clock_1_minutes_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_admob_layout_native_full.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\admob_layout_native_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_theme_home.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_theme_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cupertino_indicator.gif.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cupertino_indicator.gif"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_fab_state_list_animator.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_fab_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_scroll_guide.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_scroll_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_create_widget_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_create_widget_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_corner_16.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_corner_16.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_fragment_fast_out_extra_slow_in.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_tabs_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_tabs_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_kr.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_kr.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_corner_8.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_corner_8.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_de.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_de.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_dialog_exit_app.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\dialog_exit_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_minikeyboard_selected_background.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\minikeyboard_selected_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_keyboard_background_lxx_base_border.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\keyboard_background_lxx_base_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_collection_card.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_collection_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_banner_theme2.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\banner_theme2.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_default_color_primary_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_default_color_primary_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_lang_checked.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_lang_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_image_frame.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\image_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_nav_icons_true.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_nav_icons_true.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_chip_assist_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_chip_assist_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_collections.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_collections.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_widget_checkbox.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_widget_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_slider_thumb_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_slider_thumb_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_popup_keys_divider.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\popup_keys_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_key_pressed_background.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\key_pressed_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_m3_side_sheet_enter_from_right.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\m3_side_sheet_enter_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_personalized_primary_inverse_text_disable_only.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_personalized_primary_inverse_text_disable_only.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_extended_fab_hide_motion_spec.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_extended_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_slider_inactive_tick_marks_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_slider_inactive_tick_marks_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_card_state_list_anim.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_card_state_list_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_widget_check_square.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_widget_check_square.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_in.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_voice_off_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_voice_off_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_scale_with_alpha.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\scale_with_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_ad_container.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_ad_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_caps_outline_vector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_caps_outline_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_succeed.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_succeed.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_widget_note_border.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_widget_note_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_download_icon.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_download_icon.xml"
+    },
+    {
+        "merged": "com.widget.themes.controlcenter.app-debug-99:/layout_activity_download_icon.xml.flat",
+        "source": "com.widget.themes.controlcenter.app-main-101:/layout/activity_download_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_setting_screen.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_setting_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_clock_1_hours_dark.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_clock_1_hours_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_dropdown.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_dropdown.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_secondary_pill.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_secondary_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_dot_active.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_dot_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_button_foreground_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_button_foreground_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_control_circle_button_blue.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_control_circle_button_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_home_action_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_home_action_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_control_circle_button_white.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_control_circle_button_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_m3_auto_complete_simple_item.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\m3_auto_complete_simple_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_settings_gear.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_settings_gear.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_dialog_edittext.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_dialog_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_dropdown_material.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_dropdown_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_download_widget.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_download_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_timepicker_secondary_text_button_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_timepicker_secondary_text_button_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_slider_active_tick_marks_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_slider_active_tick_marks_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_m3_side_sheet_exit_to_right.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\m3_side_sheet_exit_to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_keyboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_widget_large.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\widget_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_layout_native_media_click.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\layout_native_media_click.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_fredoka_medium.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\fredoka_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_m3_sys_motion_easing_emphasized_decelerate.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\m3_sys_motion_easing_emphasized_decelerate.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_nav_item_icon_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\nav_item_icon_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ad_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ad_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_progress_splash_horizontal.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\progress_splash_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_btn_install_pill.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_btn_install_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_language_on_spacebar_fadeout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\language_on_spacebar_fadeout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_slide_up.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_intro3.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_intro3.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_fast_out_slow_in.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_clock.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_widget_category_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_widget_category_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_wallpaper.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_toolbar_my_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\toolbar_my_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_btn_elevated_btn_state_list_anim.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_btn_elevated_btn_state_list_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_nav_icons_false.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_nav_icons_false.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_design_add_text_page.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_design_add_text_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_category_tab_selected.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_category_tab_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_outline_pill.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_outline_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_bottom_sheet_drag_handle_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_bottom_sheet_drag_handle_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_timepicker_button_background.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_timepicker_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_m3_sys_motion_easing_emphasized_accelerate.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\m3_sys_motion_easing_emphasized_accelerate.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_splash_logo_card.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_splash_logo_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_clock_1_minutes.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_clock_1_minutes.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_design_add_sticker_page.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_design_add_sticker_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_appbar_state_list_animator.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_vibrant_toolbar_icon_button_container_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_vibrant_toolbar_icon_button_container_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_hot.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_hot.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_text_button_background_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_text_button_background_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_category_material.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_category_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_widget_single_icon.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\widget_single_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_prev.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_prev.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_dark_default_color_primary_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_dark_default_color_primary_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_dark_primary_text_disable_only.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_dark_primary_text_disable_only.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_slider_inactive_track_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_slider_inactive_track_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_keyboard_key_feedback_background_lxx_light_border.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\keyboard_key_feedback_background_lxx_light_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_action_icon_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\action_icon_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_layout_control_center_panel.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\layout_control_center_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\raw_firebase_common_keep.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\raw\\firebase_common_keep.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_admob_layout_native_full_inter.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\admob_layout_native_full_inter.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_keyboard_suggest_strip_lxx_base_border.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\keyboard_suggest_strip_lxx_base_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_theme_category_selected.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_theme_category_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_dark_default_color_secondary_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_dark_default_color_secondary_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_category.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_material_ic_keyboard_arrow_left_black_24dp.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\material_ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_wifi.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_wifi.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_tabs_ripple_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_tabs_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_bn.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_bn.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_mini_calendar_2x2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_mini_calendar_2x2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_control_center_permission.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_control_center_permission.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_filled_icon_button_container_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_filled_icon_button_container_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_header_setting.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_header_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_personalized__highlighted_text_inverse.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_personalized__highlighted_text_inverse.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_m3_alert_dialog_title.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\m3_alert_dialog_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_ph.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_ph.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_fragment_open_exit.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\fragment_open_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_button_get_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_button_get_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_theme_preview.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_theme_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_widget_switch.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_widget_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_preview_small.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_preview_small.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_setting_share.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_setting_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_card_stroke_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_card_stroke_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_clipboard_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_clipboard_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_slider_inactive_track_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_slider_inactive_track_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_info.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_design_share.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_design_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_es.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_es.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_navigation_rail_ripple_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_navigation_rail_ripple_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_m3_sys_motion_easing_standard_decelerate.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\m3_sys_motion_easing_standard_decelerate.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_toolbar_detail_1.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\toolbar_detail_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_container.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_main.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_main.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_circle.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_fredoka_bold.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\fredoka_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_navigation_item_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_navigation_item_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_toolbar_create_wallpaper.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\toolbar_create_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_collection_mascot.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_collection_mascot.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_navigation_item_icon_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_navigation_item_icon_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_widget_medium.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\widget_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_m3_alert_dialog_actions.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\m3_alert_dialog_actions.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_m3_motion_fade_exit.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\m3_motion_fade_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_card_elevated_state_list_anim.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_card_elevated_state_list_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_pacifico_regular.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\pacifico_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_my_icon_pack_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_my_icon_pack_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_dialog_set_wallpaper.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\dialog_set_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\menu_navigation.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\menu\\navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_preview_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_preview_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_canvas_border.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_canvas_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_information_material.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_information_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_lang_uncheck.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_lang_uncheck.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_done_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_done_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_clock_1_dial_dark.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_clock_1_dial_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_download_wallpaper.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_download_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_text_button_foreground_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_text_button_foreground_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_design_redo.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_design_redo.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_caps_underlined_vector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_caps_underlined_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_close_ful_ads.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\close_ful_ads.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_2x2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_2x2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_cellular.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_cellular.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_timepicker_button_background_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_timepicker_button_background_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_circle_icon_pink.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_circle_icon_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_personalized_primary_text_disable_only.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_personalized_primary_text_disable_only.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_standard_toolbar_icon_button_ripple_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_standard_toolbar_icon_button_ripple_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_enable_keyboard.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_enable_keyboard.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_circle_icon_blue.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_circle_icon_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_extended_fab_change_size_expand_motion_spec.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_extended_fab_change_size_expand_motion_spec.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_inter_light.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\inter_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_overlay_window.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_overlay_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_setting_rate.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_setting_rate.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_personalized_color_primary_text_inverse.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_personalized_color_primary_text_inverse.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_slider_inactive_track_color_legacy.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_slider_inactive_track_color_legacy.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_timepicker_secondary_text_button_ripple_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_timepicker_secondary_text_button_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_personalized__highlighted_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_personalized__highlighted_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_home_action_keyboard.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_home_action_keyboard.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_navigation_item_background_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_navigation_item_background_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_download_widget_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_download_widget_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_dot_inactive.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_dot_inactive.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_widget_switch_compat.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_design_undo.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_design_undo.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_nav_collections_true.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_nav_collections_true.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_nav_default_enter_anim.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\nav_default_enter_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_en.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\en.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_primary_text_disable_only.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_primary_text_disable_only.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_divider.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_reset.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_reset.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_calculator.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_fab_efab_foreground_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_fab_efab_foreground_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_textfield_label_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_textfield_label_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_banner_theme1.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\banner_theme1.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_download_wallpaper.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_download_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_cn.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_cn.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_btn_theme_set_wallpaper.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_btn_theme_set_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_empty_bg.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_empty_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_play_video_ads.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_play_video_ads.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_start_onehanded_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_start_onehanded_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_extended_fab_state_list_animator.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_extended_fab_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_widget_theme_detail.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_widget_theme_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_slider_inactive_tick_marks_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_slider_inactive_tick_marks_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_language_item_selected.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_language_item_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_helvetica_light.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\helvetica_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_timepicker_time_input_stroke_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_timepicker_time_input_stroke_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_chip_ripple_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_chip_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_slider_halo_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_slider_halo_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_download_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_download_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_shortcuts.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\shortcuts.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_elevated_chip_state_list_anim.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_elevated_chip_state_list_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_nav_item_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\nav_item_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_dialog_control_center_preview.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\dialog_control_center_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_widget.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_widget_preview_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_widget_preview_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_slider_active_track_color_legacy.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_slider_active_track_color_legacy.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_slider_active_track_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_slider_active_track_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_small_empty.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_small_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_m3_sys_motion_easing_linear.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\m3_sys_motion_easing_linear.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_custom_bottom_nav.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_custom_bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_personalized_color_secondary_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_personalized_color_secondary_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_timepicker_display_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_timepicker_display_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_moon.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_moon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_fragment_open_enter.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\fragment_open_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_button_ripple_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_button_ripple_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_fragment_fade_enter.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\fragment_fade_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_vibrant_toolbar_icon_button_ripple_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_vibrant_toolbar_icon_button_ripple_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_single_icon.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_single_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_setting_language.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_setting_language.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_create_widget.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_create_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_home_action_widget.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_home_action_widget.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_control_center.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_control_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_m3_button_group_child_size_change.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\m3_button_group_child_size_change.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_navigation_item_ripple_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_navigation_item_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_pt.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_pt.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_nav_default_exit_anim.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\nav_default_exit_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_nav_default_pop_exit_anim.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\nav_default_pop_exit_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_m3_bottom_sheet_slide_out.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\m3_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_button_background_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_button_background_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_intro_slide_2.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\intro_slide_2.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_enter_vector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_enter_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_widget_small.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\widget_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_button_intro.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_button_intro.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_emoji_emotions_outline_vector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_emoji_emotions_outline_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_layout_native_media.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\layout_native_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_on_surface_stroke.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_on_surface_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_fragment_close_enter.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\fragment_close_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_default_color_secondary_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_default_color_secondary_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_search_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_search_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_divider.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_action_wallpaper_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\action_wallpaper_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_jp.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_jp.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_bluetooth.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_fab_ripple_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_fab_ripple_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_navigation_bar_item_with_indicator_label_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_navigation_bar_item_with_indicator_label_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_navigation_rail_item_with_indicator_label_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_navigation_rail_item_with_indicator_label_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_timepicker_button_stroke.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_timepicker_button_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_keyboard_popup_panel_background_lxx_base.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\keyboard_popup_panel_background_lxx_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_slider_thumb_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_slider_thumb_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_tab_indicator_default_primary.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\tab_indicator_default_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_countdown_4x2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_countdown_4x2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_favorite.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_setting.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_ad_close_btn.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_ad_close_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\raw_firebase_crashlytics_keep.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\raw\\firebase_crashlytics_keep.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_m3_split_button_inner_corner_size_state_list.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\m3_split_button_inner_corner_size_state_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_widget_theme_detail_icon.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_widget_theme_detail_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_tabs_ripple_color_secondary.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_tabs_ripple_color_secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_preview_medium.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_preview_medium.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_id.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_id.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_assist_chip_icon_tint_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_assist_chip_icon_tint_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_widget_seekbar_material.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_widget_seekbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_radiobutton_ripple_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_radiobutton_ripple_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_collection_tab_indicator.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_collection_tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_us.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_slider_active_track_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_slider_active_track_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_header_premium.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_header_premium.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_vibrant_toolbar_button_text_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_vibrant_toolbar_button_text_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_clock_1_dial.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_clock_1_dial.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_inter_bold.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\inter_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_lock.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_setting.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_circle_indicator.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_circle_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_screen_record.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_screen_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_m3_sys_motion_easing_standard.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\m3_sys_motion_easing_standard.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_design_change_background_page.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_design_change_background_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_prefs.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_incognito_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_incognito_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_next.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_config_widget.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_config_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_nav_widget_true.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_nav_widget_true.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_intro4.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_intro4.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_widget_default_gradient.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_widget_default_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_keyboard_spacebar_base.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_keyboard_spacebar_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_search_bar.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_search_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_checkbox_button_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_checkbox_button_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_image_picker_provider_paths.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\image_picker_provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_custom_icon_changer.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_custom_icon_changer.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_action_widget_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\action_widget_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_setting_policy.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_setting_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_nav_theme_true.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_nav_theme_true.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_tab_indicator_primary.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\tab_indicator_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_zwnj_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_zwnj_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_zwj_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_zwj_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_bottom_sheet_select_app.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\bottom_sheet_select_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_sun.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_sun.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_suggestions_strip_divider.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\suggestions_strip_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_timepicker_button_ripple_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_timepicker_button_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_switch_thumb_material_dark.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_m3_side_sheet_enter_from_left.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\m3_side_sheet_enter_from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_image_share_filepaths.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\image_share_filepaths.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_dialog_exit_app.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_dialog_exit_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\raw_com_android_billingclient_heterodyne_info.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\raw\\com_android_billingclient_heterodyne_info"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_download_icon.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_download_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_charging.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_charging.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_ob_ad_full.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_ob_ad_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_vn.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_vn.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_calendar_item_stroke_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_calendar_item_stroke_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_download_theme_button_view.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_download_theme_button_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_radiobutton_button_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_radiobutton_button_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_btn_outline.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_btn_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_button_outline_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_button_outline_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_clear_vector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_clear_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_clock_1_hours.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_clock_1_hours.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_theme_setup_tab_selected.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_theme_setup_tab_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_collection_tab.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_collection_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_textfield_stroke_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_textfield_stroke_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_inter_semi_bold.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\inter_semi_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_intro2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_intro2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_design_add_frame_page.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_design_add_frame_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_my_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_my_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_button_ads.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_button_ads.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_elevated_chip_background_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_elevated_chip_background_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_create_widget.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_create_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_numpad_key_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_numpad_key_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_extended_fab_change_size_collapse_motion_spec.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_extended_fab_change_size_collapse_motion_spec.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_slide_down.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_tabs_text_color_secondary.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_tabs_text_color_secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_preview_large.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_preview_large.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_keyboard_key_normal_lxx_base_border.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_keyboard_key_normal_lxx_base_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_primary_pill.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_primary_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_widget_clock_1_seconds.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\widget_clock_1_seconds.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_material_ic_keyboard_arrow_right_black_24dp.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\material_ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_checklist_4x2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_checklist_4x2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_sparkle_gold.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_sparkle_gold.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_layout_native_full.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\layout_native_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_switch_thumb_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_switch_thumb_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_intro_slide_4.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\intro_slide_4.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_dark_highlighted_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_dark_highlighted_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_select_widget_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_select_widget_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_button.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_helvetica_medium.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\helvetica_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_nav_control_false.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_nav_control_false.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_notification_setup_keyboard.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_notification_setup_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_bell.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_bell.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_dialog_success_celebration.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_dialog_success_celebration.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_on_surface_emphasis_high_type.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_on_surface_emphasis_high_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_space_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_space_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_bell_notification.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_bell_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_m3_motion_fade_enter.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\m3_motion_fade_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_personalized_hint_foreground.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_personalized_hint_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_highlighted_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_highlighted_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_icon.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_vibrant_toolbar_icon_button_icon_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_vibrant_toolbar_icon_button_icon_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_fab_efab_background_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_fab_efab_background_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_personalized_color_primary_text.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_personalized_color_primary_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_roboto_medium_numbers.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\roboto_medium_numbers.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_keyboard_key_popup_action_lxx_base.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_keyboard_key_popup_action_lxx_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_navigation_bar_ripple_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_navigation_bar_ripple_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_radio_checked.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_radio_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_medium_empty.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_medium_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_speaker.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_speaker.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_screenshot.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_screenshot.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_widget.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_bottom_sheet_rounded_white.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_bottom_sheet_rounded_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_language_app.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_language_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_control_circle_button_green.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_control_circle_button_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_wallpaper_item_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_wallpaper_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_large_empty.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_large_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_icon_button_icon_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_icon_button_icon_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_textfield_filled_background_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_textfield_filled_background_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_clock_black_24dp.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_clock_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_banner_theme3.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\banner_theme3.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_textfield_input_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_textfield_input_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_home_action_theme.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_home_action_theme.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_ads_shimmer_native_media.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\ads_shimmer_native_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_keyboard_key_action_pressed_lxx_base.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_keyboard_key_action_pressed_lxx_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_widget_config.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_widget_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_collection_empty_card.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_collection_empty_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_category_tab_unselected.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_category_tab_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_mic.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_mic.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_collection_thumb_card.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_collection_thumb_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_toolbar_icon.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\toolbar_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\anim_m3_side_sheet_exit_to_left.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\anim\\m3_side_sheet_exit_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_message_setup_keyboard.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_message_setup_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_airplane.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_airplane.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_dialog_icon_select.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_dialog_icon_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_action_full.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_action_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_timepicker_modebutton_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_timepicker_modebutton_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_efab_ripple_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_efab_ripple_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_slider_active_tick_marks_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_slider_active_tick_marks_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_btn_checkbox_checked_mtrl_animation_interpolator_1.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_widget_uncheck_square.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_widget_uncheck_square.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_weather_2x2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_weather_2x2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_timepicker_clock_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_timepicker_clock_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_select_dialog_multichoice_material.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_inter_regular.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\inter_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_fr.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_fr.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_add_background.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_add_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_language_outlined.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_language_outlined.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_splash.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_select_language_default.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_select_language_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_divider_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_divider_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_voice_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_voice_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_inter_medium.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\inter_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_flashlight.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_flashlight.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_material.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_switch_thumb_material_light.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_m3_sys_motion_easing_standard_accelerate.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\m3_sys_motion_easing_standard_accelerate.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_simple_item_ripple_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_simple_item_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_checkbox_button_icon_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_checkbox_button_icon_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_helvetica_regular.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\helvetica_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_unlock_view.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_unlock_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_control_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_control_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_personalized_hint_foreground_inverse.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_personalized_hint_foreground_inverse.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_timepicker_clock_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_timepicker_clock_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_favorite.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_nav_widget_false.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_nav_widget_false.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_suggestion_lxx_base.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_suggestion_lxx_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_split_button_chevron_reverse_rotation.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_split_button_chevron_reverse_rotation.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_control_circle_button.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_control_circle_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_select_language_selected.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_select_language_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_timepicker_display_background_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_timepicker_display_background_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_personalized_color_secondary_text_inverse.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_personalized_color_secondary_text_inverse.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_preference_widget_seekbar.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\preference_widget_seekbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_battery.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_battery.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_ad_badge.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_ad_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_fragment_close_exit.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\fragment_close_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_calendar_2x2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_calendar_2x2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_m3_extended_fab_show_motion_spec.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\m3_extended_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_standard_toolbar_icon_button_icon_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_standard_toolbar_icon_button_icon_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\font_helvetica_bold.ttf.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\font\\helvetica_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_chip_background_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_chip_background_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\animator_fragment_fade_exit.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\animator\\fragment_fade_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_keyboard_key_lxx_base.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_keyboard_key_lxx_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_btn_theme_download_outline.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_btn_theme_download_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_downloaded.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_downloaded.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_cancel_pill_button.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_cancel_pill_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_permission.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_permission.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_settings_cog_vector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_settings_cog_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_slider_halo_color_legacy.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_slider_halo_color_legacy.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_collection_card_icon.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_collection_card_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_card_ripple_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_card_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_banner_theme_3.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_banner_theme_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_on_surface_disabled.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_on_surface_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_exo_player_control_rewind_button.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\exo_player_control_rewind_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_4x4.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_4x4.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_navigation_bar_item_with_indicator_icon_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_navigation_bar_item_with_indicator_icon_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_dialog_icon_selection.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\dialog_icon_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_corner_24_top.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_corner_24_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_bottomsheet_dialog.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_bottomsheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_dark_hint_foreground.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_dark_hint_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_banner_theme_2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_banner_theme_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_exo_player_control_ffwd_button.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\exo_player_control_ffwd_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_theme_category_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_theme_category_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_clear_clipboard_lxx.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_clear_clipboard_lxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_btn_radio_to_off_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_standard_toolbar_button_text_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_standard_toolbar_button_text_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_circle_edit_badge.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_circle_edit_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_nav_theme_false.png.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_nav_theme_false.png"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_material_timepicker_clockface.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\material_timepicker_clockface.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_app_bottom_sheet_dialog.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_app_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_download.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_btn_keyboard_key_action_normal_lxx_base.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\btn_keyboard_key_action_normal_lxx_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_standard_toolbar_icon_button_container_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_standard_toolbar_icon_button_container_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_tab_collection_unselected.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_tab_collection_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\raw_com_android_billingclient_registration_info.binarypb.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\raw\\com_android_billingclient_registration_info.binarypb"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_info.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_icon.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_banner_theme_1.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_banner_theme_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_fragment_intro1.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\fragment_intro1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_sym_keyboard_copy.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\sym_keyboard_copy.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_4x2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_4x2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_m3_sys_motion_easing_emphasized.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\m3_sys_motion_easing_emphasized.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_switch_track_tint.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_switch_track_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_custom_app_changer.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_custom_app_changer.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_control_circle_button_orange.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_control_circle_button_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_select_dialog_item_material.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_camera.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_activity_control_center_preview.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\activity_control_center_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_theme_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_theme_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_flag_ru.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\flag_ru.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_default_placeholder.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_default_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_toolbar_detail.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\toolbar_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_tabs_icon_color_secondary.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_tabs_icon_color_secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_download_icon_layout.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_download_icon_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_textfield_indicator_text_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_textfield_indicator_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_apply_pill_button.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_apply_pill_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_widget_layout_note_2x2.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\widget_layout_note_2x2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_chip_stroke_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_chip_stroke_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_item_widget_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\item_widget_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_style_weather.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_style_weather.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_wallpaper.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_button_ripple_color.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_button_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_cc_settings.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_cc_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\layout_toolbar_download_theme.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\layout\\toolbar_download_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_permission_card_normal.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_permission_card_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\color_m3_text_button_ripple_color_selector.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\color\\m3_text_button_ripple_color_selector.xml"
+    },
+    {
+        "merged": "com.widget.themes.controlcenter.app-debug-99:/layout_activity_download_theme.xml.flat",
+        "source": "com.widget.themes.controlcenter.app-main-101:/layout/activity_download_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_permission_card_featured.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_permission_card_featured.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\interpolator_btn_checkbox_checked_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_bg_language_item_unselected.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\bg_language_item_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\drawable_ic_ime_switcher.xml.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\drawable\\ic_ime_switcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-debug-99:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cuong\\.gradle\\daemon\\9.4.1\\com.widget.themes.controlcenter.app-main-101:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    }
+]

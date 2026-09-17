@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>सामान्य</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+    <item quantity="other">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">वीडियो को %d सेकंड पीछे ले जाएं</item>
+    <item quantity="other">वीडियो को %d सेकंड पीछे ले जाएं</item>
+  </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d नई सूचनाएं</item>
+    <item quantity="other">%d नई सूचनाएं</item>
+  </plurals>
+    <string name="_1_please_enable_the_theme_keyboard">1. कृपया थीम कीबोर्ड सक्षम करें</string>
+    <string name="_2_switch_to_keyboard">2. थीम कीबोर्ड पर स्विच करें</string>
+    <string name="abc">ABC</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"होम पेज पर जाएं"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"वापस जाएं"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ज़्यादा विकल्प"</string>
+    <string name="abc_action_mode_done">हो गया</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"कोई ऐप्लिकेशन चुनें"</string>
+    <string name="abc_capital_off">बंद</string>
+    <string name="abc_capital_on">चालू</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string name="abc_search_hint">खोजें…</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"क्‍वेरी हटाएं"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"सर्च क्वेरी"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"खोजें"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"बोलकर खोजें"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns2:g id="APPLICATION_NAME">%s</ns2:g> से शेयर करें"</string>
+    <string name="abc_toolbar_collapse_description">समेटें</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="ad_will_show_in_seconds">विज्ञापन कुछ ही सेकंड में दिखाई देगा</string>
+    <string name="add">जोड़ें</string>
+    <string name="add_app">ऐप जोड़ें</string>
+    <string name="add_pin_shortcut">पिन किया गया शॉर्टकट जोड़ें</string>
+    <string name="add_to_home">होम स्क्रीन पर जोड़ें</string>
+    <string name="add_widget">विजेट जोड़ें</string>
+    <string name="add_widget_to_home_screen">होम स्क्रीन पर विजेट जोड़ें</string>
+    <string name="ads">विज्ञापन</string>
+    <string name="align">संरेखित करें</string>
+    <string name="all">सभी</string>
+    <string name="android_spell_checker_settings">कीबोर्ड वर्तनी परीक्षक सेटिंग्स</string>
+    <string name="app_name">Control Center: Widget Themes</string>
+    <string name="apply">लागू करें</string>
+    <string name="apply_control_center">कंट्रोल सेंटर लागू करें</string>
+    <string name="apply_wallpaper">वॉलपेपर लगाएं</string>
+    <string name="arabic">अरबी</string>
+    <string name="auto_correction_threshold_mode_aggressive">आक्रामक</string>
+    <string name="auto_correction_threshold_mode_modest">मध्यम</string>
+    <string name="auto_correction_threshold_mode_off">बंद</string>
+    <string name="auto_correction_threshold_mode_very_aggressive">अत्यधिक आक्रामक</string>
+    <string name="background">पृष्ठभूमि</string>
+    <string name="banner_theme_1_subtitle">हजारों प्यारे थीम्स,\nआइकन्स और विजेट्स खुद को व्यक्त करने के लिए!</string>
+    <string name="banner_theme_1_title">आपका फ़ोन,\nआपकी शैली</string>
+    <string name="banner_theme_2_subtitle">हर मूड के अनुकूल प्यारे थीम्स,\nआइकन्स और विजेट्स</string>
+    <string name="banner_theme_2_title"><![CDATA[<font color="#353770">अपने फ़ोन को बनाएं</font><br/><font color="#FF5678">आकर्षक</font> <font color="#353770">&amp; प्यारा</font>]]></string>
+    <string name="banner_theme_3_subtitle">ट्रेंडी थीम्स और शानदार आइकन्स\nहर दिन के लिए</string>
+    <string name="banner_theme_3_title">अपने फ़ोन को सजाएं\nअपने तरीके से</string>
+    <string name="blue">नीला</string>
+    <string name="bold">बोल्ड</string>
+    <string name="both_screens">दोनों स्क्रीन</string>
+    <string name="bottomsheet_action_collapse">छोटा करें</string>
+    <string name="bottomsheet_action_collapse_description">बॉटम शीट को छोटा करें</string>
+    <string name="bottomsheet_action_expand">बड़ा करें</string>
+    <string name="bottomsheet_action_expand_description">बॉटम शीट को बड़ा करें</string>
+    <string name="bottomsheet_action_expand_halfway">पूरी तरह बड़ा करें</string>
+    <string name="bottomsheet_action_half_expand_description">बॉटम शीट को आधा खोलें</string>
+    <string name="bottomsheet_drag_handle_content_description">ड्रैग हैंडल</string>
+    <string name="bottomsheet_state_collapsed">छोटा किया गया</string>
+    <string name="bottomsheet_state_expanded">बड़ा किया गया</string>
+    <string name="bottomsheet_state_half_expanded">आधा खोला गया</string>
+    <string name="business">व्यापार</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"जवाब दें"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"वीडियो"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"अस्वीकार करें"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"कॉल काटें"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"आने वाला (इनकमिंग) कॉल"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"पहले से जारी कॉल"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"इनकमिंग कॉल को स्क्रीन किया जा रहा है"</string>
+    <string name="camera">कैमरा</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="character_counter_content_description">%2$d वर्णों में से %1$d वर्ण दर्ज किए गए</string>
+    <string name="character_counter_overflowed_content_description">अभी %1$d वर्ण हैं जबकि %2$d से ज़्यादा नहीं होने चाहिए</string>
+    <string name="charging_animations">चार्जिंग एनिमेशन</string>
+    <string name="choose_application">एप्लिकेशन चुनें</string>
+    <string name="choose_custom_icon">कस्टम आइकन चुनें</string>
+    <string name="choose_from_gallery">गैलरी से चुनें...</string>
+    <string name="clear">साफ़ करें</string>
+    <string name="clear_text_end_icon_content_description">टेक्स्ट मिटाएं</string>
+    <string name="click_to_settings">सेटिंग्स पर जाने के लिए क्लिक करें</string>
+    <string name="clock">घड़ी</string>
+    <string name="close">बंद करें</string>
+    <string name="color">रंग</string>
+    <string name="colors">रंग</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b> पर जाएँ और ऊपर दिया गया कोड डालें.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">चित्र डाउनलोड करते समय अनपेक्षित त्रुटि हुई.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView लॉग इन के लिए इंटरनेट अनुमति आवश्यक है</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest गलती</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">पसंद किया</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">लाइक करें</string>
+    <string gender="unknown" name="com_facebook_loading">लोड हो रहा है...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">कैंसल करें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">लॉग इन</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Facebook के साथ जारी रखें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Facebook से लॉग इन करें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">लॉग आउट करें</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">लॉग आउट करें</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">इस रूप में लॉग इन हैं: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Facebook का उपयोग करके लॉग इन किया है</string>
+    <string name="com_facebook_send_button_text">भेजें</string>
+    <string name="com_facebook_share_button_text">साझा करें</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">अपने खाते से कनेक्ट करने के लिए, अपने मोबाइल डिवाइस पर Facebook एप्लिकेशन खोलें और सूचनाएँ जाँचें.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- या -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">आप नहीं हैं?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">%1$s के रूप में जारी रखें</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">लॉग इन कन्फ़र्म करें</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">नियंत्रण आपके पास है - चुनें कि आप एप्लिकेशन के साथ कौन सी जानकारी साझा करना चाहते हैं.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">चालू करें</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">जब तक आप Google Play सेवाएं चालू नहीं करते, %1$s काम नहीं करेगा.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play सेवाएं चालू करें</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">इंस्टॉल करें</string>
+    <string name="common_google_play_services_install_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके डिवाइस में उपलब्ध नहीं हैं.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play सेवाएं इंस्टॉल करें</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play सेवाएं उपलब्ध हैं</string>
+    <string name="common_google_play_services_notification_ticker">Google Play सेवाओं से जुड़ी गड़बड़ी</string>
+    <string name="common_google_play_services_unknown_issue">%1$s को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से कोशिश करें.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके डिवाइस पर काम नहीं करती हैं.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">अपडेट करें</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play सेवाओं को अपडेट करें</string>
+    <string name="common_google_play_services_updating_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो अभी अपडेट हो रही हैं.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play सेवाओं के नए वर्शन की ज़रूरत है. यह जल्द ही अपने आप अपडेट हो जाएगा.</string>
+    <string name="common_open_on_phone">फ़ोन पर खोलें</string>
+    <string name="common_signin_button_text">साइन इन करें</string>
+    <string name="common_signin_button_text_long">Google के ज़रिए साइन इन करें</string>
+    <string name="configure_custom_shortcut">कस्टम शॉर्टकट कॉन्फ़िगर करें</string>
+    <string name="control_center_perm_desc">आपके डिवाइस पर कंट्रोल सेंटर काम करने के लिए निम्नलिखित अनुमतियां आवश्यक हैं</string>
+    <string msgid="6083905920877235314" name="copy">"कॉपी करें"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"लिंक क्लिपबोर्ड पर कॉपी किया गया"</string>
+    <string name="custom_display_name">कस्टम प्रदर्शन नाम:</string>
+    <string name="custom_icon_changer_title">कस्टम आइकन और ऐप परिवर्तक</string>
+    <string name="custom_label">कस्टम लेबल</string>
+    <string name="customize">कस्टमाइज़ करें</string>
+    <string name="customize_theme">थीम कस्टमाइज़ करें</string>
+    <string name="customize_themes">थीम कस्टमाइज़ करें</string>
+    <string name="customize_widget">विजेट कस्टमाइज़ करें</string>
+    <string name="delete">हटाएं</string>
+    <string name="dialog_add_widget_title">होम स्क्रीन पर विजेट जोड़ें</string>
+    <string name="dialog_exit_btn_cancel">रद्द करें</string>
+    <string name="dialog_exit_btn_exit">बाहर निकलें</string>
+    <string name="dialog_exit_desc">क्या आप वाकई ऐप से बाहर निकलना चाहते हैं?</string>
+    <string name="dialog_exit_title">ऐप से बाहर निकलें</string>
+    <string name="dialog_install_pinned_shortcuts">पिन किए गए शॉर्टकट इंस्टॉल करें</string>
+    <string name="dialog_select_custom_icon">कस्टम आइकन चुनें</string>
+    <string name="dialog_select_icons_to_install">स्थापित करने के लिए आइकन चुनें</string>
+    <string name="disable">अक्षम करें</string>
+    <string name="discover">खोजें</string>
+    <string name="discovery">खोजें</string>
+    <string name="diy_wallpaper">DIY वॉलपेपर</string>
+    <string name="done">पूर्ण</string>
+    <string name="download">डाउनलोड करें</string>
+    <string name="downloaded_category_desc">आपके डाउनलोड किए गए %s आइटम यहां दिखाई देंगे।</string>
+    <string name="downloaded_explore_desc">थीम्स, वॉलपेपर्स और विजेट्स खोजें\nऔर उन्हें यहाँ देखने के लिए डाउनलोड करें!</string>
+    <string name="downloaded_explore_now">अभी खोजें</string>
+    <string name="downloaded_no_items">अभी तक कोई आइटम डाउनलोड नहीं हुआ है</string>
+    <string name="downloaded_title">डाउनलोड किया गया</string>
+    <string name="downloading">डाउनलोड हो रहा है</string>
+    <string name="edit">संपादित करें</string>
+    <string name="email">ईमेल</string>
+    <string name="emojis">इमोजी</string>
+    <string name="enable">सक्षम करें</string>
+    <string name="english_ime_name">थीम कीबोर्ड</string>
+    <string name="error">त्रुटि</string>
+    <string name="error_a11y_label">त्रुटि: अमान्य</string>
+    <string name="error_icon_content_description">गड़बड़ी</string>
+    <string name="exo_controls_cc_disabled_description">उपशीर्षक सक्षम करें</string>
+    <string name="exo_controls_cc_enabled_description">सबटाइटल बंद करें</string>
+    <string name="exo_controls_fastforward_description">फास्ट फॉरवर्ड</string>
+    <string name="exo_controls_fullscreen_enter_description">पूर्ण स्क्रीन</string>
+    <string name="exo_controls_fullscreen_exit_description">फ़ुलस्क्रीन मोड से बाहर निकलें</string>
+    <string name="exo_controls_hide">प्लेयर नियंत्रण छिपाएं</string>
+    <string name="exo_controls_next_description">अगला</string>
+    <string name="exo_controls_overflow_hide_description">अतिरिक्त सेटिंग्स छिपाएं</string>
+    <string name="exo_controls_overflow_show_description">अतिरिक्त सेटिंग्स दिखाएं</string>
+    <string name="exo_controls_pause_description">रोकें</string>
+    <string name="exo_controls_play_description">चलाएं</string>
+    <string name="exo_controls_playback_speed">गति</string>
+    <string name="exo_controls_previous_description">पिछला</string>
+    <string name="exo_controls_repeat_all_description">मौजूदा मोड: सभी को दोहराएं. रिपीट मोड टॉगल करें.</string>
+    <string name="exo_controls_repeat_off_description">वर्तमान मोड: दोहराएं नहीं। दोहराना मोड चालू करें।</string>
+    <string name="exo_controls_repeat_one_description">मौजूदा मोड: एक को दोहराएं. रिपीट मोड टॉगल करें.</string>
+    <string name="exo_controls_rewind_description">रिवाइंड</string>
+    <string name="exo_controls_seek_bar_description">वीडियो चलने की प्रगति</string>
+    <string name="exo_controls_settings_description">सेटिंग्स</string>
+    <string name="exo_controls_show">प्लेयर नियंत्रण दिखाएं</string>
+    <string name="exo_controls_shuffle_off_description">शफ़ल मोड सक्षम करें</string>
+    <string name="exo_controls_shuffle_on_description">शफ़ल मोड बंद करें</string>
+    <string name="exo_controls_stop_description">बंद करें</string>
+    <string name="exo_controls_time_placeholder">00:00:00</string>
+    <string name="exo_controls_vr_description">VR मोड</string>
+    <string name="exo_download_completed">डाउनलोड पूरा हुआ</string>
+    <string name="exo_download_description">डाउनलोड करें</string>
+    <string name="exo_download_downloading">डाउनलोड हो रहा है</string>
+    <string name="exo_download_failed">डाउनलोड नहीं हो सका</string>
+    <string name="exo_download_notification_channel_name">डाउनलोड की गई मीडिया फ़ाइलें</string>
+    <string name="exo_download_paused">डाउनलोड रोका गया है</string>
+    <string name="exo_download_paused_for_network">डाउनलोड शुरू करने के लिए, इंटरनेट से कनेक्ट होने का इंतज़ार है</string>
+    <string name="exo_download_paused_for_wifi">डाउनलोड शुरू करने के लिए, वाई-फ़ाई से कनेक्ट होने का इंतज़ार है</string>
+    <string name="exo_download_removing">डाउनलोड की गई फ़ाइलें हटाई जा रही हैं</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f एमबीपीएस</string>
+    <string name="exo_track_mono">मोनो साउंड</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">विकल्प</string>
+    <string name="exo_track_role_closed_captions">सबटाइटल</string>
+    <string name="exo_track_role_commentary">कमेंट्री</string>
+    <string name="exo_track_role_supplementary">सप्लिमेंट्री</string>
+    <string name="exo_track_selection_auto">अपने आप</string>
+    <string name="exo_track_selection_none">कोई नहीं</string>
+    <string name="exo_track_selection_title_audio">ऑडियो</string>
+    <string name="exo_track_stereo">स्टीरियो साउंड</string>
+    <string name="exo_track_surround">सराउंड साउंड</string>
+    <string name="exo_track_surround_5_point_1">5.1 सराउंड साउंड</string>
+    <string name="exo_track_surround_7_point_1">7.1 सराउंड साउंड</string>
+    <string name="exo_track_unknown">अज्ञात</string>
+    <string name="exo_track_unknown_name">कोई जानकारी नहीं (%1$s)</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"बेहतर सेटिंग"</string>
+    <string name="explore_category">%s खोजें</string>
+    <string name="explore_theme">थीम खोजें</string>
+    <string name="exposed_dropdown_menu_content_description">ड्रॉपडाउन मेन्यू दिखाएं</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"लिंक कॉपी करें"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ब्राउज़र में खोलें"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"लिंक शेयर करें"</string>
+    <string name="faq">सामान्य प्रश्न</string>
+    <string name="favorite">पसंदीदा</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="filter">फ़िल्टर</string>
+    <string name="flip">पलटें</string>
+    <string name="font">फ़ॉन्ट</string>
+    <string name="frame">फ़्रेम</string>
+    <string name="gallery">गैलरी</string>
+    <string name="get">प्राप्त करें</string>
+    <string name="get_all">सभी प्राप्त करें</string>
+    <string name="get_free_with_ads">विज्ञापन देखकर मुफ्त पाएं</string>
+    <string name="go">जाएं</string>
+    <string name="green">हरा</string>
+    <string name="grid">ग्रिड</string>
+    <string name="happy">प्रसन्न</string>
+    <string name="header_subtitle_main">अपने फ़ोन को खास और अनोखा बनाएं</string>
+    <string name="header_title_collections">संग्रह</string>
+    <string name="header_title_control">कंट्रोल सेंटर</string>
+    <string name="header_title_icons">आइकन ऐप</string>
+    <string name="header_title_theme">थीम</string>
+    <string name="header_title_widgets">विजेट्स</string>
+    <string name="home">होम</string>
+    <string name="home_screen">होम स्क्रीन</string>
+    <string name="how_to_get_icon">आइकन कैसे प्राप्त करें</string>
+    <string name="how_to_get_widget">विजेट कैसे प्राप्त करें</string>
+    <string name="how_to_switch_the_keyboard">कीबोर्ड कैसे बदलें</string>
+    <string name="how_to_use">उपयोग कैसे करें</string>
+    <string name="icon_content_description">डायलॉग का आइकॉन</string>
+    <string name="icons">आइकन्स</string>
+    <string name="ime_settings">थीम कीबोर्ड सेटिंग्स</string>
+    <string name="install">इंस्टॉल करें</string>
+    <string name="install_icons">आइकन्स इंस्टॉल करें</string>
+    <string name="install_selected_icons">चयनित आइकन्स इंस्टॉल करें</string>
+    <string name="install_successfully">सफल सेटअप के लिए बधाई!</string>
+    <string name="intro_next">आगे</string>
+    <string name="intro_slide_1_des">एक जीवंत और अनूठी शैली के लिए सुंदर एनिमेटेड आइकन्स जोड़ें।</string>
+    <string name="intro_slide_1_title">अपने फ़ोन को आकर्षक बनाएं</string>
+    <string name="intro_slide_2_des">सुगम एनिमेशन चुनें जो हर आइकन में जान डाल दें।</string>
+    <string name="intro_slide_2_title">अपनी पसंद की शैली खोजें</string>
+    <string name="intro_slide_3_des">अपनी होम स्क्रीन में शानदार गहराई और 3D प्रभाव जोड़ें।</string>
+    <string name="intro_slide_3_title">आसान कस्टमाइज़ेशन</string>
+    <string name="intro_slide_4_des">एक बेहतरीन स्टाइल के लिए एनिमेटेड आइकन्स को खूबसूरत वॉलपेपर्स के साथ मिलाएं।</string>
+    <string name="intro_slide_4_title">कभी भी नया लुक दें</string>
+    <string name="italic">इटैलिक</string>
+    <string name="item_view_role_description">टैब</string>
+    <string name="keyboard">कीबोर्ड</string>
+    <string name="keyboard_setting">कीबोर्ड सेटिंग्स</string>
+    <string name="keyboard_themes">कीबोर्ड
+थीम</string>
+    <string name="keycode_enter">दर्ज करें</string>
+    <string name="language">भाषा</string>
+    <string name="language_and_layouts_title">भाषाएं और लेआउट</string>
+    <string name="language_bengali">বাংলা</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+    <string name="language_filipino">Filipino</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_indonesian">Bahasa Indonesia</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_switch_key_switch_both">दोनों बदलें</string>
+    <string name="language_switch_key_switch_input_method">अन्य इनपुट विधियों पर स्विच करें</string>
+    <string name="language_switch_key_switch_subtype">भाषा बदलें</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
+    <string name="large">बड़ा</string>
+    <string name="layer">परत</string>
+    <string name="left">बाएं</string>
+    <string name="license">ओपन-सोर्स लाइसेंस</string>
+    <string name="line">रेखा</string>
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="lock">लॉक</string>
+    <string name="lock_screen">लॉक स्क्रीन</string>
+    <string name="m3_loading_indicator_content_description">लोड हो रहा है</string>
+    <string name="m3_overflow_linear_layout_button_content_description">ओवरफ़्लो मेन्यू</string>
+    <string name="m3_overflow_linear_layout_button_tooltip_text">ज़्यादा विकल्प</string>
+    <string name="material_clock_toggle_content_description">AM या PM चुनें</string>
+    <string name="material_hour_24h_suffix">%1$s घंटे</string>
+    <string name="material_hour_selection">घंटा चुनें</string>
+    <string name="material_hour_suffix">%1$s बजे</string>
+    <string name="material_minute_selection">मिनट चुनें</string>
+    <string name="material_minute_suffix">%1$s मिनट</string>
+    <string name="material_slider_range_end">रेंज की सीमा</string>
+    <string name="material_slider_range_start">रेंज की शुरुआत</string>
+    <string name="material_slider_value">वैल्यू</string>
+    <string name="material_timepicker_am">पूर्वाह्न</string>
+    <string name="material_timepicker_clock_mode_description">समय इनपुट के लिए घड़ी मोड पर जाएं.</string>
+    <string name="material_timepicker_clock_mode_tooltip">क्लॉक मोड पर स्विच करें</string>
+    <string name="material_timepicker_hour">घंटा</string>
+    <string name="material_timepicker_hour_error">घंटा, 1 से 12 के बीच होना चाहिए</string>
+    <string name="material_timepicker_hour_error_24h">घंटा, 0 से 23 के बीच होना चाहिए</string>
+    <string name="material_timepicker_minute">मिनट</string>
+    <string name="material_timepicker_minute_error">मिनट, 0 से 59 के बीच होना चाहिए</string>
+    <string name="material_timepicker_pm">अपराह्न</string>
+    <string name="material_timepicker_select_time">समय चुनें</string>
+    <string name="material_timepicker_text_input_mode_description">समय इनपुट के लिए लेख इनपुट मोड पर जाएं.</string>
+    <string name="material_timepicker_text_input_mode_tooltip">टेक्स्ट इनपुट मोड पर स्विच करें</string>
+    <string name="medium">मध्यम</string>
+    <string name="mine">मेरा</string>
+    <string name="more">अधिक</string>
+    <string name="more_apps">अधिक ऐप्स</string>
+    <string name="more_icon">अधिक आइकन</string>
+    <string name="mtrl_badge_numberless_content_description">नई सूचना</string>
+    <string name="mtrl_button_collapsed_content_description">छोटा किया गया</string>
+    <string name="mtrl_button_expanded_content_description">बड़ा किया गया</string>
+    <string name="mtrl_button_overflow_icon_content_description">ओवरफ़्लो मेन्यू</string>
+    <string name="mtrl_button_snackbar_close_content_description">बंद करें</string>
+    <string name="mtrl_checkbox_state_description_checked">सही का निशान लगाया गया</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">कुछ विकल्प चुने गए</string>
+    <string name="mtrl_checkbox_state_description_unchecked">सही का निशान नहीं लगाया गया</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s हटाएं</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">%1$d से ज़्यादा नई सूचनाएं</string>
+    <string name="mtrl_picker_a11y_next_month">अगले महीने पर जाएं</string>
+    <string name="mtrl_picker_a11y_prev_month">पिछले महीने पर जाएं</string>
+    <string name="mtrl_picker_announce_current_range_selection">शुरू होने की तारीख चुनें: %1$s – खत्म होने की तारीख चुनें: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">फ़िलहाल, यह चुना गया है: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">कोई भी तारीख नहीं चुनी गई</string>
+    <string name="mtrl_picker_cancel">रद्द करें</string>
+    <string name="mtrl_picker_confirm">ठीक है</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">तारीख चुनें</string>
+    <string name="mtrl_picker_date_header_unselected">चुनी गई तारीख</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">खत्म होने की तारीख %1$s</string>
+    <string name="mtrl_picker_invalid_format">गलत फ़ॉर्मैट.</string>
+    <string name="mtrl_picker_invalid_format_example">उदाहरण: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s का इस्तेमाल करें</string>
+    <string name="mtrl_picker_invalid_range">तारीखों की अमान्य सीमा.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">मौजूदा साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_navigate_to_year_description">साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_next_month_tooltip">अगला महीना</string>
+    <string name="mtrl_picker_out_of_range">चुनी गई तारीख मान्य नहीं है: %1$s</string>
+    <string name="mtrl_picker_pane_title_calendar_view">महीने के हिसाब से व्यू</string>
+    <string name="mtrl_picker_pane_title_year_view">साल के हिसाब से व्यू</string>
+    <string name="mtrl_picker_prev_month_tooltip">पिछला महीना</string>
+    <string name="mtrl_picker_range_header_only_end_selected">शुरू होने की तारीख – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">रेंज चुनें</string>
+    <string name="mtrl_picker_range_header_unselected">शुरू होने की तारीख – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_save">सेव करें</string>
+    <string name="mtrl_picker_start_date_description">शुरू होने की तारीख %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">खत्म होने की तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">शुरू होने की तारीख</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">आज %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">कैलेंडर के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode_tooltip">Calendar मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_day_selection">कैलेंडर व्यू पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">टेक्स्ट के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode_tooltip">टेक्स्ट इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_year_selection">साल के व्यू पर स्विच करें</string>
+    <string name="mtrl_timepicker_cancel">रद्द करें</string>
+    <string name="mtrl_timepicker_confirm">ठीक है</string>
+    <string name="my_collection">मेरा संग्रह</string>
+    <string name="native_body">मुख्य हिस्सा</string>
+    <string name="native_headline">हेडलाइन</string>
+    <string name="native_media_view">मीडिया व्यू</string>
+    <string name="next">आगे</string>
+    <string name="no">नहीं</string>
+    <string name="no_applications_found">कोई एप्लिकेशन नहीं मिला</string>
+    <string name="none">कोई नहीं</string>
+    <string name="normal">सामान्य</string>
+    <string msgid="6573031135582639649" name="not_set">"सेट नहीं है"</string>
+    <string name="notifications_permission_confirm">अनुमति दें</string>
+    <string name="notifications_permission_decline">अनुमति न दें</string>
+    <string name="notifications_permission_title">ऐप्लिकेशन को सूचनाएं भेजने की अनुमति देनी है?</string>
+    <string name="offline_dialog_image_description">आइकॉन</string>
+    <string name="offline_dialog_text">दिलचस्पी दिखाने के लिए धन्यवाद.\nआपके फिर से ऑनलाइन आने पर, हम और जानकारी शेयर करेंगे.</string>
+    <string name="offline_notification_title">आप फिर से ऑनलाइन हैं! चलिए, बातचीत वहीं से शुरू करते हैं जहां हमने पिछली बार छोड़ी थी</string>
+    <string name="offline_notification_title_with_advertiser">आप फिर से ऑनलाइन हैं! %s के बारे में ज़्यादा जानें</string>
+    <string name="offline_opt_in_confirm">ठीक है</string>
+    <string name="offline_opt_in_decline">रहने दें</string>
+    <string name="offline_opt_in_message">हम आपको एक सूचना भेजेंगे जिसमें विज्ञापन देने वाले की साइट का लिंक होगा.</string>
+    <string name="offline_opt_in_title">वापस ऑनलाइन आने पर, विज्ञापन खोलें.</string>
+    <string name="ok">ठीक है</string>
+    <string name="opacity">पारदर्शिता</string>
+    <string name="original">मूल:</string>
+    <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
+    <string name="perm_accessibility_desc">वापस, सूचनाएं और पावर मेनू जैसी सामान्य क्रियाओं की अनुमति देता है।</string>
+    <string name="perm_accessibility_title">सुलभता सेवा</string>
+    <string name="perm_modify_settings_desc">स्क्रीन टाइमआउट, चमक समायोजित करने के लिए...</string>
+    <string name="perm_notification_access_desc">सूचनाएं प्रदर्शित करने के लिए सूचना पहुंच प्रदान करें!</string>
+    <string name="perm_settings_btn">सेटिंग्स</string>
+    <string name="permission_get_started">शुरू करें</string>
+    <string name="permission_location_desc">घड़ी और मौसम विजेट पर स्थानीय मौसम की जानकारी प्रदर्शित करने के लिए आवश्यक।</string>
+    <string name="permission_location_title">स्थान एक्सेस</string>
+    <string name="permission_notifications_desc">कंट्रोल सेंटर को बैकग्राउंड में सक्रिय रखता है और थीम अलर्ट भेजता है।</string>
+    <string name="permission_notifications_title">सूचनाएं</string>
+    <string name="permission_overlay_desc">कंट्रोल सेंटर जेस्चर और चार्जिंग एनिमेशन के लिए आवश्यक।</string>
+    <string name="permission_overlay_title">अन्य ऐप्स के ऊपर प्रदर्शित करें</string>
+    <string name="permission_photos_desc">DIY वॉलपेपर, विजेट और कस्टम आइकन्स के लिए फ़ोटो चुनने के लिए आवश्यक।</string>
+    <string name="permission_photos_title">फ़ोटो और मीडिया एक्सेस</string>
+    <string name="permission_settings_desc">कंट्रोल सेंटर में ब्राइटनेस और रोटेशन लॉक नियंत्रित करने के लिए आवश्यक।</string>
+    <string name="permission_settings_title">सिस्टम सेटिंग्स संशोधित करें</string>
+    <string name="permission_subtitle">सभी सुविधाओं को अनलॉक करने के लिए आवश्यक अनुमतियां दें</string>
+    <string name="permission_title">अनुमति</string>
+    <string name="please_be_aware_that_android_consistently_issues_a_warning_message_upon_keyboard_addition_rest_assured_we_do_not_gather_your_personal_data">कृपया ध्यान दें कि एंड्रॉइड हमेशा नया कीबोर्ड जोड़ने पर चेतावनी संदेश दिखाता है। निश्चिंत रहें, हम आपका व्यक्तिगत डेटा एकत्र नहीं करते हैं</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns2:g id="SUMMARY">%1$s</ns2:g>\" क्लिपबोर्ड पर कॉपी किया गया."</string>
+    <string name="prefs_block_potentially_offensive_title">आपत्तिजनक शब्द ब्लॉक करें</string>
+    <string name="preset_clock_dial">प्रीसेट घड़ी डायल</string>
+    <string name="preset_neon_star">प्रीसेट नियॉन स्टार</string>
+    <string name="preset_weather_icon">प्रीसेट मौसम आइकन</string>
+    <string name="previous">पिछला</string>
+    <string name="privacy">गोपनीयता नीति</string>
+    <string name="rate_us">रेट करें</string>
+    <string name="red">लाल</string>
+    <string name="redo">फिर से करें</string>
+    <string name="remove">हटाएं</string>
+    <string name="reset">रीसेट करें</string>
+    <string name="result">परिणाम:</string>
+    <string name="right">दाएं</string>
+    <string name="romantic">रोमांटिक</string>
+    <string name="s1">इमेज सेव करें</string>
+    <string name="s2">विज्ञापन को तस्वीर गैलरी में इमेज सेव करने का अनुमति देना चाहते हैं?</string>
+    <string name="s3">मंज़ूरी दें</string>
+    <string name="s4">खारिज करें</string>
+    <string name="s5">कैलेंडर इवेंट बनाएं</string>
+    <string name="s6">विज्ञापन को कैलेंडर इवेंट बनाने दें?</string>
+    <string name="s7">जाँच विज्ञापन</string>
+    <string name="save">सहेजें</string>
+    <string name="search">खोजें</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"खोजें"</string>
+    <string name="searchview_clear_text_content_description">टेक्स्ट मिटाएं</string>
+    <string name="searchview_navigation_content_description">वापस जाएं</string>
+    <string name="seconds">सेकंड</string>
+    <string name="see_more">और देखें</string>
+    <string name="select_all">सभी चुनें</string>
+    <string name="select_app_to_customize">कस्टमाइज़ करने के लिए ऐप चुनें:</string>
+    <string name="select_app_to_link">इस आइकन से लिंक करने के लिए एक ऐप चुनें</string>
+    <string name="select_customize_widget">विजेट कस्टमाइज़ करने के लिए चुनें</string>
+    <string name="select_language">भाषा चुनें</string>
+    <string name="set_wallpaper">वॉलपेपर सेट करें</string>
+    <string name="setting">सेटिंग</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="setup_succeed_btn">शानदार! ✨</string>
+    <string name="setup_succeed_desc">आपकी होम स्क्रीन पर सब कुछ सेट और तैयार है। अपनी अनूठी शैली का आनंद लें!</string>
+    <string name="shape">आकार</string>
+    <string name="share_app_chooser_title">ऐप साझा करें</string>
+    <string name="share_app_subject">Themes &amp; Widgets ऐप</string>
+    <string name="share_app_text">इस शानदार थीम और विजेट ऐप को आज़माएं! यहाँ डाउनलोड करें: %s</string>
+    <string name="share_friends">दोस्तों के साथ साझा करें</string>
+    <string name="shop">दुकान</string>
+    <string name="show_popup_keys_all">सभी उपलब्ध वेरिएंट जोड़ें</string>
+    <string name="show_popup_keys_more">सामान्य वेरिएंट जोड़ें</string>
+    <string name="show_popup_keys_normal">डिफ़ॉल्ट वेरिएंट दिखाएं</string>
+    <string name="side_sheet_accessibility_pane_title">साइड शीट</string>
+    <string name="size">आकार</string>
+    <string name="skip">छोड़ें</string>
+    <string name="small">छोटा</string>
+    <string name="spacing">दूरी</string>
+    <string name="special">विशेष</string>
+    <string name="spell_checker_service_name">थीम कीबोर्ड वर्तनी परीक्षक</string>
+    <string name="splash_action_contains_ads">इस क्रिया में विज्ञापन हो सकते हैं</string>
+    <string name="splash_wallpaper_phone">फ़ोन वॉलपेपर</string>
+    <string name="start_charging_animation">चार्जिंग एनिमेशन शुरू करें</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sticker">स्टिकर</string>
+    <string name="stroke">स्ट्रोक</string>
+    <string name="style">शैली</string>
+    <string name="successful">सफल</string>
+    <string name="successfully">सफलतापूर्वक</string>
+    <string name="suggestion">सुझाव</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns2:g id="CURRENT_ITEMS">%1$s</ns2:g>, <ns2:g id="ADDED_ITEMS">%2$s</ns2:g>"</string>
+    <string name="support_amp_feedback">सहायता और प्रतिक्रिया</string>
+    <string name="tab_collections">संग्रह</string>
+    <string name="tab_control">कंट्रोल</string>
+    <string name="tab_icon_single">आइकन</string>
+    <string name="tab_icons">आइकन्स</string>
+    <string name="tab_theme">थीम</string>
+    <string name="tab_wallpaper_single">वॉलपेपर</string>
+    <string name="tab_widget">विजेट</string>
+    <string name="tab_widget_single">विजेट</string>
+    <string name="take_all">सभी लें</string>
+    <string name="tap_anywhere_to_exit">बाहर निकलने के लिए कहीं भी टैप करें</string>
+    <string name="temperature_unit">तापमान इकाई</string>
+    <string name="term_of_use">उपयोग की शर्तें</string>
+    <string name="thai">थाई</string>
+    <string name="theme">थीम</string>
+    <string name="theme_detail">थीम विवरण</string>
+    <string name="theme_setup">थीम सेटअप</string>
+    <string name="themes">थीम्स</string>
+    <string name="toast_adding_shortcuts">होम स्क्रीन पर शॉर्टकट जोड़े जा रहे हैं...</string>
+    <string name="toast_all_permissions_granted">कंट्रोल सेंटर के लिए सभी अनुमतियाँ दी गई हैं!</string>
+    <string name="toast_applied_both_screens">सफलतापूर्वक दोनों स्क्रीन पर लागू किया गया!</string>
+    <string name="toast_applied_home_screen">सफलतापूर्वक होम स्क्रीन पर लागू किया गया!</string>
+    <string name="toast_applied_lock_screen">सफलतापूर्वक लॉक स्क्रीन पर लागू किया गया!</string>
+    <string name="toast_control_center_applied">कंट्रोल सेंटर सफलतापूर्वक लागू किया गया!</string>
+    <string name="toast_downloading_control_center">कंट्रोल सेंटर पैकेज डाउनलोड हो रहा है...</string>
+    <string name="toast_downloading_wallpaper">वॉलपेपर डाउनलोड हो रहा है...</string>
+    <string name="toast_enter_shortcut_name">कृपया शॉर्टकट के लिए एक नाम दर्ज करें</string>
+    <string name="toast_error_loading_icons">प्रीसेट आइकन लोड करने में त्रुटि</string>
+    <string name="toast_error_loading_widgets">विजेट लोड करने में त्रुटि</string>
+    <string name="toast_error_privacy_policy">गोपनीयता नीति खोलने में असमर्थ</string>
+    <string name="toast_failed_apply_wallpaper">वॉलपेपर लागू करने में विफल</string>
+    <string name="toast_failed_apply_widget_style">विजेट शैली लागू करने में विफल</string>
+    <string name="toast_failed_download_control_center">कंट्रोल सेंटर पैकेज डाउनलोड करने में विफल</string>
+    <string name="toast_failed_download_wallpaper">वॉलपेपर डाउनलोड करने में विफल</string>
+    <string name="toast_failed_download_widget_assets">विजेट सामग्री डाउनलोड करने में विफल</string>
+    <string name="toast_failed_init_video">वीडियो प्लेयर प्रारंभ करने में विफल</string>
+    <string name="toast_failed_load_image">छवि लोड करने में विफल</string>
+    <string name="toast_failed_load_theme_wallpaper">थीम वॉलपेपर विवरण लोड करने में विफल</string>
+    <string name="toast_failed_load_wallpaper">उच्च रिज़ॉल्यूशन वॉलपेपर लोड करने में विफल</string>
+    <string name="toast_launch_intent_not_found">इस पैकेज के लिए लॉन्च इंटेंट नहीं मिला</string>
+    <string name="toast_lock_screen_not_supported">इस Android संस्करण पर लॉक स्क्रीन सेटिंग समर्थित नहीं है</string>
+    <string name="toast_no_icons_selected">कोई आइकन नहीं चुना गया</string>
+    <string name="toast_no_wallpaper_found">इस थीम के लिए कोई वॉलपेपर नहीं मिला</string>
+    <string name="toast_perm_accessibility_enabled">सुलभता सेवा सक्षम की गई!</string>
+    <string name="toast_perm_location_already">स्थान अनुमति पहले ही दी जा चुकी है</string>
+    <string name="toast_perm_location_granted">स्थान अनुमति दी गई</string>
+    <string name="toast_perm_location_required_weather">मौसम विजेट के लिए स्थान अनुमति आवश्यक है।</string>
+    <string name="toast_perm_notification_already">सूचना अनुमति पहले ही दी जा चुकी है</string>
+    <string name="toast_perm_notification_granted">सूचना अनुमति दी गई</string>
+    <string name="toast_perm_notification_not_required">इस संस्करण के लिए सूचना अनुमति आवश्यक नहीं है</string>
+    <string name="toast_perm_overlay_already">ओवरले अनुमति पहले ही दी जा चुकी है</string>
+    <string name="toast_perm_overlay_granted">ओवरले अनुमति दी गई!</string>
+    <string name="toast_perm_overlay_granted_disp">अन्य ऐप्स के ऊपर प्रदर्शित करने की अनुमति दी गई!</string>
+    <string name="toast_perm_settings_already">सेटिंग्स अनुमति पहले ही दी जा चुकी है</string>
+    <string name="toast_perm_settings_granted">सेटिंग्स अनुमति दी गई!</string>
+    <string name="toast_perm_settings_granted_sys">सिस्टम सेटिंग्स अनुमति मिल गई!</string>
+    <string name="toast_perm_storage_already">स्टोरेज अनुमति पहले ही दी जा चुकी है</string>
+    <string name="toast_perm_storage_granted">स्टोरेज अनुमति दी गई</string>
+    <string name="toast_please_select_widget">कृपया एक विजेट चुनें</string>
+    <string name="toast_premium_features">प्रीमियम सुविधाएं</string>
+    <string name="toast_select_app_to_bind">कृपया इस आइकन से लिंक करने के लिए एक ऐप चुनें</string>
+    <string name="toast_select_at_least_one_icon">कृपया किसी ऐप से जुड़ा कम से कम एक आइकन चुनें</string>
+    <string name="toast_select_language_continue">आगे बढ़ने के लिए कृपया एक भाषा चुनें</string>
+    <string name="toast_target_app_not_found">लक्षित एप्लिकेशन नहीं मिला</string>
+    <string name="toast_turn_off_in_settings">कृपया इस अनुमति को सेटिंग्स में बंद करें</string>
+    <string name="toast_wallpaper_applied_success">वॉलपेपर सफलतापूर्वक लागू किया गया!</string>
+    <string name="toast_wallpaper_downloading">वॉलपेपर अभी भी डाउनलोड हो रहा है...</string>
+    <string name="toast_welcome_vip">वीआईपी में आपका स्वागत है!</string>
+    <string name="toast_widget_added">विजेट जोड़ा गया</string>
+    <string name="toast_widget_applied_success">विजेट सफलतापूर्वक लागू किया गया!</string>
+    <string name="translate">अनुवाद</string>
+    <string name="tt_ad_close_text">विज्ञापन बंद किया गया</string>
+    <string name="tt_ad_is_closed">विज्ञापन बंद</string>
+    <string name="tt_ad_logo_txt">AD</string>
+    <string name="tt_agree_privacy">आप उपयोग की शर्तों और गोपनीयता नीति से सहमत हैं</string>
+    <string name="tt_auto_fill_contact_info">संपर्क जानकारी स्वतः भरें</string>
+    <string name="tt_autofill">स्वतः भरें</string>
+    <string name="tt_autofill_payment_info">भुगतान संबंधी जानकारी स्वतः भरें</string>
+    <string name="tt_browsing_data">ब्राउज़िंग डेटा</string>
+    <string name="tt_choose_language">hi</string>
+    <string name="tt_comment_num">%1$s समीक्षाएं</string>
+    <string name="tt_cookies_and_cache">कुकीज़ और कैश</string>
+    <string name="tt_cookies_clear">साफ़</string>
+    <string name="tt_cookies_clear_and_cache">"क्या आप कुकीज़ और
+कैश साफ़ करना चाहते हैं?"</string>
+    <string name="tt_cookies_clear_message">"अगर आप कुकीज़ और कैश
+साफ़ करते हैं, तो TikTok के ज़रिए आपके
+विज़िट किए गए वेब पेजों की कुकीज़ और कैश आपके फ़ोन से
+साफ़ हो जाएँगे।"</string>
+    <string name="tt_cookies_cleared_successfully">सफाई सफलतापूर्वक हुई</string>
+    <string name="tt_count_down_view">छोड़ें</string>
+    <string name="tt_dislike_header_tv_back">वापस जाएँ</string>
+    <string name="tt_dislike_header_tv_title">चुनें</string>
+    <string name="tt_display_error">डिस्प्ले त्रुटि</string>
+    <string name="tt_feedback_experience_text">हम अपनी सेवा में सुधार करना जारी रखेंगे.</string>
+    <string name="tt_feedback_submit_text">आप फ़ीडबैक सबमिट कर चुके हैं! कृपया फिर से सबमिट न करें.</string>
+    <string name="tt_feedback_thank_text">अपना फ़ीडबैक देने के लिए धन्यवाद!</string>
+    <string name="tt_history_a_week_ago">एक सप्ताह पहले</string>
+    <string name="tt_history_cancel">रद्द करें</string>
+    <string name="tt_history_confirm_maintitle">"क्या आप
+सब कुछ हटाने को लेकर आश्वस्त हैं?"</string>
+    <string name="tt_history_confirm_subtitle">इसे पूर्ववत नहीं किया जा सकता है</string>
+    <string name="tt_history_delete">हटाएं</string>
+    <string name="tt_history_delete_all">सभी हटाएं</string>
+    <string name="tt_history_delete_successful">सफलतापूर्वक हटाया गया</string>
+    <string name="tt_history_invalid_link">विज्ञापन का लिंक उपलब्ध नहीं है।</string>
+    <string name="tt_history_no_data">अभी तक कोई इतिहास नहीं</string>
+    <string name="tt_history_placeholder_submessage">"यहां केवल वही वेबसाइटें प्रदर्शित होंगी जिन पर आपने पिछले 30 दिनों में विज़िट किया है
+।"</string>
+    <string name="tt_history_this_week">इस सप्ताह</string>
+    <string name="tt_history_title">विज्ञापन लिंक इतिहास</string>
+    <string name="tt_list_end_tip">आपने सारी सामग्री देख ली है</string>
+    <string name="tt_loading_more">लोड हो रहा है…</string>
+    <string name="tt_logo_en">विज्ञापन</string>
+    <string name="tt_more_browser_setting">ब्राउज़र सेटिंग</string>
+    <string name="tt_more_copy_link">लिंक कॉपी करें</string>
+    <string name="tt_more_history">इतिहास</string>
+    <string name="tt_more_open_browser">ब्राउजर में खोलें</string>
+    <string name="tt_more_report">रिपोर्ट करना</string>
+    <string name="tt_more_retry">पुनः प्रयास करें</string>
+    <string name="tt_more_share">शेयर करें</string>
+    <string name="tt_more_title">अधिक</string>
+    <string name="tt_msgPlayable">रिवॉर्ड्स का दावा करने के लिए पूरा देखें</string>
+    <string name="tt_multiple_ad_indicator">%2$d में से विज्ञापन %1$d</string>
+    <string name="tt_negtiveBtnBtnText">छोड़ दें</string>
+    <string name="tt_negtive_txt">रद्द करें</string>
+    <string name="tt_no_network">नेटवर्क कनेक्शन मौजूद नहीं, कृपया बाद में फिर से कोशिश करें.</string>
+    <string name="tt_postiveBtnText">फिर से चलाएँ</string>
+    <string name="tt_postiveBtnTextPlayable">देखना जारी रखें</string>
+    <string name="tt_postive_txt">ठीक</string>
+    <string name="tt_prefill_contact_info">पहले से भरी गई संपर्क जानकारी</string>
+    <string name="tt_privacy">गोपनीयता नीति</string>
+    <string name="tt_privacy_title">प्राइवेसी पालिसी</string>
+    <string name="tt_reward_feedback">फ़ीडबैक</string>
+    <string name="tt_reward_msg">अपना रिवॉर्ड क्लेम करने के लिए पूरी वीडियो देखें</string>
+    <string name="tt_reward_screen_skip_tx">छोड़ें</string>
+    <string name="tt_skip_ad_time_text">%ds सेकंड के बाद छोड़ दें</string>
+    <string name="tt_suggestion_commit">सबमिट करें</string>
+    <string name="tt_try_now">अब कोशिश करो</string>
+    <string name="tt_video_bytesize">डेटा</string>
+    <string name="tt_video_dial_phone">अभी कॉल करें</string>
+    <string name="tt_video_download_apk">डाउनलोड करें</string>
+    <string name="tt_video_mobile_go_detail">अभी देखें</string>
+    <string name="tt_video_retry_des_txt">लोड नहीं किया जा सका. कृपया फिर से कोशिश करें.</string>
+    <string name="tt_video_without_wifi_tips">इस सामग्री को चलाने पर %.2f MB डेटा का इस्तेमाल होगा</string>
+    <string name="tt_web_title_default">विज्ञापन</string>
+    <string name="undo">पूर्ववत करें</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="unlock">अनलॉक करें</string>
+    <string name="unlock_all">सभी अनलॉक करें</string>
+    <string name="unlock_with_ads">विज्ञापन से अनलॉक करें</string>
+    <string name="upgrade">अपग्रेड करें</string>
+    <string name="use_contacts_for_spellchecking_option_summary">वर्तनी परीक्षक आपकी संपर्क सूची का उपयोग करता है</string>
+    <string name="use_contacts_for_spellchecking_option_title">संपर्क नाम देखें</string>
+    <string name="v7_preference_off">बंद</string>
+    <string name="v7_preference_on">चालू</string>
+    <string name="version">संस्करण</string>
+    <string name="view_all">सभी देखें</string>
+    <string name="vip_premium_message">सभी विशेष थीम्स, कस्टम विजेट्स, लाइव चार्जिंग एनिमेशन और प्रीमियम कंट्रोल सेंटर अनलॉक करें!</string>
+    <string name="vip_premium_title">👑 वीआईपी प्रीमियम</string>
+    <string name="wallpaper">वॉलपेपर</string>
+    <string name="wallpapers">वॉलपेपर्स</string>
+    <string name="watermark_label_prefix">AdMob - </string>
+    <string name="widget">विजेट</string>
+    <string name="widget_calendar_4x4">कैलेंडर विजेट 4x4</string>
+    <string name="widget_clock_2x2">घड़ी विजेट 2x2</string>
+    <string name="widget_weather_4x2">मौसम विजेट 4x2</string>
+    <string name="widgets">विजेट्स</string>
+    <string name="zoom">ज़ूम</string>
+</resources>

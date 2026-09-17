@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>Normal</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Avançar %d segundo</item>
+    <item quantity="other">Avançar %d segundos</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Voltar %d segundo</item>
+    <item quantity="other">Voltar %d segundos</item>
+  </plurals>
+    <string name="_1_please_enable_the_theme_keyboard">1. Ative o Teclado de Temas</string>
+    <string name="_2_switch_to_keyboard">2. Mude para o Teclado de Temas</string>
+    <string name="abc">ABC</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
+    <string name="abc_capital_off">DESLIGADO</string>
+    <string name="abc_capital_on">LIGADO</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string name="abc_search_hint">Pesquisar…</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns2:g id="APPLICATION_NAME">%s</ns2:g>"</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="ad_will_show_in_seconds">O anúncio será exibido em instantes</string>
+    <string name="add">Adicionar</string>
+    <string name="add_app">Adicionar aplicativo</string>
+    <string name="add_pin_shortcut">Adicionar atalho fixado</string>
+    <string name="add_to_home">Adicionar à tela inicial</string>
+    <string name="add_widget">Adicionar Widget</string>
+    <string name="add_widget_to_home_screen">Adicionar widget à tela inicial</string>
+    <string name="ads">Anúncios</string>
+    <string name="align">Alinhar</string>
+    <string name="all">Tudo</string>
+    <string name="android_spell_checker_settings">Configurações do corretor ortográfico</string>
+    <string name="app_name">Control Center: Widget Themes</string>
+    <string name="apply">Aplicar</string>
+    <string name="apply_control_center">Aplicar Central de Controle</string>
+    <string name="apply_wallpaper">Aplicar Papel de Parede</string>
+    <string name="arabic">Árabe</string>
+    <string name="auto_correction_threshold_mode_aggressive">Agressivo</string>
+    <string name="auto_correction_threshold_mode_modest">Moderado</string>
+    <string name="auto_correction_threshold_mode_off">Desativado</string>
+    <string name="auto_correction_threshold_mode_very_aggressive">Muito agressivo</string>
+    <string name="background">Plano de fundo</string>
+    <string name="banner_theme_1_subtitle">Milhares de temas fofos,\nícones e widgets para você se expressar !</string>
+    <string name="banner_theme_1_title">Seu Celular,\nSeu Estilo</string>
+    <string name="banner_theme_2_subtitle">Temas lindos, ícones e widgets\npara combinar com você</string>
+    <string name="banner_theme_2_title"><![CDATA[<font color="#353770">Deixe seu celular</font><br/><font color="#FF5678">Incrível</font> <font color="#353770">&amp; Fofo</font>]]></string>
+    <string name="banner_theme_3_subtitle">Temas modernos, ícones e widgets\npara todos os momentos</string>
+    <string name="banner_theme_3_title">Decore seu celular\nDo seu jeito</string>
+    <string name="blue">Azul</string>
+    <string name="bold">Negrito</string>
+    <string name="both_screens">Ambas as telas</string>
+    <string name="bottomsheet_drag_handle_content_description">Alça de arrasto</string>
+    <string name="business">Negócios</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Atender"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Recusar"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Desligar"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Alguém está ligando"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Chamada em andamento"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filtrando uma ligação recebida"</string>
+    <string name="camera">Câmera</string>
+    <string name="cancel">Cancelar</string>
+    <string name="charging_animations">Animações de Carregamento</string>
+    <string name="choose_application">Escolher aplicativo</string>
+    <string name="choose_custom_icon">Escolher ícone personalizado</string>
+    <string name="choose_from_gallery">Escolher da galeria...</string>
+    <string name="clear">Limpar</string>
+    <string name="click_to_settings">Toque para ir às configurações</string>
+    <string name="clock">Relógio</string>
+    <string name="close">Fechar</string>
+    <string name="color">Cor</string>
+    <string name="colors">Cores</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Acesse &lt;b>facebook.com/device&lt;/b> e insira o código mostrado acima.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Erro inesperado ao baixar uma imagem.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">O login do WebView exige permissão da INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">Erro AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Curtiu</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Curtir</string>
+    <string gender="unknown" name="com_facebook_loading">Carregando…</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Cancelar</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Entrar</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Continuar com o Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Entrar com o Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Sair</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Sair</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Entrou como %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Conectado usando o Facebook</string>
+    <string name="com_facebook_send_button_text">Enviar</string>
+    <string name="com_facebook_share_button_text">Compartilhar</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Para conectar sua conta, abra o aplicativo do Facebook no seu dispositivo móvel e verifique se há notificações.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- OU -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Não é você?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Continuar como %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Confirmar login</string>
+    <string gender="unknown" name="com_facebook_sso_noapp_not_now">Agora não</string>
+    <string gender="unknown" name="com_facebook_sso_outdated_title">Entrar com o Facebook</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Você está no controle — escolha quais informações você quer compartilhar com os aplicativos.</string>
+    <string name="configure_custom_shortcut">Configurar atalho personalizado</string>
+    <string name="control_center_perm_desc">As seguintes permissões são necessárias para que a Central de Controle funcione no seu dispositivo</string>
+    <string msgid="6083905920877235314" name="copy">"Copiar"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link copiado para a área de transferência"</string>
+    <string name="custom_display_name">Nome de exibição personalizado:</string>
+    <string name="custom_icon_changer_title">Personalizador de Ícones e Apps</string>
+    <string name="custom_label">Rótulo personalizado</string>
+    <string name="customize">Personalizar</string>
+    <string name="customize_theme">Personalizar tema</string>
+    <string name="customize_themes">Personalizar tema</string>
+    <string name="customize_widget">Personalizar widget</string>
+    <string name="delete">Excluir</string>
+    <string name="dialog_add_widget_title">Adicionar widget à tela inicial</string>
+    <string name="dialog_exit_btn_cancel">Cancelar</string>
+    <string name="dialog_exit_btn_exit">Sair</string>
+    <string name="dialog_exit_desc">Tem certeza de que deseja sair do aplicativo?</string>
+    <string name="dialog_exit_title">Sair do aplicativo</string>
+    <string name="dialog_install_pinned_shortcuts">Instalar atalhos fixados</string>
+    <string name="dialog_select_custom_icon">Selecionar ícone personalizado</string>
+    <string name="dialog_select_icons_to_install">Selecione os ícones para instalar</string>
+    <string name="disable">Desativar</string>
+    <string name="discover">Descobrir</string>
+    <string name="discovery">Descoberta</string>
+    <string name="diy_wallpaper">Papel de Parede DIY</string>
+    <string name="done">Concluído</string>
+    <string name="download">Baixar</string>
+    <string name="downloaded_category_desc">Os itens baixados de %s aparecerão aqui.</string>
+    <string name="downloaded_explore_desc">Explore temas, papéis de parede e widgets\ne baixe-os para vê-los aqui!</string>
+    <string name="downloaded_explore_now">Explorar Agora</string>
+    <string name="downloaded_no_items">Nenhum item baixado ainda</string>
+    <string name="downloaded_title">Baixados</string>
+    <string name="downloading">Baixando</string>
+    <string name="edit">Editar</string>
+    <string name="email">E-mail</string>
+    <string name="emojis">Emojis</string>
+    <string name="enable">Ativar</string>
+    <string name="english_ime_name">Teclado de Temas</string>
+    <string name="error">Erro</string>
+    <string name="error_a11y_label">Erro: inválido</string>
+    <string name="exo_controls_cc_disabled_description">Ativar legendas</string>
+    <string name="exo_controls_cc_enabled_description">Desativar legendas</string>
+    <string name="exo_controls_fastforward_description">Avançar</string>
+    <string name="exo_controls_fullscreen_enter_description">Tela inteira</string>
+    <string name="exo_controls_fullscreen_exit_description">Sair do modo de tela cheia</string>
+    <string name="exo_controls_hide">Ocultar controles do player</string>
+    <string name="exo_controls_next_description">Próximo</string>
+    <string name="exo_controls_overflow_hide_description">Ocultar configurações adicionais</string>
+    <string name="exo_controls_overflow_show_description">Mostrar configurações adicionais</string>
+    <string name="exo_controls_pause_description">Pausar</string>
+    <string name="exo_controls_play_description">Reproduzir</string>
+    <string name="exo_controls_playback_speed">Velocidade</string>
+    <string name="exo_controls_previous_description">Anterior</string>
+    <string name="exo_controls_repeat_all_description">Modo atual: repetir tudo. Alternar modo de repetição.</string>
+    <string name="exo_controls_repeat_off_description">Modo atual: Não repetir. Ativar repetição.</string>
+    <string name="exo_controls_repeat_one_description">Modo atual: repetir um item. Alternar modo de repetição.</string>
+    <string name="exo_controls_rewind_description">Retroceder</string>
+    <string name="exo_controls_seek_bar_description">Andamento da reprodução</string>
+    <string name="exo_controls_settings_description">Configurações</string>
+    <string name="exo_controls_show">Mostrar controles do player</string>
+    <string name="exo_controls_shuffle_off_description">Ativar modo aleatório</string>
+    <string name="exo_controls_shuffle_on_description">Desativar o modo de ordem aleatória</string>
+    <string name="exo_controls_stop_description">Parar</string>
+    <string name="exo_controls_time_placeholder">00:00:00</string>
+    <string name="exo_controls_vr_description">Modo VR</string>
+    <string name="exo_download_completed">Download concluído</string>
+    <string name="exo_download_description">Fazer o download</string>
+    <string name="exo_download_downloading">Fazendo o download</string>
+    <string name="exo_download_failed">Falha no download</string>
+    <string name="exo_download_notification_channel_name">Downloads</string>
+    <string name="exo_download_paused">Downloads pausados</string>
+    <string name="exo_download_paused_for_network">Downloads aguardando uma conexão de rede</string>
+    <string name="exo_download_paused_for_wifi">Downloads aguardando uma rede Wi-Fi</string>
+    <string name="exo_download_removing">Removendo downloads</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativa</string>
+    <string name="exo_track_role_closed_captions">CC</string>
+    <string name="exo_track_role_commentary">Comentários</string>
+    <string name="exo_track_role_supplementary">Complementar</string>
+    <string name="exo_track_selection_auto">Automática</string>
+    <string name="exo_track_selection_none">Nenhuma</string>
+    <string name="exo_track_selection_title_audio">Áudio</string>
+    <string name="exo_track_stereo">Estéreo</string>
+    <string name="exo_track_surround">Sistema surround</string>
+    <string name="exo_track_surround_5_point_1">Sistema surround 5.1</string>
+    <string name="exo_track_surround_7_point_1">Sistema surround 7.1</string>
+    <string name="exo_track_unknown">Desconhecido</string>
+    <string name="exo_track_unknown_name">Desconhecido (%1$s)</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Avançado"</string>
+    <string name="explore_category">Explorar %s</string>
+    <string name="explore_theme">Explorar tema</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar link"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir no navegador"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Compartilhar link"</string>
+    <string name="faq">Perguntas frequentes</string>
+    <string name="favorite">Favorito</string>
+    <string name="feedback">Feedback</string>
+    <string name="filter">Filtro</string>
+    <string name="flip">Girar</string>
+    <string name="font">Fonte</string>
+    <string name="frame">Moldura</string>
+    <string name="gallery">Galeria</string>
+    <string name="get">Obter</string>
+    <string name="get_all">Obter Tudo</string>
+    <string name="get_free_with_ads">Obter grátis com anúncios</string>
+    <string name="go">IR</string>
+    <string name="green">Verde</string>
+    <string name="grid">Grade</string>
+    <string name="happy">Feliz</string>
+    <string name="header_subtitle_main">Torne seu celular único</string>
+    <string name="header_title_collections">Coleções</string>
+    <string name="header_title_control">Central de Controle</string>
+    <string name="header_title_icons">Ícones</string>
+    <string name="header_title_theme">Temas</string>
+    <string name="header_title_widgets">Widgets</string>
+    <string name="home">Início</string>
+    <string name="home_screen">Tela Inicial</string>
+    <string name="how_to_get_icon">Como obter ícones</string>
+    <string name="how_to_get_widget">Como obter widgets</string>
+    <string name="how_to_switch_the_keyboard">Como alternar o teclado</string>
+    <string name="how_to_use">Como usar</string>
+    <string name="icons">Ícones</string>
+    <string name="ime_settings">Configurações do Teclado de Temas</string>
+    <string name="install">Instalar</string>
+    <string name="install_icons">Instalar Ícones</string>
+    <string name="install_selected_icons">Instalar ícones selecionados</string>
+    <string name="install_successfully">Parabéns pela configuração bem-sucedida!</string>
+    <string name="intro_next">Avançar</string>
+    <string name="intro_slide_1_des">Adicione belos ícones animados para um visual único e cheio de vida.</string>
+    <string name="intro_slide_1_title">Destaque Seu Celular</string>
+    <string name="intro_slide_2_des">Escolha animações suaves para dar vida a cada ícone.</string>
+    <string name="intro_slide_2_title">Encontre Sua Estética</string>
+    <string name="intro_slide_3_des">Adicione uma profundidade incrível e efeitos 3D suaves à sua tela inicial.</string>
+    <string name="intro_slide_3_title">Fácil de Personalizar</string>
+    <string name="intro_slide_4_des">Combine ícones animados com lindos papéis de parede para um estilo perfeito.</string>
+    <string name="intro_slide_4_title">Renove a Qualquer Momento</string>
+    <string name="italic">Itálico</string>
+    <string name="keyboard">Teclado</string>
+    <string name="keyboard_setting">Configuração do teclado</string>
+    <string name="keyboard_themes">Temas de
+teclado</string>
+    <string name="keycode_enter">Entrar</string>
+    <string name="language">Idioma</string>
+    <string name="language_and_layouts_title">Idiomas e layouts</string>
+    <string name="language_bengali">বাংলা</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+    <string name="language_filipino">Filipino</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_indonesian">Bahasa Indonesia</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_switch_key_switch_both">Alternar ambos</string>
+    <string name="language_switch_key_switch_input_method">Alternar para outros métodos de entrada</string>
+    <string name="language_switch_key_switch_subtype">Alternar idioma</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
+    <string name="large">Grande</string>
+    <string name="layer">Camada</string>
+    <string name="left">Esquerda</string>
+    <string name="license">Licença de código aberto</string>
+    <string name="line">Linha</string>
+    <string name="loading">Carregando...</string>
+    <string name="lock">Bloquear</string>
+    <string name="lock_screen">Tela de bloqueio</string>
+    <string name="m3_loading_indicator_content_description">Carregando</string>
+    <string name="medium">Médio</string>
+    <string name="mine">Meus</string>
+    <string name="more">Mais</string>
+    <string name="more_apps">Mais aplicativos</string>
+    <string name="more_icon">Mais ícones</string>
+    <string name="my_collection">Minha Coleção</string>
+    <string name="next">Avançar</string>
+    <string name="no">Não</string>
+    <string name="no_applications_found">Nenhum aplicativo encontrado</string>
+    <string name="none">Nenhum</string>
+    <string name="normal">Normal</string>
+    <string msgid="6573031135582639649" name="not_set">"Não definido"</string>
+    <string name="ok">OK</string>
+    <string name="opacity">Opacidade</string>
+    <string name="original">Original:</string>
+    <string name="password_toggle_content_description">Mostrar senha</string>
+    <string name="perm_accessibility_desc">Permite ações comuns como Voltar, Notificações e Menu de energia.</string>
+    <string name="perm_accessibility_title">Serviço de acessibilidade</string>
+    <string name="perm_modify_settings_desc">Para ajustar o tempo limite da tela, brilho...</string>
+    <string name="perm_notification_access_desc">Conceda acesso a notificações para exibir alertas!</string>
+    <string name="perm_settings_btn">Configurações</string>
+    <string name="permission_get_started">Começar</string>
+    <string name="permission_location_desc">Necessário para exibir o clima local nos widgets de relógio e clima.</string>
+    <string name="permission_location_title">Acesso à Localização</string>
+    <string name="permission_notifications_desc">Mantém a Central de Controle ativa em segundo plano e envia alertas de temas.</string>
+    <string name="permission_notifications_title">Notificações</string>
+    <string name="permission_overlay_desc">Necessário para o gesto de borda da Central de Controle e animações de recarga.</string>
+    <string name="permission_overlay_title">Sobrepor a Outros Apps</string>
+    <string name="permission_photos_desc">Necessário para escolher fotos para papéis de parede DIY, widgets e ícones personalizados.</string>
+    <string name="permission_photos_title">Acesso a Fotos e Mídia</string>
+    <string name="permission_settings_desc">Permite controlar brilho e bloqueio de rotação na Central de Controle.</string>
+    <string name="permission_settings_title">Modificar Configurações do Sistema</string>
+    <string name="permission_subtitle">Ative as permissões para desbloquear todos os recursos de personalização</string>
+    <string name="permission_title">Permissões</string>
+    <string name="please_be_aware_that_android_consistently_issues_a_warning_message_upon_keyboard_addition_rest_assured_we_do_not_gather_your_personal_data">Observe que o Android sempre exibe uma mensagem de aviso ao adicionar um novo teclado. Fique tranquilo, nós não coletamos seus dados pessoais</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns2:g id="SUMMARY">%1$s</ns2:g>\" copiado para a área de transferência."</string>
+    <string name="prefs_block_potentially_offensive_title">Bloquear palavras ofensivas</string>
+    <string name="preset_clock_dial">Mostrador de relógio predefinido</string>
+    <string name="preset_neon_star">Estrela neon predefinida</string>
+    <string name="preset_weather_icon">Ícone de clima predefinido</string>
+    <string name="previous">Anterior</string>
+    <string name="privacy">Política de Privacidade</string>
+    <string name="rate_us">Avalie-nos</string>
+    <string name="red">Vermelho</string>
+    <string name="redo">Refazer</string>
+    <string name="remove">Remover</string>
+    <string name="reset">Redefinir</string>
+    <string name="result">Resultado:</string>
+    <string name="right">Direita</string>
+    <string name="romantic">Romântico</string>
+    <string name="save">Salvar</string>
+    <string name="search">Pesquisar</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
+    <string name="seconds">Segundos</string>
+    <string name="see_more">Ver mais</string>
+    <string name="select_all">Selecionar tudo</string>
+    <string name="select_app_to_customize">Selecione o app para personalizar:</string>
+    <string name="select_app_to_link">Selecione um aplicativo para vincular a este ícone</string>
+    <string name="select_customize_widget">Selecione para personalizar o widget</string>
+    <string name="select_language">Selecionar idioma</string>
+    <string name="set_wallpaper">Definir papel de parede</string>
+    <string name="setting">Configurações</string>
+    <string name="settings">Configurações</string>
+    <string name="setup_succeed_btn">Incrível! ✨</string>
+    <string name="setup_succeed_desc">Tudo pronto na sua tela inicial. Aproveite o seu estilo personalizado!</string>
+    <string name="shape">Forma</string>
+    <string name="share_app_chooser_title">Compartilhar aplicativo via</string>
+    <string name="share_app_subject">Aplicativo Themes &amp; Widgets</string>
+    <string name="share_app_text">Confira este aplicativo incrível de personalização de temas e widgets! Baixe aqui: %s</string>
+    <string name="share_friends">Compartilhar com amigos</string>
+    <string name="shop">Loja</string>
+    <string name="show_popup_keys_all">Adicionar todas as variantes disponíveis</string>
+    <string name="show_popup_keys_more">Adicionar variantes comuns</string>
+    <string name="show_popup_keys_normal">Mostrar variantes padrão</string>
+    <string name="size">Tamanho</string>
+    <string name="skip">Pular</string>
+    <string name="small">Pequeno</string>
+    <string name="spacing">Espaçamento</string>
+    <string name="special">Especial</string>
+    <string name="spell_checker_service_name">Corretor ortográfico do Teclado</string>
+    <string name="splash_action_contains_ads">Esta ação pode conter publicidade</string>
+    <string name="splash_wallpaper_phone">Papel de parede para celular</string>
+    <string name="start_charging_animation">Iniciar Animação de Carregamento</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sticker">Adesivo</string>
+    <string name="stroke">Contorno</string>
+    <string name="style">Estilo</string>
+    <string name="successful">Sucesso</string>
+    <string name="successfully">Com sucesso</string>
+    <string name="suggestion">Sugestão</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns2:g id="CURRENT_ITEMS">%1$s</ns2:g>, <ns2:g id="ADDED_ITEMS">%2$s</ns2:g>"</string>
+    <string name="support_amp_feedback">Suporte &amp; Feedback</string>
+    <string name="tab_collections">Coleções</string>
+    <string name="tab_control">Controle</string>
+    <string name="tab_icon_single">Ícone</string>
+    <string name="tab_icons">Ícones</string>
+    <string name="tab_theme">Tema</string>
+    <string name="tab_wallpaper_single">Papel de Parede</string>
+    <string name="tab_widget">Widgets</string>
+    <string name="tab_widget_single">Widget</string>
+    <string name="take_all">Pegar tudo</string>
+    <string name="tap_anywhere_to_exit">Toque em qualquer lugar para sair</string>
+    <string name="temperature_unit">Unidade de temperatura</string>
+    <string name="term_of_use">Termos de Uso</string>
+    <string name="thai">Tailandês</string>
+    <string name="theme">Tema</string>
+    <string name="theme_detail">Detalhe do Tema</string>
+    <string name="theme_setup">Configuração do Tema</string>
+    <string name="themes">Temas</string>
+    <string name="toast_adding_shortcuts">Adicionando atalhos à tela inicial...</string>
+    <string name="toast_all_permissions_granted">Todas as permissões para a Central de Controle foram concedidas!</string>
+    <string name="toast_applied_both_screens">Aplicado a ambas as telas com sucesso!</string>
+    <string name="toast_applied_home_screen">Aplicado à tela inicial com sucesso!</string>
+    <string name="toast_applied_lock_screen">Aplicado à tela de bloqueio com sucesso!</string>
+    <string name="toast_control_center_applied">Central de Controle aplicada com sucesso!</string>
+    <string name="toast_downloading_control_center">Baixando pacote da Central de Controle...</string>
+    <string name="toast_downloading_wallpaper">Baixando papel de parede...</string>
+    <string name="toast_enter_shortcut_name">Digite um nome para o atalho</string>
+    <string name="toast_error_loading_icons">Erro ao carregar ícones predefinidos</string>
+    <string name="toast_error_loading_widgets">Erro ao carregar widgets</string>
+    <string name="toast_error_privacy_policy">Não foi possível abrir a política de privacidade</string>
+    <string name="toast_failed_apply_wallpaper">Falha ao aplicar o papel de parede</string>
+    <string name="toast_failed_apply_widget_style">Falha ao aplicar o estilo do widget</string>
+    <string name="toast_failed_download_control_center">Falha ao baixar o pacote da Central de Controle</string>
+    <string name="toast_failed_download_wallpaper">Falha ao baixar o papel de parede</string>
+    <string name="toast_failed_download_widget_assets">Falha ao baixar os recursos do widget</string>
+    <string name="toast_failed_init_video">Falha ao inicializar o reprodutor de vídeo</string>
+    <string name="toast_failed_load_image">Falha ao carregar a imagem</string>
+    <string name="toast_failed_load_theme_wallpaper">Falha ao carregar detalhes do papel de parede do tema</string>
+    <string name="toast_failed_load_wallpaper">Falha ao carregar o papel de parede em alta resolução</string>
+    <string name="toast_launch_intent_not_found">Intent de inicialização não encontrado para este pacote</string>
+    <string name="toast_lock_screen_not_supported">Configuração da tela de bloqueio não suportada nesta versão do Android</string>
+    <string name="toast_no_icons_selected">Nenhum ícone selecionado</string>
+    <string name="toast_no_wallpaper_found">Nenhum papel de parede encontrado para este tema</string>
+    <string name="toast_perm_accessibility_enabled">Serviço de acessibilidade ativado!</string>
+    <string name="toast_perm_location_already">Permissão de localização já concedida</string>
+    <string name="toast_perm_location_granted">Permissão de localização concedida</string>
+    <string name="toast_perm_location_required_weather">A permissão de localização é necessária para o widget de clima.</string>
+    <string name="toast_perm_notification_already">Permissão de notificação já concedida</string>
+    <string name="toast_perm_notification_granted">Permissão de notificação concedida</string>
+    <string name="toast_perm_notification_not_required">Permissão de notificação não necessária para esta versão</string>
+    <string name="toast_perm_overlay_already">Permissão de sobreposição já concedida</string>
+    <string name="toast_perm_overlay_granted">Permissão de sobreposição concedida!</string>
+    <string name="toast_perm_overlay_granted_disp">Permissão de sobreposição concedida!</string>
+    <string name="toast_perm_settings_already">Permissão de configurações já concedida</string>
+    <string name="toast_perm_settings_granted">Permissão de configurações concedida!</string>
+    <string name="toast_perm_settings_granted_sys">Permissão de configurações do sistema concedida!</string>
+    <string name="toast_perm_storage_already">Permissão de armazenamento já concedida</string>
+    <string name="toast_perm_storage_granted">Permissão de armazenamento concedida</string>
+    <string name="toast_please_select_widget">Por favor, selecione um widget</string>
+    <string name="toast_premium_features">Recursos Premium</string>
+    <string name="toast_select_app_to_bind">Selecione um aplicativo para vincular a este ícone</string>
+    <string name="toast_select_at_least_one_icon">Selecione pelo menos um ícone vinculado a um aplicativo</string>
+    <string name="toast_select_language_continue">Por favor, selecione um idioma para continuar</string>
+    <string name="toast_target_app_not_found">Aplicativo de destino não encontrado</string>
+    <string name="toast_turn_off_in_settings">Desative esta permissão nas Configurações</string>
+    <string name="toast_wallpaper_applied_success">Papel de parede aplicado com sucesso!</string>
+    <string name="toast_wallpaper_downloading">O papel de parede ainda está sendo baixado...</string>
+    <string name="toast_welcome_vip">Bem-vindo ao VIP!</string>
+    <string name="toast_widget_added">Widget adicionado</string>
+    <string name="toast_widget_applied_success">Widget aplicado com sucesso!</string>
+    <string name="translate">Traduzir</string>
+    <string name="tt_ad_close_text">Anúncio fechado</string>
+    <string name="tt_ad_is_closed">Anúncios fechados</string>
+    <string name="tt_ad_logo_txt">AD</string>
+    <string name="tt_add_bad_reason">Adicione o motivo pelo qual você acha que é ruim</string>
+    <string name="tt_agree_privacy">Você aceita os termos de uso e a Política de Privacidade</string>
+    <string name="tt_auto_fill_contact_info">Preencher automaticamente as informações de contato</string>
+    <string name="tt_autofill">Preencher Automaticamente</string>
+    <string name="tt_autofill_payment_info">Preencher automaticamente as informações de pagamento</string>
+    <string name="tt_bad">Ruim</string>
+    <string name="tt_browsing_data">Dados de navegaçãoa</string>
+    <string name="tt_choose_language">pt</string>
+    <string name="tt_comment_num">%1$s críticas</string>
+    <string name="tt_cookies_and_cache">Cookies e cache</string>
+    <string name="tt_cookies_clear">Limpar</string>
+    <string name="tt_cookies_clear_and_cache">Limpar os cookies e o cache?</string>
+    <string name="tt_cookies_clear_message">Se você fizer a limpeza, os cookies e o cache das páginas da web que acessou por meio do TikTok serão apagados do seu telefone.</string>
+    <string name="tt_cookies_cleared_successfully">Limpo com sucesso</string>
+    <string name="tt_count_down_view">Ignorar</string>
+    <string name="tt_dislike_header_tv_back">Voltar</string>
+    <string name="tt_dislike_header_tv_title">Selecionar</string>
+    <string name="tt_display_error">Erro de apresentação</string>
+    <string name="tt_done">Concluído</string>
+    <string name="tt_feedback_experience_text">Continuaremos a melhorar o nosso serviço.</string>
+    <string name="tt_feedback_submit_text">Enviou comentários! Não envie novamente.</string>
+    <string name="tt_feedback_thank_text">Obrigado pelos seus comentários!</string>
+    <string name="tt_feel_hint">Conte-nos o que achou deste anúncio</string>
+    <string name="tt_good">Bom</string>
+    <string name="tt_history_a_week_ago">Há Uma Semana</string>
+    <string name="tt_history_cancel">Cancelar</string>
+    <string name="tt_history_confirm_maintitle">Tem certeza de que você quer excluir tudo?</string>
+    <string name="tt_history_confirm_subtitle">Essa ação não poderá ser desfeita</string>
+    <string name="tt_history_delete">Excluir</string>
+    <string name="tt_history_delete_all">Excluir Tudo</string>
+    <string name="tt_history_delete_successful">Excluído com êxito</string>
+    <string name="tt_history_invalid_link">O link do anúncio não está disponível.</string>
+    <string name="tt_history_no_data">Ainda não há histórico</string>
+    <string name="tt_history_placeholder_submessage">Somente os websites que você acessou nos últimos 30 dias serão exibidos aqui.</string>
+    <string name="tt_history_this_week">Esta Semana</string>
+    <string name="tt_history_title">Histórico De Links De Anúncios</string>
+    <string name="tt_like_this_ad">Gostou deste anúncio?</string>
+    <string name="tt_list_end_tip">Você viu todo o conteúdo</string>
+    <string name="tt_loading_more">Carregando… </string>
+    <string name="tt_logo_en">Anúncios</string>
+    <string name="tt_more_browser_setting">Configurações Do Navegador</string>
+    <string name="tt_more_copy_link">Copiar Link</string>
+    <string name="tt_more_history">Histórico</string>
+    <string name="tt_more_open_browser">Abrir No Navegador</string>
+    <string name="tt_more_report">Relatório</string>
+    <string name="tt_more_retry">Tentar Novamente</string>
+    <string name="tt_more_share">Compartilhar</string>
+    <string name="tt_more_title">Mais</string>
+    <string name="tt_msgPlayable">Finalizar a execução para solicitar as premiações</string>
+    <string name="tt_multiple_ad_indicator">anúncio %1$d de %2$d</string>
+    <string name="tt_negtiveBtnBtnText">Sair</string>
+    <string name="tt_negtive_txt">Cancelar</string>
+    <string name="tt_no_network">Sem conexão de rede, tente novamente mais tarde.</string>
+    <string name="tt_not_bad">Aceitável</string>
+    <string name="tt_other_reason">Outros motivos</string>
+    <string name="tt_postiveBtnText">Retomar</string>
+    <string name="tt_postiveBtnTextPlayable">Continuar executando</string>
+    <string name="tt_postive_txt">OK</string>
+    <string name="tt_prefill_contact_info">Pré-preencher as informações de contato</string>
+    <string name="tt_privacy">Política De Privacidade</string>
+    <string name="tt_privacy_title">Política de Privacidade</string>
+    <string name="tt_report_this_ad">Denuncie este anúncio para nos ajudar a melhorar</string>
+    <string name="tt_reward_feedback">Comentários</string>
+    <string name="tt_reward_full_skip">Pular depois de %1$ss</string>
+    <string name="tt_reward_msg">Veja todo o vídeo para reclamar a sua recompensa</string>
+    <string name="tt_reward_screen_skip_tx">Pular</string>
+    <string name="tt_select_reason">Selecione um motivo</string>
+    <string name="tt_skip_ad_time_text">Pular após %ds segundos</string>
+    <string name="tt_suggestion_commit">Enviar</string>
+    <string name="tt_try_now">Tente agora</string>
+    <string name="tt_video_bytesize">Dados</string>
+    <string name="tt_video_dial_phone">Ligar agora</string>
+    <string name="tt_video_download_apk">Transferir agora</string>
+    <string name="tt_video_mobile_go_detail">Ver agora</string>
+    <string name="tt_video_retry_des_txt">Falha ao carregar. Tente novamente.</string>
+    <string name="tt_video_without_wifi_tips">Ao executar este, você usará %.2f MB dos dados</string>
+    <string name="tt_web_title_default">Anúncio</string>
+    <string name="undo">Desfazer</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="unlock">Desbloquear</string>
+    <string name="unlock_all">Desbloquear Tudo</string>
+    <string name="unlock_with_ads">Desbloquear com anúncios</string>
+    <string name="upgrade">Atualizar</string>
+    <string name="use_contacts_for_spellchecking_option_summary">O corretor usa contatos da sua agenda</string>
+    <string name="use_contacts_for_spellchecking_option_title">Consultar nomes de contatos</string>
+    <string name="v7_preference_off">DESLIGADO</string>
+    <string name="v7_preference_on">LIGADO</string>
+    <string name="version">Versão</string>
+    <string name="view_all">Ver tudo</string>
+    <string name="vip_premium_message">Desbloqueie todos os temas exclusivos, widgets personalizados, animações de carregamento ao vivo e a central de controle premium!</string>
+    <string name="vip_premium_title">👑 VIP Premium</string>
+    <string name="wallpaper">Papel de parede</string>
+    <string name="wallpapers">Papéis de parede</string>
+    <string name="widget">Widget</string>
+    <string name="widget_calendar_4x4">Widget de Calendário 4x4</string>
+    <string name="widget_clock_2x2">Widget de Relógio 2x2</string>
+    <string name="widget_weather_4x2">Widget de Clima 4x2</string>
+    <string name="widgets">Widgets</string>
+    <string name="zoom">Zoom</string>
+</resources>

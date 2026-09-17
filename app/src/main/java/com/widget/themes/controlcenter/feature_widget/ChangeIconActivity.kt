@@ -1,0 +1,28 @@
+package com.widget.themes.controlcenter.feature_widget
+
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import com.widget.themes.controlcenter.R
+
+class ChangeIconActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val targetPkg = intent.getStringExtra("target_package") ?: ""
+        if (targetPkg.isNotEmpty()) {
+            try {
+                val launchIntent = packageManager.getLaunchIntentForPackage(targetPkg)
+                if (launchIntent != null) {
+                    startActivity(launchIntent)
+                } else {
+                    Toast.makeText(this, getString(R.string.toast_target_app_not_found), Toast.LENGTH_SHORT).show()
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+        finish()
+    }
+}

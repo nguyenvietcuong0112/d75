@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.widget.themes.controlcenter.app-mergeDebugResources-97:/values-ja-rJP/values-ja-rJP.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\cuong\\.gradle\\caches\\9.4.1\\transforms\\a3da95938d00d2cfb5d42cf3c8085f43\\transformed\\jetified-mbridge_android_sdk-17.1.71\\res\\values-ja-rJP\\values-ja-rJP.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,116",
+                        "endColumns": "60,63",
+                        "endOffsets": "111,175"
+                    }
+                }
+            ]
+        }
+    ]
+}

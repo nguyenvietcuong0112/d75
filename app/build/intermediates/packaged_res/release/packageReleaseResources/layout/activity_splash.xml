@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash">
+
+    <!-- Top Digital Clock Lockscreen Widget (Real Time) -->
+    <TextClock
+        android:id="@+id/tvClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/fredoka_bold"
+        android:format12Hour="hh:mm"
+        android:format24Hour="HH:mm"
+        android:includeFontPadding="false"
+        android:textColor="#EC6C9B"
+        android:textSize="66sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="06:09" />
+
+    <!-- Date Display (Real Date) -->
+    <com.widget.themes.controlcenter.core.ui.SplashDateTextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/fredoka_medium"
+        android:includeFontPadding="false"
+        android:textColor="#EB7095"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvClock"
+        tools:text="Tue, April 11" />
+
+    <!-- Center Logo Badge Card -->
+    <FrameLayout
+        android:id="@+id/cardLogo"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDate"/>
+
+    <!-- App Title "Theme" with Outlined White Border -->
+    <com.widget.themes.controlcenter.core.ui.OutlineTextView
+        android:id="@+id/tvTitleTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/fredoka_bold"
+        android:includeFontPadding="false"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="4dp"
+        android:text="@string/theme"
+        android:textColor="#FB527A"
+        android:textSize="44sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardLogo"
+        app:outlineColor="#FFFFFF"
+        app:outlineWidth="7.5dp" />
+
+    <!-- App Subtitle "Wallpaper phone" with Outlined White Border -->
+    <com.widget.themes.controlcenter.core.ui.OutlineTextView
+        android:id="@+id/tvSubtitleWallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/fredoka_bold"
+        android:includeFontPadding="false"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="4dp"
+        android:text="@string/splash_wallpaper_phone"
+        android:textColor="#FB527A"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleTheme"
+        app:outlineColor="#FFFFFF"
+        app:outlineWidth="5.5dp" />
+
+    <!-- Compatibility hidden elements -->
+    <TextView
+        android:id="@+id/tvProgressPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Bottom Advertising Disclaimer -->
+    <TextView
+        android:id="@+id/ads_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center"
+        android:letterSpacing="0.01"
+        android:text="@string/splash_action_contains_ads"
+        android:textColor="#2D2D2D"
+        android:textSize="12.5sp"
+        app:layout_constraintBottom_toTopOf="@id/progressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Animated Smooth Loading Progress Bar -->
+    <com.widget.themes.controlcenter.core.ui.SplashProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="260dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="24dp"
+        android:progress="20"
+        android:progressDrawable="@drawable/progress_splash_horizontal"
+        app:layout_constraintBottom_toTopOf="@id/layoutAds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Bottom Ads Layout for Mediation Library -->
+    <FrameLayout
+        android:id="@+id/layoutAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

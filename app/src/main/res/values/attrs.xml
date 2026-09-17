@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="primaryBackgroundColor" format="color|reference" />
+    <attr name="secondaryBackgroundColor" format="color|reference" />
+    <attr name="titleTextColor" format="color|reference" />
+    <attr name="detailTextColor" format="color|reference" />
+    <attr name="lineColor" format="color|reference" />
+    <attr name="primaryColor" format="color|reference" />
+    <attr name="tabBackgroundColor" format="color|reference" />
+    <item name="indicator" type="id" />
+
+    <declare-styleable name="OutlineTextView">
+        <attr name="outlineColor" format="color" />
+        <attr name="outlineWidth" format="dimension" />
+    </declare-styleable>
+</resources>

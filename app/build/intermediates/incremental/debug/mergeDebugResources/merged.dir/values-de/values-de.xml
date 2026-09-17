@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25-fach</item>
+    <item>0,5-fach</item>
+    <item>0,75-fach</item>
+    <item>Standard</item>
+    <item>1,25-fach</item>
+    <item>1,5-fach</item>
+    <item>2-fach</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">%d Sekunde vorspulen</item>
+    <item quantity="other">%d Sekunden vorspulen</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">%d Sekunde zurückspulen</item>
+    <item quantity="other">%d Sekunden zurückspulen</item>
+  </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d neue Benachrichtigung</item>
+    <item quantity="other">%d neue Benachrichtigungen</item>
+  </plurals>
+    <string name="_1_please_enable_the_theme_keyboard">1. Bitte Design-Tastatur aktivieren</string>
+    <string name="_2_switch_to_keyboard">2. Zur Design-Tastatur wechseln</string>
+    <string name="abc">ABC</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string name="abc_action_mode_done">Fertig</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alle anzeigen"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string name="abc_capital_off">AUS</string>
+    <string name="abc_capital_on">AN</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Leertaste"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string name="abc_search_hint">Suchen…</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Suche"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Anfrage senden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns2:g id="APPLICATION_NAME">%s</ns2:g> teilen"</string>
+    <string name="abc_toolbar_collapse_description">Einklappen</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="ad_will_show_in_seconds">Werbung wird in Kürze angezeigt</string>
+    <string name="add">Hinzufügen</string>
+    <string name="add_app">App hinzufügen</string>
+    <string name="add_pin_shortcut">Gepinnte Verknüpfung hinzufügen</string>
+    <string name="add_to_home">Zum Startbildschirm hinzufügen</string>
+    <string name="add_widget">Widget hinzufügen</string>
+    <string name="add_widget_to_home_screen">Widget zum Startbildschirm hinzufügen</string>
+    <string name="ads">Werbung</string>
+    <string name="align">Ausrichten</string>
+    <string name="all">Alle</string>
+    <string name="android_spell_checker_settings">Rechtschreibprüfung-Einstellungen</string>
+    <string name="app_name">Control Center: Widget Themes</string>
+    <string name="applovin_agree_message">Bitte drücke auf \"Weiter\" um unsere App zu benutzen.</string>
+    <string name="applovin_alt_privacy_policy_text"/>
+    <string name="applovin_continue_button_text">Weiter</string>
+    <string name="applovin_pp_and_tos_title">Um %s zu benutzen, musst du den AGB und der Datenschutzerklärung des Entwicklers dieser App zustimmen.</string>
+    <string name="applovin_pp_title">Um %s zu benutzen, musst du bestätigen, dass du unsere Datenschutzerklärung gelesen und akzeptiert hast.</string>
+    <string name="applovin_privacy_policy_text">Datenschutzerklärung</string>
+    <string name="applovin_terms_of_service_text">AGB</string>
+    <string name="applovin_terms_of_use_text">AGB</string>
+    <string name="apply">Anwenden</string>
+    <string name="apply_control_center">Kontrollzentrum anwenden</string>
+    <string name="apply_wallpaper">Hintergrund anwenden</string>
+    <string name="arabic">Arabisch</string>
+    <string name="auto_correction_threshold_mode_aggressive">Aggressiv</string>
+    <string name="auto_correction_threshold_mode_modest">Moderat</string>
+    <string name="auto_correction_threshold_mode_off">Aus</string>
+    <string name="auto_correction_threshold_mode_very_aggressive">Sehr aggressiv</string>
+    <string name="background">Hintergrund</string>
+    <string name="banner_theme_1_subtitle">Tausende niedliche Themes,\nIcons &amp; Widgets für deinen Style !</string>
+    <string name="banner_theme_1_title">Dein Smartphone,\nDein Stil</string>
+    <string name="banner_theme_2_subtitle">Niedliche Themes, Icons &amp; Widgets\npassend zu deiner Stimmung</string>
+    <string name="banner_theme_2_title"><![CDATA[<font color="#353770">Mach dein Handy</font><br/><font color="#FF5678">Entzückend</font> <font color="#353770">&amp; Einzigartig</font>]]></string>
+    <string name="banner_theme_3_subtitle">Trendige Themes, tolle Icons &amp; Widgets\nfür jeden Tag</string>
+    <string name="banner_theme_3_title">Gestalte dein Handy\nNach deinen Wünschen</string>
+    <string name="blue">Blau</string>
+    <string name="bold">Fett</string>
+    <string name="both_screens">Beide Bildschirme</string>
+    <string name="bottomsheet_action_collapse">Minimieren</string>
+    <string name="bottomsheet_action_collapse_description">Ansicht am unteren Rand minimieren</string>
+    <string name="bottomsheet_action_expand">Maximieren</string>
+    <string name="bottomsheet_action_expand_description">Ansicht am unteren Rand maximieren</string>
+    <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
+    <string name="bottomsheet_action_half_expand_description">Ansicht am unteren Rand zur Hälfte maximieren</string>
+    <string name="bottomsheet_drag_handle_content_description">Ziehgriff</string>
+    <string name="bottomsheet_state_collapsed">Minimiert</string>
+    <string name="bottomsheet_state_expanded">Maximiert</string>
+    <string name="bottomsheet_state_half_expanded">Zur Hälfte maximiert</string>
+    <string name="business">Geschäftlich</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Annehmen"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Ablehnen"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Auflegen"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Eingehender Anruf"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Aktueller Anruf"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filter für eingehenden Anruf"</string>
+    <string name="camera">Kamera</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
+    <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
+    <string name="charging_animations">Ladeanimationen</string>
+    <string name="choose_application">Anwendung auswählen</string>
+    <string name="choose_custom_icon">Benutzerdefiniertes Symbol wählen</string>
+    <string name="choose_from_gallery">Aus Galerie auswählen...</string>
+    <string name="clear">Löschen</string>
+    <string name="clear_text_end_icon_content_description">Text löschen</string>
+    <string name="click_to_settings">Klicken, um zu den Einstellungen zu gelangen</string>
+    <string name="clock">Uhr</string>
+    <string name="close">Schließen</string>
+    <string name="color">Farbe</string>
+    <string name="colors">Farben</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Gehe zu &lt;b>facebook.com/device&lt;/b> und gib den oben angezeigten Code ein.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView-Anmeldung erfordert INTERNET-Berechtigung</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidOffensichtlicher Fehler</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Gefällt dir</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Gefällt mir</string>
+    <string gender="unknown" name="com_facebook_loading">Wird geladen ...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Abbrechen</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Melde dich an</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Weiter mit Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Mit Facebook anmelden</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Abmelden</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Abmelden</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Angemeldet als: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Mit Facebook angemeldet</string>
+    <string name="com_facebook_send_button_text">Senden</string>
+    <string name="com_facebook_share_button_text">Teilen</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Öffne die Facebook-App auf deinem Mobilgerät, um dich mit deinem Konto zu verbinden und nach Benachrichtigungen zu suchen.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- ODER -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Das bist du nicht?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Weiter als %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Anmeldung bestätigen</string>
+    <string gender="unknown" name="com_facebook_sso_noapp_not_now">Jetzt nicht</string>
+    <string gender="unknown" name="com_facebook_sso_outdated_title">Mit Facebook anmelden</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Du bestimmst, welche Informationen du mit Apps teilen möchtest.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktivieren</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s funktioniert erst nach der Aktivierung der Google Play-Dienste.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play-Dienste aktivieren</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installieren</string>
+    <string name="common_google_play_services_install_text">Zur Nutzung von %1$s sind die Google Play-Dienste erforderlich, die auf deinem Gerät nicht installiert sind.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_notification_channel_name">Verfügbarkeit von Google Play-Diensten</string>
+    <string name="common_google_play_services_notification_ticker">Fehler bei Zugriff auf Google Play-Dienste</string>
+    <string name="common_google_play_services_unknown_issue">%1$s hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal.</string>
+    <string name="common_google_play_services_unsupported_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf deinem Gerät nicht unterstützt werden.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Aktualisieren</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play-Dienste aktualisieren</string>
+    <string name="common_google_play_services_updating_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die gerade aktualisiert werden.</string>
+    <string name="common_google_play_services_wear_update_text">Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert.</string>
+    <string name="common_open_on_phone">Auf Smartphone öffnen</string>
+    <string name="common_signin_button_text">Anmelden</string>
+    <string name="common_signin_button_text_long">Über Google anmelden</string>
+    <string name="configure_custom_shortcut">Benutzerdefinierte Verknüpfung konfigurieren</string>
+    <string name="control_center_perm_desc">Die folgenden Berechtigungen sind erforderlich, damit das Kontrollzentrum auf Ihrem Gerät funktioniert</string>
+    <string msgid="6083905920877235314" name="copy">"Kopieren"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link in Zwischenablage kopiert"</string>
+    <string name="custom_display_name">Benutzerdefinierter Anzeigename:</string>
+    <string name="custom_icon_changer_title">Benutzerdefinierter Symbolwechsler</string>
+    <string name="custom_label">Benutzerdefiniertes Label</string>
+    <string name="customize">Anpassen</string>
+    <string name="customize_theme">Theme anpassen</string>
+    <string name="customize_themes">Theme anpassen</string>
+    <string name="customize_widget">Widget anpassen</string>
+    <string name="delete">Löschen</string>
+    <string name="dialog_add_widget_title">Widget zum Startbildschirm hinzufügen</string>
+    <string name="dialog_exit_btn_cancel">Abbrechen</string>
+    <string name="dialog_exit_btn_exit">Beenden</string>
+    <string name="dialog_exit_desc">Möchten Sie die App wirklich beenden?</string>
+    <string name="dialog_exit_title">App beenden</string>
+    <string name="dialog_install_pinned_shortcuts">Gepinnte Verknüpfungen installieren</string>
+    <string name="dialog_select_custom_icon">Benutzerdefiniertes Symbol auswählen</string>
+    <string name="dialog_select_icons_to_install">Symbole zum Installieren auswählen</string>
+    <string name="disable">Deaktivieren</string>
+    <string name="discover">Entdecken</string>
+    <string name="discovery">Entdecken</string>
+    <string name="diy_wallpaper">DIY-Hintergrund</string>
+    <string name="done">Fertig</string>
+    <string name="download">Herunterladen</string>
+    <string name="downloaded_category_desc">Ihre heruntergeladenen %s-Elemente werden hier angezeigt.</string>
+    <string name="downloaded_explore_desc">Entdecke Themes, Wallpaper und Widgets\nund lade sie herunter, um sie hier zu sehen!</string>
+    <string name="downloaded_explore_now">Jetzt entdecken</string>
+    <string name="downloaded_no_items">Noch keine Elemente heruntergeladen</string>
+    <string name="downloaded_title">Heruntergeladen</string>
+    <string name="downloading">Wird heruntergeladen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="email">E-Mail</string>
+    <string name="emojis">Emojis</string>
+    <string name="enable">Aktivieren</string>
+    <string name="english_ime_name">Design-Tastatur</string>
+    <string name="error">Fehler</string>
+    <string name="error_a11y_label">Fehler: ungültig</string>
+    <string name="error_icon_content_description">Fehler</string>
+    <string name="exo_controls_cc_disabled_description">Untertitel aktivieren</string>
+    <string name="exo_controls_cc_enabled_description">Untertitel deaktivieren</string>
+    <string name="exo_controls_fastforward_description">Vorspulen</string>
+    <string name="exo_controls_fullscreen_enter_description">Vollbildmodus</string>
+    <string name="exo_controls_fullscreen_exit_description">Vollbild beenden</string>
+    <string name="exo_controls_hide">Player-Steuerelemente ausblenden</string>
+    <string name="exo_controls_next_description">Weiter</string>
+    <string name="exo_controls_overflow_hide_description">Zusätzliche Einstellungen verbergen</string>
+    <string name="exo_controls_overflow_show_description">Zusätzliche Einstellungen anzeigen</string>
+    <string name="exo_controls_pause_description">Pause</string>
+    <string name="exo_controls_play_description">Wiedergabe</string>
+    <string name="exo_controls_playback_speed">Geschwindigkeit</string>
+    <string name="exo_controls_previous_description">Zurück</string>
+    <string name="exo_controls_repeat_all_description">Aktueller Modus: alles wiederholen. Wiederholungsmodus ändern.</string>
+    <string name="exo_controls_repeat_off_description">Aktueller Modus: Nicht wiederholen. Wiederholungsmodus aktivieren.</string>
+    <string name="exo_controls_repeat_one_description">Aktueller Modus: einen Titel wiederholen. Wiederholungsmodus ändern.</string>
+    <string name="exo_controls_rewind_description">Zurückspulen</string>
+    <string name="exo_controls_seek_bar_description">Wiedergabefortschritt</string>
+    <string name="exo_controls_settings_description">Einstellungen</string>
+    <string name="exo_controls_show">Player-Steuerelemente anzeigen</string>
+    <string name="exo_controls_shuffle_off_description">Zufallswiedergabe aktivieren</string>
+    <string name="exo_controls_shuffle_on_description">Zufallsmix deaktivieren</string>
+    <string name="exo_controls_stop_description">Beenden</string>
+    <string name="exo_controls_time_placeholder">00:00:00</string>
+    <string name="exo_controls_vr_description">VR-Modus</string>
+    <string name="exo_download_completed">Download abgeschlossen</string>
+    <string name="exo_download_description">Herunterladen</string>
+    <string name="exo_download_downloading">Wird heruntergeladen</string>
+    <string name="exo_download_failed">Download fehlgeschlagen</string>
+    <string name="exo_download_notification_channel_name">Downloads</string>
+    <string name="exo_download_paused">Downloads pausiert</string>
+    <string name="exo_download_paused_for_network">Auf Netzwerkverbindung wird gewartet</string>
+    <string name="exo_download_paused_for_wifi">Auf WLAN-Verbindung wird gewartet</string>
+    <string name="exo_download_removing">Downloads werden entfernt</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativer Track</string>
+    <string name="exo_track_role_closed_captions">Untertitel</string>
+    <string name="exo_track_role_commentary">Kommentare</string>
+    <string name="exo_track_role_supplementary">Zusatzinhalte</string>
+    <string name="exo_track_selection_auto">Automatisch</string>
+    <string name="exo_track_selection_none">Ohne</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Surround-Sound</string>
+    <string name="exo_track_surround_5_point_1">5.1-Surround-Sound</string>
+    <string name="exo_track_surround_7_point_1">7.1-Surround-Sound</string>
+    <string name="exo_track_unknown">Unbekannt</string>
+    <string name="exo_track_unknown_name">Unbekannt (%1$s)</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Erweitert"</string>
+    <string name="explore_category">%s erkunden</string>
+    <string name="explore_theme">Thema erkunden</string>
+    <string name="exposed_dropdown_menu_content_description">Drop-down-Menü anzeigen</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Link kopieren"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Im Browser öffnen"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Link teilen"</string>
+    <string name="faq">FAQ</string>
+    <string name="favorite">Favorit</string>
+    <string name="feedback">Feedback</string>
+    <string name="filter">Filter</string>
+    <string name="flip">Spiegeln</string>
+    <string name="font">Schriftart</string>
+    <string name="frame">Rahmen</string>
+    <string name="gallery">Galerie</string>
+    <string name="get">Holen</string>
+    <string name="get_all">Alle holen</string>
+    <string name="get_free_with_ads">Kostenlos mit Werbung holen</string>
+    <string name="go">LOS</string>
+    <string name="green">Grün</string>
+    <string name="grid">Raster</string>
+    <string name="happy">Fröhlich</string>
+    <string name="header_subtitle_main">Mach dein Smartphone einzigartig</string>
+    <string name="header_title_collections">Sammlung</string>
+    <string name="header_title_control">Kontrollzentrum</string>
+    <string name="header_title_icons">Icons</string>
+    <string name="header_title_theme">Themes</string>
+    <string name="header_title_widgets">Widgets</string>
+    <string name="home">Start</string>
+    <string name="home_screen">Startbildschirm</string>
+    <string name="how_to_get_icon">Icons erhalten</string>
+    <string name="how_to_get_widget">Widgets erhalten</string>
+    <string name="how_to_switch_the_keyboard">So wechseln Sie die Tastatur</string>
+    <string name="how_to_use">Anleitung</string>
+    <string name="icon_content_description">Dialogfeldsymbol</string>
+    <string name="icons">Icons</string>
+    <string name="ime_settings">Design-Tastatureinstellungen</string>
+    <string name="install">Installieren</string>
+    <string name="install_icons">Icons installieren</string>
+    <string name="install_selected_icons">Ausgewählte Icons installieren</string>
+    <string name="install_successfully">Glückwunsch zur erfolgreichen Einrichtung!</string>
+    <string name="intro_next">Weiter</string>
+    <string name="intro_slide_1_des">Füge wunderschöne animierte Icons hinzu für einen lebendigen Look.</string>
+    <string name="intro_slide_1_title">Mach dein Smartphone besonders</string>
+    <string name="intro_slide_2_des">Wähle aus flüssigen Animationen, die jedes Icon zum Leben erwecken.</string>
+    <string name="intro_slide_2_title">Finde deine Ästhetik</string>
+    <string name="intro_slide_3_des">Verleihe deinem Startbildschirm faszinierende Tiefe und 3D-Effekte.</string>
+    <string name="intro_slide_3_title">Einfach anzupassen</string>
+    <string name="intro_slide_4_des">Kombiniere animierte Icons mit passenden Wallpapers für einen perfekten Style.</string>
+    <string name="intro_slide_4_title">Jederzeit aktualisieren</string>
+    <string name="italic">Kursiv</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="keyboard">Tastatur</string>
+    <string name="keyboard_setting">Tastatureinstellungen</string>
+    <string name="keyboard_themes">Tastatur-
+Designs</string>
+    <string name="keycode_enter">Eingabe</string>
+    <string name="language">Sprache</string>
+    <string name="language_and_layouts_title">Sprachen &amp; Layouts</string>
+    <string name="language_bengali">বাংলা</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+    <string name="language_filipino">Filipino</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_indonesian">Bahasa Indonesia</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_switch_key_switch_both">Beides wechseln</string>
+    <string name="language_switch_key_switch_input_method">Zu anderen Eingabemethoden wechseln</string>
+    <string name="language_switch_key_switch_subtype">Sprache wechseln</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
+    <string name="large">Groß</string>
+    <string name="layer">Ebene</string>
+    <string name="left">Links</string>
+    <string name="license">Open-Source-Lizenz</string>
+    <string name="line">Linie</string>
+    <string name="loading">Wird geladen...</string>
+    <string name="lock">Sperren</string>
+    <string name="lock_screen">Sperrbildschirm</string>
+    <string name="m3_loading_indicator_content_description">Wird geladen</string>
+    <string name="m3_overflow_linear_layout_button_content_description">Dreipunkt-Menü</string>
+    <string name="m3_overflow_linear_layout_button_tooltip_text">Weitere Optionen</string>
+    <string name="material_clock_toggle_content_description">Vormittags oder Nachmittags auswählen</string>
+    <string name="material_hour_24h_suffix">%1$s Stunden</string>
+    <string name="material_hour_selection">Stunde auswählen</string>
+    <string name="material_hour_suffix">%1$s Uhr</string>
+    <string name="material_minute_selection">Minuten auswählen</string>
+    <string name="material_minute_suffix">%1$s Minuten</string>
+    <string name="material_slider_range_end">Bereichsende</string>
+    <string name="material_slider_range_start">Bereichsstart</string>
+    <string name="material_slider_value">Wert</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">In den Uhrzeitmodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="material_timepicker_clock_mode_tooltip">In den Uhrmodus wechseln</string>
+    <string name="material_timepicker_hour">Stunde</string>
+    <string name="material_timepicker_hour_error">Zulässige Werte: 1–12</string>
+    <string name="material_timepicker_hour_error_24h">Zulässige Werte: 0–23</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_minute_error">Zulässige Werte: 0–59</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Uhrzeit auswählen</string>
+    <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="material_timepicker_text_input_mode_tooltip">In den Texteingabemodus wechseln</string>
+    <string name="medium">Mittel</string>
+    <string name="mine">Meine</string>
+    <string name="more">Mehr</string>
+    <string name="more_apps">Weitere Apps</string>
+    <string name="more_icon">Mehr Symbole</string>
+    <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
+    <string name="mtrl_button_collapsed_content_description">Minimiert</string>
+    <string name="mtrl_button_expanded_content_description">Maximiert</string>
+    <string name="mtrl_button_overflow_icon_content_description">Dreipunkt-Menü</string>
+    <string name="mtrl_button_snackbar_close_content_description">Schließen</string>
+    <string name="mtrl_checkbox_state_description_checked">Aktiviert</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Teilweise aktiviert</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nicht aktiviert</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">Mehr als %1$d neue Benachrichtigungen</string>
+    <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+    <string name="mtrl_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
+    <string name="mtrl_picker_announce_current_range_selection">Ausgewähltes Startdatum: %1$s – Ausgewähltes Enddatum: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">Keines</string>
+    <string name="mtrl_picker_cancel">Abbrechen</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Datum auswählen</string>
+    <string name="mtrl_picker_date_header_unselected">Ausgewähltes Datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Enddatum %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ungültiges Format.</string>
+    <string name="mtrl_picker_invalid_format_example">Beispiel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Format: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ungültiger Bereich.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Zum aktuellen Jahr %1$d wechseln</string>
+    <string name="mtrl_picker_navigate_to_year_description">Zum Jahr %1$d wechseln</string>
+    <string name="mtrl_picker_next_month_tooltip">Nächster Monat</string>
+    <string name="mtrl_picker_out_of_range">Außerhalb des Bereichs: %1$s</string>
+    <string name="mtrl_picker_pane_title_calendar_view">Kalenderansicht</string>
+    <string name="mtrl_picker_pane_title_year_view">Jahresansicht</string>
+    <string name="mtrl_picker_prev_month_tooltip">Vorheriger Monat</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Enddatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Zeitraum auswählen</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum – Enddatum</string>
+    <string name="mtrl_picker_save">Speichern</string>
+    <string name="mtrl_picker_start_date_description">Startdatum %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Enddatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">T</string>
+    <string name="mtrl_picker_text_input_month_abbr">M</string>
+    <string name="mtrl_picker_text_input_year_abbr">J</string>
+    <string name="mtrl_picker_today_description">Heute %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">In den Kalendereingabemodus wechseln</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode_tooltip">Zum Kalender wechseln</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Zur Kalenderansicht wechseln</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">In den Texteingabemodus wechseln</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode_tooltip">Zur Texteingabe wechseln</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Zur Jahresansicht wechseln</string>
+    <string name="mtrl_timepicker_cancel">Abbrechen</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="my_collection">Meine Sammlung</string>
+    <string name="native_body">Text</string>
+    <string name="native_headline">Anzeigentitel</string>
+    <string name="native_media_view">Medienansicht</string>
+    <string name="next">Weiter</string>
+    <string name="no">Nein</string>
+    <string name="no_applications_found">Keine Anwendungen gefunden</string>
+    <string name="none">Keine</string>
+    <string name="normal">Normal</string>
+    <string msgid="6573031135582639649" name="not_set">"Nicht festgelegt"</string>
+    <string name="notifications_permission_confirm">Zulassen</string>
+    <string name="notifications_permission_decline">Nicht zulassen</string>
+    <string name="notifications_permission_title">App-Benachrichtigungen zulassen?</string>
+    <string name="offline_dialog_image_description">Symbol</string>
+    <string name="offline_dialog_text">Vielen Dank für dein Interesse.\nDu erhältst weitere Informationen, sobald du wieder online bist.</string>
+    <string name="offline_notification_title">Du bist wieder online! Machen wir da weiter, wo wir aufgehört haben</string>
+    <string name="offline_notification_title_with_advertiser">Du bist wieder online! Weitere Informationen zu %s</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_decline">Nein danke</string>
+    <string name="offline_opt_in_message">Wir senden dir eine Benachrichtigung mit einem Link zur Website des Werbetreibenden.</string>
+    <string name="offline_opt_in_title">Werbung öffnen, wenn du wieder online bist.</string>
+    <string name="ok">OK</string>
+    <string name="opacity">Deckkraft</string>
+    <string name="original">Original:</string>
+    <string name="password_toggle_content_description">Passwort anzeigen</string>
+    <string name="perm_accessibility_desc">Ermöglicht häufige Aktionen wie Zurück, Benachrichtigungen und Ein/Aus-Menü.</string>
+    <string name="perm_accessibility_title">Barrierefreiheitsdienst</string>
+    <string name="perm_modify_settings_desc">Zum Anpassen von Bildschirm-Timeout, Helligkeit...</string>
+    <string name="perm_notification_access_desc">Benachrichtigungszugriff gewähren, um Benachrichtigungen anzuzeigen!</string>
+    <string name="perm_settings_btn">Einstellungen</string>
+    <string name="permission_get_started">Loslegen</string>
+    <string name="permission_location_desc">Erforderlich zur Anzeige lokaler Wetterdaten auf Uhr- &amp; Wetter-Widgets.</string>
+    <string name="permission_location_title">Standortzugriff</string>
+    <string name="permission_notifications_desc">Hält das Kontrollzentrum im Hintergrund aktiv und sendet Theme-Hinweise.</string>
+    <string name="permission_notifications_title">Benachrichtigungen</string>
+    <string name="permission_overlay_desc">Erforderlich für die Wischgeste des Kontrollzentrums und Ladeanimationen.</string>
+    <string name="permission_overlay_title">Über anderen Apps anzeigen</string>
+    <string name="permission_photos_desc">Erforderlich für eigene DIY-Hintergründe, Widgets &amp; benutzerdefinierte Icons.</string>
+    <string name="permission_photos_title">Foto- &amp; Medienzugriff</string>
+    <string name="permission_settings_desc">Ermöglicht Helligkeitsregelung und Rotationssperre im Kontrollzentrum.</string>
+    <string name="permission_settings_title">Systemeinstellungen ändern</string>
+    <string name="permission_subtitle">Aktiviere die Berechtigungen, um alle Personalisierungsfunktionen freizuschalten</string>
+    <string name="permission_title">Berechtigungen</string>
+    <string name="please_be_aware_that_android_consistently_issues_a_warning_message_upon_keyboard_addition_rest_assured_we_do_not_gather_your_personal_data">Bitte beachten Sie, dass Android beim Hinzufügen einer Tastatur immer eine Warnung anzeigt. Seien Sie versichert, wir erfassen keine persönlichen Daten</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns2:g id="SUMMARY">%1$s</ns2:g>\" in Zwischenablage kopiert."</string>
+    <string name="prefs_block_potentially_offensive_title">Anstößige Wörter blockieren</string>
+    <string name="preset_clock_dial">Voreingestelltes Zifferblatt</string>
+    <string name="preset_neon_star">Voreingestellter Neonstern</string>
+    <string name="preset_weather_icon">Voreingestelltes Wettersymbol</string>
+    <string name="previous">Vorheriges</string>
+    <string name="privacy">Datenschutzrichtlinie</string>
+    <string name="rate_us">App bewerten</string>
+    <string name="red">Rot</string>
+    <string name="redo">Wiederholen</string>
+    <string name="remove">Entfernen</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="result">Ergebnis:</string>
+    <string name="right">Rechts</string>
+    <string name="romantic">Romantisch</string>
+    <string name="s1">Bild speichern</string>
+    <string name="s2">Der Werbeanzeige erlauben, das Bild in der Bildergalerie zu speichern?</string>
+    <string name="s3">Zustimmen</string>
+    <string name="s4">Ablehnen</string>
+    <string name="s5">Kalendertermin erstellen</string>
+    <string name="s6">Der Werbeanzeige erlauben, einen Kalendertermin zu erstellen?</string>
+    <string name="s7">Testanzeige</string>
+    <string name="save">Speichern</string>
+    <string name="search">Suchen</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
+    <string name="searchview_clear_text_content_description">Text löschen</string>
+    <string name="searchview_navigation_content_description">Zurück</string>
+    <string name="seconds">Sekunden</string>
+    <string name="see_more">Mehr anzeigen</string>
+    <string name="select_all">Alle auswählen</string>
+    <string name="select_app_to_customize">Wählen Sie eine App zum Anpassen:</string>
+    <string name="select_app_to_link">Wählen Sie eine App, die mit diesem Symbol verknüpft werden soll</string>
+    <string name="select_customize_widget">Auswählen, um Widget anzupassen</string>
+    <string name="select_language">Sprache auswählen</string>
+    <string name="set_wallpaper">Hintergrund festlegen</string>
+    <string name="setting">Einstellungen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="setup_succeed_btn">Klasse! ✨</string>
+    <string name="setup_succeed_desc">Alles ist eingerichtet und auf Ihrem Startbildschirm bereit. Genießen Sie Ihren persönlichen Stil!</string>
+    <string name="shape">Form</string>
+    <string name="share_app_chooser_title">App teilen über</string>
+    <string name="share_app_subject">Themes &amp; Widgets App</string>
+    <string name="share_app_text">Schau dir diese tolle Theme- &amp; Widget-App an! Hier herunterladen: %s</string>
+    <string name="share_friends">Mit Freunden teilen</string>
+    <string name="shop">Shop</string>
+    <string name="show_popup_keys_all">Alle verfügbaren Varianten hinzufügen</string>
+    <string name="show_popup_keys_more">Häufige Varianten hinzufügen</string>
+    <string name="show_popup_keys_normal">Standardvarianten anzeigen</string>
+    <string name="side_sheet_accessibility_pane_title">Seitenblatt</string>
+    <string name="size">Größe</string>
+    <string name="skip">Überspringen</string>
+    <string name="small">Klein</string>
+    <string name="spacing">Abstand</string>
+    <string name="special">Besonders</string>
+    <string name="spell_checker_service_name">Design-Tastatur Rechtschreibprüfung</string>
+    <string name="splash_action_contains_ads">Diese Aktion kann Werbung enthalten</string>
+    <string name="splash_wallpaper_phone">Telefon-Hintergrundbild</string>
+    <string name="start_charging_animation">Ladeanimation starten</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sticker">Sticker</string>
+    <string name="stroke">Kontur</string>
+    <string name="style">Stil</string>
+    <string name="successful">Erfolgreich</string>
+    <string name="successfully">Erfolgreich</string>
+    <string name="suggestion">Vorschlag</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns2:g id="CURRENT_ITEMS">%1$s</ns2:g>, <ns2:g id="ADDED_ITEMS">%2$s</ns2:g>"</string>
+    <string name="support_amp_feedback">Support &amp; Feedback</string>
+    <string name="tab_collections">Sammlung</string>
+    <string name="tab_control">Steuerung</string>
+    <string name="tab_icon_single">Icon</string>
+    <string name="tab_icons">Icons</string>
+    <string name="tab_theme">Theme</string>
+    <string name="tab_wallpaper_single">Hintergrund</string>
+    <string name="tab_widget">Widgets</string>
+    <string name="tab_widget_single">Widget</string>
+    <string name="take_all">Alles übernehmen</string>
+    <string name="tap_anywhere_to_exit">Tippe irgendwo zum Beenden</string>
+    <string name="temperature_unit">Temperatureinheit</string>
+    <string name="term_of_use">Nutzungsbedingungen</string>
+    <string name="thai">Thailändisch</string>
+    <string name="theme">Theme</string>
+    <string name="theme_detail">Theme-Details</string>
+    <string name="theme_setup">Theme-Einrichtung</string>
+    <string name="themes">Themes</string>
+    <string name="toast_adding_shortcuts">Verknüpfungen zum Startbildschirm werden hinzugefügt...</string>
+    <string name="toast_all_permissions_granted">Alle Berechtigungen für das Kontrollzentrum wurden erteilt!</string>
+    <string name="toast_applied_both_screens">Erfolgreich auf beide Bildschirme angewendet!</string>
+    <string name="toast_applied_home_screen">Erfolgreich auf den Startbildschirm angewendet!</string>
+    <string name="toast_applied_lock_screen">Erfolgreich auf den Sperrbildschirm angewendet!</string>
+    <string name="toast_control_center_applied">Kontrollzentrum erfolgreich angewendet!</string>
+    <string name="toast_downloading_control_center">Kontrollzentrum-Paket wird heruntergeladen...</string>
+    <string name="toast_downloading_wallpaper">Hintergrundbild wird heruntergeladen...</string>
+    <string name="toast_enter_shortcut_name">Bitte geben Sie einen Namen für die Verknüpfung ein</string>
+    <string name="toast_error_loading_icons">Fehler beim Laden der vordefinierten Symbole</string>
+    <string name="toast_error_loading_widgets">Fehler beim Laden der Widgets</string>
+    <string name="toast_error_privacy_policy">Datenschutzrichtlinie kann nicht geöffnet werden</string>
+    <string name="toast_failed_apply_wallpaper">Hintergrundbild konnte nicht angewendet werden</string>
+    <string name="toast_failed_apply_widget_style">Fehler beim Anwenden des Widget-Stils</string>
+    <string name="toast_failed_download_control_center">Fehler beim Herunterladen des Kontrollzentrum-Pakets</string>
+    <string name="toast_failed_download_wallpaper">Hintergrundbild konnte nicht heruntergeladen werden</string>
+    <string name="toast_failed_download_widget_assets">Fehler beim Herunterladen der Widget-Assets</string>
+    <string name="toast_failed_init_video">Videoplayer konnte nicht initialisiert werden</string>
+    <string name="toast_failed_load_image">Bild konnte nicht geladen werden</string>
+    <string name="toast_failed_load_theme_wallpaper">Details zum Design-Hintergrundbild konnten nicht geladen werden</string>
+    <string name="toast_failed_load_wallpaper">Hochauflösendes Hintergrundbild konnte nicht geladen werden</string>
+    <string name="toast_launch_intent_not_found">Start-Intent für dieses Paket nicht gefunden</string>
+    <string name="toast_lock_screen_not_supported">Sperrbildschirmeinstellung wird auf dieser Version nicht unterstützt</string>
+    <string name="toast_no_icons_selected">Keine Symbole ausgewählt</string>
+    <string name="toast_no_wallpaper_found">Kein Hintergrundbild für dieses Thema gefunden</string>
+    <string name="toast_perm_accessibility_enabled">Barrierefreiheitsdienst aktiviert!</string>
+    <string name="toast_perm_location_already">Standortberechtigung bereits erteilt</string>
+    <string name="toast_perm_location_granted">Standortberechtigung erteilt</string>
+    <string name="toast_perm_location_required_weather">Standortberechtigung ist für das Wetter-Widget erforderlich.</string>
+    <string name="toast_perm_notification_already">Benachrichtigungsberechtigung bereits erteilt</string>
+    <string name="toast_perm_notification_granted">Benachrichtigungsberechtigung erteilt</string>
+    <string name="toast_perm_notification_not_required">Benachrichtigungsberechtigung für diese Version nicht erforderlich</string>
+    <string name="toast_perm_overlay_already">Überlagerungsberechtigung bereits erteilt</string>
+    <string name="toast_perm_overlay_granted">Überlagerungsberechtigung erteilt!</string>
+    <string name="toast_perm_overlay_granted_disp">Berechtigung für Anzeige über anderen Apps erteilt!</string>
+    <string name="toast_perm_settings_already">Systemeinstellungsberechtigung bereits erteilt</string>
+    <string name="toast_perm_settings_granted">Systemeinstellungsberechtigung erteilt!</string>
+    <string name="toast_perm_settings_granted_sys">Berechtigung für Systemeinstellungen erteilt!</string>
+    <string name="toast_perm_storage_already">Speicherberechtigung bereits erteilt</string>
+    <string name="toast_perm_storage_granted">Speicherberechtigung erteilt</string>
+    <string name="toast_please_select_widget">Bitte wählen Sie ein Widget aus</string>
+    <string name="toast_premium_features">Premium-Funktionen</string>
+    <string name="toast_select_app_to_bind">Bitte wählen Sie eine App zum Verknüpfen mit diesem Symbol</string>
+    <string name="toast_select_at_least_one_icon">Bitte wählen Sie mindestens ein Symbol aus, das mit einer App verknüpft ist</string>
+    <string name="toast_select_language_continue">Bitte wähle eine Sprache, um fortzufahren</string>
+    <string name="toast_target_app_not_found">Zielanwendung nicht gefunden</string>
+    <string name="toast_turn_off_in_settings">Bitte deaktivieren Sie diese Berechtigung in den Einstellungen</string>
+    <string name="toast_wallpaper_applied_success">Hintergrundbild erfolgreich angewendet!</string>
+    <string name="toast_wallpaper_downloading">Hintergrundbild wird noch heruntergeladen...</string>
+    <string name="toast_welcome_vip">Willkommen bei VIP!</string>
+    <string name="toast_widget_added">Widget hinzugefügt</string>
+    <string name="toast_widget_applied_success">Widget erfolgreich angewendet!</string>
+    <string name="translate">Übersetzen</string>
+    <string name="tt_ad_close_text">Anzeige geschlossen</string>
+    <string name="tt_ad_is_closed">Anzeigen geschlossen</string>
+    <string name="tt_ad_logo_txt">AD</string>
+    <string name="tt_add_bad_reason">Bitte erkläre, warum du dieser Meinung bist</string>
+    <string name="tt_agree_privacy">Du stimmst den Nutzungsbedingungen und der Datenschutzrichtlinie zu.</string>
+    <string name="tt_auto_fill_contact_info">Kontaktinformationen automatisch ausfüllen</string>
+    <string name="tt_autofill">Automatisch Ausfüllen</string>
+    <string name="tt_autofill_payment_info">Zahlungsinformationen automatisch ausfüllen</string>
+    <string name="tt_bad">Schlecht</string>
+    <string name="tt_browsing_data">Datensuche</string>
+    <string name="tt_choose_language">de</string>
+    <string name="tt_comment_num">%1$s Reviews</string>
+    <string name="tt_cookies_and_cache">Cookies und Cache</string>
+    <string name="tt_cookies_clear">Löschen</string>
+    <string name="tt_cookies_clear_and_cache">Cookies und Cache löschen?</string>
+    <string name="tt_cookies_clear_message">Hiermit werden Cookies und Cache der Webseiten, die du über TikTok besucht hast, von deinem Smartphone gelöscht.</string>
+    <string name="tt_cookies_cleared_successfully">Bereinigt erfolgreich</string>
+    <string name="tt_count_down_view">Überspringen</string>
+    <string name="tt_dislike_header_tv_back">Zurück</string>
+    <string name="tt_dislike_header_tv_title">Auswählen</string>
+    <string name="tt_display_error">Anzeigefehler</string>
+    <string name="tt_done">Fertig</string>
+    <string name="tt_feedback_experience_text">Wir verbessern unseren Service fortlaufend.</string>
+    <string name="tt_feedback_submit_text">Dein Feedback wurde eingereicht. Du musst es nicht erneut senden.</string>
+    <string name="tt_feedback_thank_text">Vielen Dank für dein Feedback!</string>
+    <string name="tt_feel_hint">Wie ist das Gefühl, das diese Anzeige bei dir auslöst?</string>
+    <string name="tt_good">Gut</string>
+    <string name="tt_history_a_week_ago">Letzte Woche</string>
+    <string name="tt_history_cancel">Abbrechen</string>
+    <string name="tt_history_confirm_maintitle">Möchtest du wirklich alle löschen?</string>
+    <string name="tt_history_confirm_subtitle">Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="tt_history_delete">löschen</string>
+    <string name="tt_history_delete_all">Alle löschen</string>
+    <string name="tt_history_delete_successful">Erfolgreich gelöscht</string>
+    <string name="tt_history_invalid_link">Der Anzeigenlink ist nicht verfügbar.</string>
+    <string name="tt_history_no_data">Noch keine Verlaufsdaten vorhanden</string>
+    <string name="tt_history_placeholder_submessage">Hier werden nur Websites angezeigt, die du in den letzten 30 Tagen besucht hast.</string>
+    <string name="tt_history_this_week">Diese Woche</string>
+    <string name="tt_history_title">Anzeigenlink-Verlauf</string>
+    <string name="tt_like_this_ad">Gefällt dir diese Anzeige?</string>
+    <string name="tt_list_end_tip">Sie haben den gesamten Inhalt gesehen</string>
+    <string name="tt_loading_more">Lädt…  </string>
+    <string name="tt_logo_en">Anzeige</string>
+    <string name="tt_more_browser_setting">Browsereinstellungen</string>
+    <string name="tt_more_copy_link">Link Kopieren</string>
+    <string name="tt_more_history">Verlauf</string>
+    <string name="tt_more_open_browser">In Browser Öffnen</string>
+    <string name="tt_more_report">Melden</string>
+    <string name="tt_more_retry">Wiederholen</string>
+    <string name="tt_more_share">Teilen</string>
+    <string name="tt_more_title">Mehr</string>
+    <string name="tt_msgPlayable">Bis zum Ende wiedergeben, um Prämien zu erhalten</string>
+    <string name="tt_multiple_ad_indicator">Anzeige %1$d von %2$d</string>
+    <string name="tt_negtiveBtnBtnText">Verlassen</string>
+    <string name="tt_negtive_txt">Abbrechen</string>
+    <string name="tt_no_network">Keine Netzwerkverbindung, versuchen Sie es bitte später noch einmal.</string>
+    <string name="tt_not_bad">Nicht schlecht</string>
+    <string name="tt_other_reason">Sonstige Gründe</string>
+    <string name="tt_postiveBtnText">Fortsetzen</string>
+    <string name="tt_postiveBtnTextPlayable">Weiter wiedergeben</string>
+    <string name="tt_postive_txt">OK</string>
+    <string name="tt_prefill_contact_info">Kontaktinformationen vorab ausfüllen</string>
+    <string name="tt_privacy">Datenschutzrichtliniey</string>
+    <string name="tt_privacy_title">Datenschutzrichtlinie</string>
+    <string name="tt_report_this_ad">Melde diese Anzeige und hilf uns, noch besser zu werden.</string>
+    <string name="tt_reward_feedback">Feedback</string>
+    <string name="tt_reward_full_skip">Nach %1$s s überspringen</string>
+    <string name="tt_reward_msg">Sieh dir das ganze Video an, um deine Belohnung zu erhalten.</string>
+    <string name="tt_reward_screen_skip_tx">Überspringen</string>
+    <string name="tt_select_reason">Bitte Grund auswählen</string>
+    <string name="tt_skip_ad_time_text">Nach %ds Sekunden überspringen</string>
+    <string name="tt_suggestion_commit">Absenden</string>
+    <string name="tt_try_now">Versuche es jetzt</string>
+    <string name="tt_video_bytesize">Daten</string>
+    <string name="tt_video_dial_phone">Jetzt anrufen</string>
+    <string name="tt_video_download_apk">Jetzt herunterladen</string>
+    <string name="tt_video_mobile_go_detail">Jetzt ansehen</string>
+    <string name="tt_video_retry_des_txt">Ladefehler. Bitte versuchen Sie es erneut.</string>
+    <string name="tt_video_without_wifi_tips">Bei der Wiedergabe dieses Inhalts werden %.2f MB Daten verbraucht</string>
+    <string name="tt_web_title_default">Anzeige</string>
+    <string name="undo">Rückgängig</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="unlock">Freischalten</string>
+    <string name="unlock_all">Alles freischalten</string>
+    <string name="unlock_with_ads">Mit Werbung freischalten</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="use_contacts_for_spellchecking_option_summary">Rechtschreibprüfung verwendet Einträge aus Ihren Kontakten</string>
+    <string name="use_contacts_for_spellchecking_option_title">Kontaktnamen nachschlagen</string>
+    <string name="v7_preference_off">AUS</string>
+    <string name="v7_preference_on">AN</string>
+    <string name="version">Version</string>
+    <string name="view_all">Alle ansehen</string>
+    <string name="vip_premium_message">Schalte alle exklusiven Themes, benutzerdefinierten Widgets, Ladeanimationen und das Premium-Kontrollzentrum frei!</string>
+    <string name="vip_premium_title">👑 VIP Premium</string>
+    <string name="wallpaper">Hintergrundbild</string>
+    <string name="wallpapers">Hintergrundbilder</string>
+    <string name="watermark_label_prefix">AdMob – </string>
+    <string name="widget">Widget</string>
+    <string name="widget_calendar_4x4">Kalender-Widget 4x4</string>
+    <string name="widget_clock_2x2">Uhr-Widget 2x2</string>
+    <string name="widget_weather_4x2">Wetter-Widget 4x2</string>
+    <string name="widgets">Widgets</string>
+    <string name="zoom">Zoomen</string>
+</resources>

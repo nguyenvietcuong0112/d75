@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.widget.themes.controlcenter.app-mergeDebugResources-97:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\cuong\\.gradle\\caches\\9.4.1\\transforms\\b8b30f671efbd7cdb7bb79a489698040\\transformed\\appcompat-1.8.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+com.widget.themes.controlcenter.app-res-0 E:\CSCPROJECT\themeapp\app\build\generated\res\injectCrashlyticsMappingFileIdRelease
+com.widget.themes.controlcenter.app-pngs-1 E:\CSCPROJECT\themeapp\app\build\generated\res\pngs\release
+com.widget.themes.controlcenter.app-res-2 E:\CSCPROJECT\themeapp\app\build\generated\res\processReleaseGoogleServices
+com.widget.themes.controlcenter.app-updated_navigation_xml-3 E:\CSCPROJECT\themeapp\app\build\generated\updated_navigation_xml\release
+com.widget.themes.controlcenter.app-packageReleaseResources-4 E:\CSCPROJECT\themeapp\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.widget.themes.controlcenter.app-packageReleaseResources-5 E:\CSCPROJECT\themeapp\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.widget.themes.controlcenter.app-release-6 E:\CSCPROJECT\themeapp\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.widget.themes.controlcenter.app-main-7 E:\CSCPROJECT\themeapp\app\src\main\res
+com.widget.themes.controlcenter.app-release-8 E:\CSCPROJECT\themeapp\app\src\release\res
+gradleHome-0 C:\Users\cuong\.gradle

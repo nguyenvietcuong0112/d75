@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+<!--    <string name="inter_splash_high" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="inter_splash" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="native_splash_full_high" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_splash_full" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="banner_splash" translatable="false">ca-app-pub-3940256099942544/2014213617</string>-->
+
+<!--    <string name="native_language_high" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_language" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_language_high_click" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_language_click" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+
+
+<!--    <string name="native_onboarding_1" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_onboarding_full_1" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_onboarding_full_2" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_onboarding_4" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+
+
+<!--    <string name="inter_all" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+
+<!--    <string name="native_all" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_home" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_permission" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_collap" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+
+<!--    <string name="banner_home" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="banner_collap_home" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+
+<!--    <string name="resume_open_app" translatable="false">ca-app-pub-3940256099942544/9257395921</string>-->
+<!--    <string name="reward_ad" translatable="false">ca-app-pub-3940256099942544/5224354917</string>-->
+<!--    -->
+<!--    <string name="facebook_app_id" translatable="false">1400321631592458</string>-->
+<!--    <string name="facebook_client_token" translatable="false">ae4aec2307882e98de7d1ceb76355e2e</string>-->
+
+
+    <string name="app_id" translatable="false">ca-app-pub-9900730300733887~8686620247</string>
+    <string name="inter_splash_high" translatable="false">ca-app-pub-9900730300733887/6972627051</string>
+    <string name="inter_splash" translatable="false">ca-app-pub-9900730300733887/5659545380</string>
+    <string name="native_splash_full_high" translatable="false"></string>
+    <string name="native_splash_full" translatable="false"></string>
+    <string name="banner_splash" translatable="false">ca-app-pub-9900730300733887/7747099780</string>
+
+    <string name="native_language_high" translatable="false">ca-app-pub-9900730300733887/5120936449</string>
+    <string name="native_language" translatable="false">ca-app-pub-9900730300733887/4304522102</string>
+    <string name="native_language_high_click" translatable="false">ca-app-pub-9900730300733887/4103368247</string>
+    <string name="native_language_click" translatable="false">ca-app-pub-9900730300733887/2790286573</string>
+
+
+    <string name="native_onboarding_1" translatable="false">ca-app-pub-9900730300733887/5665705232</string>
+    <string name="native_onboarding_full_1" translatable="false">ca-app-pub-9900730300733887/1477204907</string>
+    <string name="native_onboarding_full_2" translatable="false">ca-app-pub-9900730300733887/2846126895</string>
+    <string name="native_onboarding_4" translatable="false">ca-app-pub-9900730300733887/1181691433</string>
+
+
+    <string name="inter_all" translatable="false">ca-app-pub-9900730300733887/9579056207</string>
+
+    <string name="native_all" translatable="false">ca-app-pub-9900730300733887/5993008292</string>
+    <string name="native_home" translatable="false"></string>
+    <string name="native_permission" translatable="false"></string>
+    <string name="native_collap" translatable="false">ca-app-pub-9900730300733887/1644725863</string>
+
+    <string name="banner_home" translatable="false">ca-app-pub-9900730300733887/4352623564</string>
+    <string name="banner_collap_home" translatable="false">=</string>
+
+    <string name="resume_open_app" translatable="false">ca-app-pub-9900730300733887/6785371903</string>
+    <string name="reward_ad" translatable="false">ca-app-pub-9900730300733887/1533045224</string>
+
+    <string name="facebook_app_id" translatable="false">1400321631592458</string>
+    <string name="facebook_client_token" translatable="false">ae4aec2307882e98de7d1ceb76355e2e</string>
+
+
+    
+</resources>
