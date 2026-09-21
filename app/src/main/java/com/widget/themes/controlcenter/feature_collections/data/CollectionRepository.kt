@@ -10,6 +10,7 @@ import com.widget.themes.controlcenter.core.network.IconPackDto
 import com.widget.themes.controlcenter.core.network.PagedData
 import com.widget.themes.controlcenter.core.network.ThemeItemDto
 import com.widget.themes.controlcenter.core.network.WidgetDto
+import com.widget.themes.controlcenter.core.utils.DownloadCountUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
@@ -287,20 +288,21 @@ class CollectionRepository(private val context: Context) {
         category: String,
         targetPath: String,
         previewPath: String,
-        downloads: Long = 7654321,
+        downloads: Long = 0,
         rawType: String = "",
         extra: String? = null
     ) = withContext(Dispatchers.IO) {
         val normalizedCategory = normalizeCategoryName(category)
         val categoryPrefix = "${normalizedCategory.lowercase()}_"
         val uniqueId = if (id.startsWith(categoryPrefix)) id else "$categoryPrefix$id"
+        val resolvedDownloads = DownloadCountUtils.resolveDownloads(downloads, uniqueId.ifEmpty { name })
         val item = DownloadedCollectionItem(
             id = uniqueId,
             name = name,
             category = normalizedCategory,
             targetPath = targetPath,
             previewPath = previewPath,
-            downloads = downloads,
+            downloads = resolvedDownloads,
             rawType = rawType,
             extra = extra,
             appliedTimestamp = System.currentTimeMillis()

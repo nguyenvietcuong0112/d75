@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android" 
     xmlns:app="http://schemas.android.com/apk/res-auto"  
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" 
     android:layout_height="wrap_content">
     <androidx.cardview.widget.CardView
@@ -96,6 +97,6 @@
             android:layout_marginStart="4dp"
             android:textColor="@color/text_secondary"
             android:textSize="11sp"
-            android:text="7654321" />
+            tools:text="12500" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

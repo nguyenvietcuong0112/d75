@@ -132,7 +132,7 @@ class ControlCenterRepository(private val context: Context) {
                 var key = themeSlug
                 var isHot = false
                 var isNew = false
-                var downloads = 7654321L
+                var downloads = 0L
 
                 // Try reading metadata.json
                 try {
@@ -144,7 +144,7 @@ class ControlCenterRepository(private val context: Context) {
                     key = json.optString("key", key)
                     isHot = json.optBoolean("isHot", false)
                     isNew = json.optBoolean("isNew", false)
-                    downloads = json.optLong("downloads", 7654321L)
+                    downloads = json.optLong("downloads", 0L)
                 } catch (e: Exception) {
                     // Ignore, fallback to defaults
                 }

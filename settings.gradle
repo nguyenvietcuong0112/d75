@@ -40,8 +40,8 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://maven.pkg.github.com/cscappstudio/csc_ads_lib")
             credentials {
-                username = "csccuongnv"
-                password = "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"
+                username = "csccuong1"
+                password = "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"
             }
         }
     }

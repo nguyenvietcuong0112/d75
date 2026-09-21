@@ -19,7 +19,7 @@ data class ThemeItem(
     val isFree: Boolean = true,
     val isHot: Boolean = false,
     val isNew: Boolean = false,
-    val downloads: Long = 7654321,
+    val downloads: Long = 0,
     val totalIcons: Int = 0,
     val totalWidgets: Int = 0
 ) : java.io.Serializable {

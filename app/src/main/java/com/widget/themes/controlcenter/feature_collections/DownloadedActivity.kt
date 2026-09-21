@@ -298,13 +298,18 @@ class DownloadedActivity : AppCompatActivity() {
                             else -> entity.rawType
                         }
 
+                        val resolvedDownloads = com.widget.themes.controlcenter.core.utils.DownloadCountUtils.resolveDownloads(
+                            entity.downloads,
+                            entity.id.ifEmpty { entity.name }
+                        )
+
                         CollectionItem(
                             id = entity.id,
                             name = entity.name,
                             category = resolvedCategory,
                             targetPath = entity.targetPath,
                             previewPath = preview,
-                            downloads = entity.downloads,
+                            downloads = resolvedDownloads,
                             rawType = resolvedRawType,
                             extra = entity.extra
                         )

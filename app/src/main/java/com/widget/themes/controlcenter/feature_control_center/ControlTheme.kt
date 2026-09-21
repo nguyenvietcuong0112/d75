@@ -12,7 +12,7 @@ data class ControlTheme(
     val isFree: Boolean = true,
     val isHot: Boolean = false,
     val isNew: Boolean = false,
-    val downloads: Long = 7654321
+    val downloads: Long = 0
 )
 
 data class ControlCategory(

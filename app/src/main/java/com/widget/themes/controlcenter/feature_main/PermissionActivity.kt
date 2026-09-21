@@ -27,8 +27,7 @@ class PermissionActivity : AppCompatActivity() {
         super.attachBaseContext(newBase)
     }
 
-    private lateinit var cardStorage: View
-    private lateinit var switchStorage: ThemeSwitch
+
 
     private lateinit var cardOverlay: View
     private lateinit var switchOverlay: ThemeSwitch
@@ -43,16 +42,6 @@ class PermissionActivity : AppCompatActivity() {
     private lateinit var switchLocation: ThemeSwitch
 
     private lateinit var btnGetStarted: Button
-
-    // Launchers
-    private val requestStorageLauncher = registerForActivityResult(
-        ActivityResultContracts.RequestMultiplePermissions()
-    ) { results ->
-        updateSwitchStates()
-        if (results.values.all { it }) {
-            Toast.makeText(this, getString(R.string.toast_perm_storage_granted), Toast.LENGTH_SHORT).show()
-        }
-    }
 
     private val requestLocationLauncher = registerForActivityResult(
         ActivityResultContracts.RequestMultiplePermissions()
@@ -77,7 +66,7 @@ class PermissionActivity : AppCompatActivity() {
 
         val forceShow = intent.getBooleanExtra("force_show", false)
         // If core permissions already granted and not forced, jump directly to Main
-        if (!forceShow && isStorageGranted() && isOverlayGranted()) {
+        if (!forceShow && isOverlayGranted()) {
             navigateToMain()
             return
         }
@@ -108,9 +97,6 @@ class PermissionActivity : AppCompatActivity() {
     }
 
     private fun initViews() {
-        cardStorage = findViewById(R.id.cardStorage)
-        switchStorage = findViewById(R.id.switchStorage)
-
         cardOverlay = findViewById(R.id.cardOverlay)
         switchOverlay = findViewById(R.id.switchOverlay)
 
@@ -138,30 +124,7 @@ class PermissionActivity : AppCompatActivity() {
     }
 
     private fun setupClickListeners() {
-        // 1. Storage
-        val onStorageClick = View.OnClickListener {
-            if (!isClickAllowed()) return@OnClickListener
-
-            if (isStorageGranted()) {
-                Toast.makeText(this, getString(R.string.toast_turn_off_in_settings), Toast.LENGTH_SHORT).show()
-                openAppSettings()
-                return@OnClickListener
-            }
-
-            val permissions = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                arrayOf(Manifest.permission.READ_MEDIA_IMAGES)
-            } else {
-                arrayOf(
-                    Manifest.permission.READ_EXTERNAL_STORAGE,
-                    Manifest.permission.WRITE_EXTERNAL_STORAGE
-                )
-            }
-            requestStorageLauncher.launch(permissions)
-        }
-        cardStorage.setOnClickListener(onStorageClick)
-        switchStorage.setOnClickListener(onStorageClick)
-
-        // 2. Display Over Other Apps (Overlay)
+        // 1. Display Over Other Apps (Overlay)
         val onOverlayClick = View.OnClickListener {
             if (!isClickAllowed()) return@OnClickListener
 
@@ -298,19 +261,10 @@ class PermissionActivity : AppCompatActivity() {
     }
 
     private fun updateSwitchStates(animate: Boolean = true) {
-        switchStorage.setChecked(isStorageGranted(), animate)
         switchOverlay.setChecked(isOverlayGranted(), animate)
         switchWriteSettings.setChecked(isWriteSettingsGranted(), animate)
         switchNotifications.setChecked(isNotificationsGranted(), animate)
         switchLocation.setChecked(isLocationGranted(), animate)
-    }
-
-    private fun isStorageGranted(): Boolean {
-        return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            ContextCompat.checkSelfPermission(this, Manifest.permission.READ_MEDIA_IMAGES) == PackageManager.PERMISSION_GRANTED
-        } else {
-            ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED
-        }
     }
 
     private fun isOverlayGranted(): Boolean {

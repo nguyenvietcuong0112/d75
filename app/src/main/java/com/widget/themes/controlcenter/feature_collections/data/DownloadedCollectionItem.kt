@@ -11,7 +11,7 @@ data class DownloadedCollectionItem(
     val category: String,
     val targetPath: String,
     val previewPath: String,
-    val downloads: Long = 7654321,
+    val downloads: Long = 0,
     val rawType: String = "",
     val extra: String? = null,
     val appliedTimestamp: Long = System.currentTimeMillis()

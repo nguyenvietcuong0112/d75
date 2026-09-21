@@ -75,7 +75,7 @@
             android:layout_marginStart="4dp"
             android:textColor="@color/text_secondary"
             android:textSize="11sp"
-            tools:text="7654321" />
+            tools:text="12500" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

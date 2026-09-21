@@ -51,7 +51,6 @@ class ThemeApp : Application() {
     override fun onCreate() {
         super.onCreate()
         initFO()
-
         val filter = IntentFilter(Intent.ACTION_POWER_CONNECTED)
         registerReceiver(chargingReceiver, filter)
 
@@ -247,18 +246,13 @@ class ThemeApp : Application() {
                                     SystemUtil.changeLang(savedLang, activity)
                                 }
                                 if (inSession2) {
-                                    val isStorageGranted = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
-                                        androidx.core.content.ContextCompat.checkSelfPermission(activity, android.Manifest.permission.READ_MEDIA_IMAGES) == android.content.pm.PackageManager.PERMISSION_GRANTED
-                                    } else {
-                                        androidx.core.content.ContextCompat.checkSelfPermission(activity, android.Manifest.permission.READ_EXTERNAL_STORAGE) == android.content.pm.PackageManager.PERMISSION_GRANTED
-                                    }
                                     val isOverlayGranted = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
                                         android.provider.Settings.canDrawOverlays(activity)
                                     } else {
                                         true
                                     }
 
-                                    val targetClass = if (isStorageGranted && isOverlayGranted) {
+                                    val targetClass = if (isOverlayGranted) {
                                         MainActivity::class.java
                                     } else {
                                         PermissionActivity::class.java

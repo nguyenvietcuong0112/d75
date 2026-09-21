@@ -213,7 +213,7 @@ class CollectionsViewModel(application: Application) : AndroidViewModel(applicat
                     category = resolvedCategory,
                     targetPath = entity.targetPath,
                     previewPath = preview,
-                    downloads = com.widget.themes.controlcenter.core.utils.DownloadCountUtils.resolveDownloads(entity.downloads, entity.id),
+                    downloads = com.widget.themes.controlcenter.core.utils.DownloadCountUtils.resolveDownloads(entity.downloads, entity.id.ifEmpty { entity.name }),
                     rawType = resolvedRawType,
                     extra = entity.extra
                 )

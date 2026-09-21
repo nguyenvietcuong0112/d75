@@ -19,7 +19,7 @@ data class DecorateThemeItem(
     val isFree: Boolean = true,
     val isHot: Boolean = false,
     val order: Int = 0,
-    val downloads: Long = 7654321,
+    val downloads: Long = 0,
     val previewUrl: String? = null,
     val wallpaperUrl: String? = null,
     val widgets: List<com.widget.themes.controlcenter.core.network.WidgetDto> = emptyList()

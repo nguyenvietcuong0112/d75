@@ -267,7 +267,6 @@ class DownloadWallpaperFragment : Fragment() {
             override fun onDownloadComplete(bitmap: Bitmap) {
                 downloadedBitmap = bitmap
                 updateButtonState(isDownloaded = true)
-                showSetWallpaperSheet(bitmap)
                 lifecycleScope.launch(Dispatchers.IO) {
                     try {
                         val repo = com.widget.themes.controlcenter.feature_collections.data.CollectionRepository(requireContext().applicationContext)

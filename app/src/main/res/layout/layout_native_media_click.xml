@@ -42,13 +42,18 @@
                     android:layout_height="45dip"
                     android:orientation="horizontal">
 
-                    <ImageView
-                        android:id="@+id/ad_app_icon"
-                        android:layout_width="40dip"
-                        android:layout_height="match_parent"
-                        android:adjustViewBounds="true"
-                        android:paddingTop="5dp"
-                        android:src="#096DD9" />
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/ad_app_icon"
+                            android:layout_width="40dip"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:paddingTop="5dp"
+                            android:src="#096DD9" />
+                    </FrameLayout>
 
 
                     <FrameLayout
