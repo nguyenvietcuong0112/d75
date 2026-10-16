@@ -32,8 +32,8 @@
 <!--    <string name="resume_open_app" translatable="false">ca-app-pub-3940256099942544/9257395921</string>-->
 <!--    <string name="reward_ad" translatable="false">ca-app-pub-3940256099942544/5224354917</string>-->
 
-<!--    <string name="facebook_app_id" translatable="false">1400321631592458</string>-->
-<!--    <string name="facebook_client_token" translatable="false">ae4aec2307882e98de7d1ceb76355e2e</string>-->
+<!--    <string name="facebook_app_id" translatable="false">1234</string>-->
+<!--    <string name="facebook_client_token" translatable="false">5678</string>-->
 
 
     <string name="app_id" translatable="false">ca-app-pub-9900730300733887~8686620247</string>
@@ -63,7 +63,7 @@
     <string name="native_collap" translatable="false">ca-app-pub-9900730300733887/1644725863</string>
 
     <string name="banner_home" translatable="false">ca-app-pub-9900730300733887/4352623564</string>
-    <string name="banner_collap_home" translatable="false">=</string>
+    <string name="banner_collap_home" translatable="false">ca-app-pub-9900730300733887/4352623564</string>
 
     <string name="resume_open_app" translatable="false">ca-app-pub-9900730300733887/6785371903</string>
     <string name="reward_ad" translatable="false">ca-app-pub-9900730300733887/1533045224</string>

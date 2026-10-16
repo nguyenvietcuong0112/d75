@@ -78,27 +78,30 @@ class DownloadIconFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.pbCreate.visibility = View.VISIBLE
+        _binding?.pbCreate?.visibility = View.VISIBLE
 
         lifecycleScope.launch {
             try {
                 withContext(Dispatchers.IO) {
                     initPresetIcons()
                 }
+                if (!isAdded || _binding == null) return@launch
                 setupRecyclerView()
                 setupHeader()
                 setupActions()
             } catch (e: Exception) {
                 e.printStackTrace()
-                Toast.makeText(context, getString(R.string.toast_error_loading_icons), Toast.LENGTH_SHORT).show()
+                if (isAdded && context != null) {
+                    Toast.makeText(context, getString(R.string.toast_error_loading_icons), Toast.LENGTH_SHORT).show()
+                }
             } finally {
-                binding.pbCreate.visibility = View.GONE
+                _binding?.pbCreate?.visibility = View.GONE
             }
         }
     }
 
     private suspend fun initPresetIcons() {
-        val context = requireContext()
+        val context = context ?: return
         val pm = context.packageManager
         iconItems.clear()
 

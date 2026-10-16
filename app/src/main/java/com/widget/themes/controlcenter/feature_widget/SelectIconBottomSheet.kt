@@ -47,8 +47,8 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
     private var _binding: FragmentAppBottomSheetDialogBinding? = null
     private val binding get() = _binding!!
 
-    private lateinit var theme: ThemeItem
-    private lateinit var selectedIcons: List<ThemeIconItem>
+    private var theme: ThemeItem? = null
+    private var selectedIcons: List<ThemeIconItem> = emptyList()
     private val installQueue = ArrayList<ThemeIconItem>()
     private var fallbackJob: Job? = null
 
@@ -77,6 +77,10 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        if (theme == null || selectedIcons.isEmpty()) {
+            dismissAllowingStateLoss()
+            return
+        }
         EventBus.getDefault().register(this)
         
         val filter = IntentFilter("com.widget.themes.controlcenter.SHORTCUT_INSTALLED")
@@ -90,7 +94,7 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
         binding.tvDone.text = getString(R.string.add)
 
         binding.tvCancel.setOnClickListener {
-            dismiss()
+            dismissAllowingStateLoss()
         }
 
         binding.recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
@@ -131,17 +135,19 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
 
     private fun processNextShortcut() {
         fallbackJob?.cancel()
+        val currentBinding = _binding
         if (installQueue.isNotEmpty()) {
             val installedCount = totalToInstall - installQueue.size
-            binding.progressBar.progress = installedCount
+            currentBinding?.progressBar?.progress = installedCount
 
             val nextItem = installQueue.removeAt(0)
             val appLabel = nextItem.targetAppName ?: nextItem.iconName.removePrefix("ic_").replaceFirstChar { it.uppercase() }
-            binding.tvTitle.text = "Adding: $appLabel (${installedCount + 1}/$totalToInstall)"
+            currentBinding?.tvTitle?.text = "Adding: $appLabel (${installedCount + 1}/$totalToInstall)"
 
             lifecycleScope.launch(Dispatchers.IO) {
                 val bitmap = loadThemeIconBitmap(nextItem)
                 withContext(Dispatchers.Main) {
+                    if (_binding == null) return@withContext
                     val ctx = context
                     if (ctx != null && bitmap != null) {
                         addShortcut(ctx, nextItem, bitmap)
@@ -157,7 +163,8 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
             }
         } else {
             val currentContext = context?.applicationContext
-            if (currentContext != null) {
+            val currentTheme = theme
+            if (currentContext != null && currentTheme != null) {
                 com.widget.themes.controlcenter.core.utils.SharedPreferencesUtils.setIconsUnlocked(
                     context = currentContext,
                     itemIds = selectedIcons.map { it.id },
@@ -166,17 +173,17 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
 
                 lifecycleScope.launch(Dispatchers.IO) {
                     val repo = com.widget.themes.controlcenter.feature_collections.data.CollectionRepository(currentContext)
-                    val passedPreview = theme.previewPath
+                    val passedPreview = currentTheme.previewPath
                     val previewUrl: String = when {
                         !passedPreview.isNullOrBlank() && passedPreview.startsWith("http") -> passedPreview
-                        theme.path.startsWith("http") -> theme.path
+                        currentTheme.path.startsWith("http") -> currentTheme.path
                         else -> {
-                            val cleanId = theme.path.substringAfterLast("/").substringBeforeLast(".").ifEmpty { theme.id.removePrefix("icon_").removePrefix("theme_") }
+                            val cleanId = currentTheme.path.substringAfterLast("/").substringBeforeLast(".").ifEmpty { currentTheme.id.removePrefix("icon_").removePrefix("theme_") }
                             try {
                                 val iconRepo = com.widget.themes.controlcenter.feature_icon.data.IconRepository(currentContext)
                                 val detail = iconRepo.getIconPackDetail(cleanId) ?: iconRepo.getIconPackDetail("theme_$cleanId")
                                 val remote = detail?.backgroundIconUrl?.takeIf { it.startsWith("http") }
-                                    ?: iconRepo.getIconPacks().firstOrNull { it.id.contains(cleanId, ignoreCase = true) || it.name.equals(theme.name, ignoreCase = true) }?.folder
+                                    ?: iconRepo.getIconPacks().firstOrNull { it.id.contains(cleanId, ignoreCase = true) || it.name.equals(currentTheme.name, ignoreCase = true) }?.folder
                                     ?: iconRepo.getIconPacks().firstOrNull()?.folder
                                 remote ?: "https://api.1teps.com/themes/assets/icons/22ee90_bg_icon.png"
                             } catch (e: Exception) {
@@ -184,12 +191,12 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
                             }
                         }
                     }
-                    val saveId = if (theme.id.isNotBlank() && !theme.id.startsWith("http")) theme.id else "icon_${theme.path.replace('/', '_')}"
+                    val saveId = if (currentTheme.id.isNotBlank() && !currentTheme.id.startsWith("http")) currentTheme.id else "icon_${currentTheme.path.replace('/', '_')}"
                     repo.markAsDownloaded(
                         id = saveId,
-                        name = theme.name,
+                        name = currentTheme.name,
                         category = "Icons",
-                        targetPath = theme.path,
+                        targetPath = currentTheme.path,
                         previewPath = previewUrl,
                         rawType = "collection_icon"
                     )
@@ -197,8 +204,15 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
             }
             dismissAllowingStateLoss()
             val activity = activity
-            if (activity != null) {
-                SetupSucceedDialogFragment().show(activity.supportFragmentManager, "success")
+            if (activity != null && !activity.isFinishing && !activity.isDestroyed) {
+                try {
+                    val fm = activity.supportFragmentManager
+                    if (!fm.isStateSaved) {
+                        SetupSucceedDialogFragment().show(fm, "success")
+                    }
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                }
             }
         }
     }
@@ -210,7 +224,8 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
 
     private fun addShortcut(context: Context, item: ThemeIconItem, bmp: Bitmap) {
         val targetPkg = item.targetPackageName ?: return
-        val shortcutId = "icon_${targetPkg}_${theme.id}_${item.iconName}_${System.currentTimeMillis()}"
+        val currentThemeId = theme?.id ?: "theme"
+        val shortcutId = "icon_${targetPkg}_${currentThemeId}_${item.iconName}_${System.currentTimeMillis()}"
         
         val proxyIntent = Intent(context, ChangeIconActivity::class.java).apply {
             action = Intent.ACTION_MAIN
@@ -238,7 +253,8 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
         )
 
         val label = item.targetAppName ?: item.iconName.removePrefix("ic_").replaceFirstChar { it.uppercase() }
-        val finalIconBmp = IconComposerHelper.prepareShortcutBitmap(bmp, density = resources.displayMetrics.density)
+        val density = try { resources.displayMetrics.density } catch (e: Exception) { 2.0f }
+        val finalIconBmp = IconComposerHelper.prepareShortcutBitmap(bmp, density = density)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val shortcutManager = context.getSystemService(android.content.pm.ShortcutManager::class.java)
@@ -250,17 +266,26 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
                     .setActivity(android.content.ComponentName(context, ChangeIconActivity::class.java))
                     .build()
 
-                shortcutManager.requestPinShortcut(shortcutInfo, successCallback.intentSender)
+                try {
+                    shortcutManager.requestPinShortcut(shortcutInfo, successCallback.intentSender)
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                    EventBus.getDefault().post(ShortcutEvent())
+                }
             } else {
                 EventBus.getDefault().post(ShortcutEvent())
             }
         } else {
-            val installIntent = Intent("com.android.launcher.action.INSTALL_SHORTCUT").apply {
-                putExtra(Intent.EXTRA_SHORTCUT_INTENT, proxyIntent)
-                putExtra(Intent.EXTRA_SHORTCUT_NAME, label)
-                putExtra(Intent.EXTRA_SHORTCUT_ICON, finalIconBmp)
+            try {
+                val installIntent = Intent("com.android.launcher.action.INSTALL_SHORTCUT").apply {
+                    putExtra(Intent.EXTRA_SHORTCUT_INTENT, proxyIntent)
+                    putExtra(Intent.EXTRA_SHORTCUT_NAME, label)
+                    putExtra(Intent.EXTRA_SHORTCUT_ICON, finalIconBmp)
+                }
+                context.sendBroadcast(installIntent)
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
-            context.sendBroadcast(installIntent)
             EventBus.getDefault().post(ShortcutEvent())
         }
     }

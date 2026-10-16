@@ -68,12 +68,13 @@ class DownloadWidgetFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.pbCreate.visibility = View.VISIBLE
+        _binding?.pbCreate?.visibility = View.VISIBLE
 
         lifecycleScope.launch {
             try {
+                val ctx = context ?: return@launch
                 val cleanId = theme.path.substringAfterLast("/").trim().ifEmpty { theme.id }
-                val widgetRepo = WidgetRepository(requireContext())
+                val widgetRepo = WidgetRepository(ctx)
                 val items = mutableListOf<ThemeWidgetItem>()
 
                 // 1. Try loading theme detail from API
@@ -126,19 +127,23 @@ class DownloadWidgetFragment : Fragment() {
 
                 // 2. Fallback to local asset themes widgets if no remote widgets found
                 if (items.isEmpty()) {
-                    val mappedFolder = ResourceConfig.getThemeFolderByPath(requireContext(), theme.path)
+                    val currentContext = context ?: return@launch
+                    val mappedFolder = ResourceConfig.getThemeFolderByPath(currentContext, theme.path)
                     items.addAll(getLocalWidgetItems(mappedFolder))
                 }
 
+                if (!isAdded || _binding == null) return@launch
                 widgetItems.clear()
                 widgetItems.addAll(items)
                 setupRecyclerView(theme.path)
                 setupActions()
             } catch (e: Exception) {
                 Log.e(TAG, "Error in onViewCreated: ${e.message}", e)
-                Toast.makeText(context, getString(R.string.toast_error_loading_widgets), Toast.LENGTH_SHORT).show()
+                if (isAdded && context != null) {
+                    Toast.makeText(context, getString(R.string.toast_error_loading_widgets), Toast.LENGTH_SHORT).show()
+                }
             } finally {
-                binding.pbCreate.visibility = View.GONE
+                _binding?.pbCreate?.visibility = View.GONE
             }
         }
     }
@@ -257,8 +262,8 @@ class DownloadWidgetFragment : Fragment() {
     }
 
     private fun setupRecyclerView(mappedFolder: String) {
-        binding.pbCreate.visibility = View.GONE
-        val context = requireContext()
+        _binding?.pbCreate?.visibility = View.GONE
+        val context = context ?: return
         val spacing = (12 * resources.displayMetrics.density).toInt()
 
         // 2-column grid layout

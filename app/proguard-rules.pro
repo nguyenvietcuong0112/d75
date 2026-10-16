@@ -11,9 +11,6 @@
 -keepattributes InnerClasses,EnclosingMethod
 -keepattributes Exceptions
 
-# Keep the application class
--keep class com.widget.themes.controlcenter.** { *; }
-
 # ---------------------- Kotlin ----------------------
 -dontwarn kotlin.**
 -keep class kotlin.Metadata { *; }
@@ -57,17 +54,21 @@
     *** childSerializers(...);
 }
 
-# ---------------------- AndroidX / Lifecycle ----------------------
--keep class androidx.lifecycle.** { *; }
--dontwarn androidx.lifecycle.**
+# ---------------------- Android Architecture / Lifecycle ----------------------
 -keep class * extends androidx.lifecycle.ViewModel { <init>(...); }
 -keep class * extends androidx.lifecycle.AndroidViewModel { <init>(...); }
 
 # ---------------------- Room Database ----------------------
--keep class * extends androidx.room.RoomDatabase
+-keep class * extends androidx.room.RoomDatabase {
+    <init>(...);
+    *;
+}
+-keep class **.*_Impl {
+    <init>(...);
+    *;
+}
 -keep @androidx.room.Entity class *
 -dontwarn androidx.room.paging.**
--keep class * extends androidx.room.RoomDatabase { *; }
 -keepclassmembers class * {
     @androidx.room.Dao *;
 }
@@ -84,102 +85,87 @@
 }
 -dontwarn com.bumptech.glide.**
 
-# ---------------------- Firebase ----------------------
--keep class com.google.firebase.** { *; }
--dontwarn com.google.firebase.**
--keep class com.google.android.gms.** { *; }
--dontwarn com.google.android.gms.**
-
-# Firebase Crashlytics
--keepattributes SourceFile,LineNumberTable
+# ---------------------- Firebase Crashlytics ----------------------
 -keep public class * extends java.lang.Exception
--keep class com.google.firebase.crashlytics.** { *; }
--dontwarn com.google.firebase.crashlytics.**
 
-# ---------------------- Google Mobile Ads (AdMob) ----------------------
--keep class com.google.android.gms.ads.** { *; }
--dontwarn com.google.android.gms.ads.**
--keep class com.google.ads.** { *; }
+# ---------------------- CSC App Library & Configs ----------------------
+-keep class com.cscapp.** { *; }
+-keep class com.cscmobi.libraryads.** { *; }
+-keep class com.iconchanger.wallpaper.rolling.icons.utils.** { *; }
 
-# ---------------------- Facebook SDK & Mediation ----------------------
--keep class com.facebook.** { *; }
--dontwarn com.facebook.**
--keepclassmembers class * implements java.io.Serializable {
-    private static final java.io.ObjectStreamField[] serialPersistentFields;
-    private void writeObject(java.io.ObjectOutputStream);
-    private void readObject(java.io.ObjectInputStream);
-    java.lang.Object writeReplace();
-    java.lang.Object readResolve();
-}
+# ---------------------- Ads Mediation Adapters ----------------------
+# Meta / Facebook Audience Network
+-keep class com.google.ads.mediation.facebook.** { *; }
+-keep class com.facebook.ads.** { *; }
+-dontwarn com.facebook.ads.**
 
-# ---------------------- AppLovin Mediation ----------------------
+# AppLovin Mediation
+-keep class com.google.ads.mediation.applovin.** { *; }
 -keep class com.applovin.** { *; }
 -dontwarn com.applovin.**
 
-# ---------------------- InMobi Mediation ----------------------
+# InMobi Mediation
+-keep class com.google.ads.mediation.inmobi.** { *; }
 -keep class com.inmobi.** { *; }
 -dontwarn com.inmobi.**
--keep class com.squareup.picasso.** { *; }
+-dontwarn com.squareup.picasso.**
 
-# PANGLE SDK
-# ==============================================================================
+# Pangle (Bytedance) & Adapter
 -keep class com.bytedance.sdk.** { *; }
--dontwarn com.bytedance.sdk.**
+-keep interface com.bytedance.sdk.** { *; }
+-keep class com.bytedance.adsdk.** { *; }
+-keep class com.bytedance.mobsec.** { *; }
+-keep class com.bytedance.applog.** { *; }
+-keep class com.apm.insight.** { *; }
 -keep class com.bykv.vk.** { *; }
--dontwarn com.bykv.vk.**
+-keep interface com.bykv.vk.** { *; }
+-keep class com.com.bytedance.overseas.sdk.** { *; }
+-keep class com.iab.omid.library.bytedance2.** { *; }
+-keep class com.pgl.ssdk.** { *; }
+-keep class com.tiktok.** { *; }
+
+# Pangle JNI & Native Security (Crucial for Bidding Token Generation)
+-keep class ms.bd.o.Pgl.** { *; }
+-keep class ms.bd.c.** { *; }
+-keep class ms.bd.o.** { *; }
+-keep class com.pgl.sys.ces.** { *; }
+
+# Google AdMob Mediation Adapter for Pangle
 -keep class com.google.ads.mediation.pangle.** { *; }
 
-# ==============================================================================
+-dontwarn com.bytedance.**
+-dontwarn com.bykv.**
+-dontwarn com.pgl.**
+-dontwarn ms.bd.**
+-dontwarn com.iab.omid.**
+-dontwarn com.tiktok.**
+-dontwarn com.google.ads.mediation.pangle.**
+
 # MINTEGRAL SDK
-# ==============================================================================
 -keep class com.mbridge.** { *; }
 -dontwarn com.mbridge.**
 -keep interface com.mbridge.** { *; }
 -keep class * extends com.mbridge.msdk.out.BaseExtraInterfaceForHandler { *; }
 -keep class com.google.ads.mediation.mintegral.** { *; }
 
-# ---------------------- Unity Ads Mediation ----------------------
+# Unity Ads Mediation
+-keep class com.google.ads.mediation.unity.** { *; }
 -keep class com.unity3d.ads.** { *; }
 -dontwarn com.unity3d.ads.**
 -keep class com.unity3d.services.** { *; }
 -dontwarn com.unity3d.services.**
 
-# ---------------------- Pubscale Adapter ----------------------
+# Pubscale Adapter
 -keep class com.pubscale.** { *; }
 -dontwarn com.pubscale.**
 
-# ---------------------- CSC App Library ----------------------
--keep class com.cscapp.** { *; }
--dontwarn com.cscapp.**
-
-# ---------------------- ExoPlayer / Media3 ----------------------
--keep class androidx.media3.** { *; }
--dontwarn androidx.media3.**
--keep interface androidx.media3.common.Player { *; }
-
-# ---------------------- Lottie ----------------------
--dontwarn com.airbnb.lottie.**
--keep class com.airbnb.lottie.** { *; }
-
-# ---------------------- CircleIndicator ----------------------
--keep class me.relex.circleindicator.** { *; }
-
-# ---------------------- RoundedImageView ----------------------
--keep class com.makeramen.roundedimageview.** { *; }
-
-# ---------------------- NumberPicker ----------------------
--keep class com.shawnlin.numberpicker.** { *; }
-
-# ---------------------- AndroidSVG ----------------------
--keep class com.caverock.androidsvg.** { *; }
--dontwarn com.caverock.androidsvg.**
-
-# ---------------------- WorkManager ----------------------
--keep class androidx.work.** { *; }
--dontwarn androidx.work.**
-
-# ---------------------- Play Services Location ----------------------
--keep class com.google.android.gms.location.** { *; }
+# ---------------------- Custom Views ----------------------
+-keep public class * extends android.view.View {
+    public <init>(android.content.Context);
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+    public void set*(...);
+}
 
 # ---------------------- ViewBinding ----------------------
 -keep class * implements androidx.viewbinding.ViewBinding {
@@ -209,24 +195,7 @@
     java.lang.Object readResolve();
 }
 
-# ---------------------- WebView (if used) ----------------------
--keepclassmembers class * {
-    @android.webkit.JavascriptInterface <methods>;
-}
-
 # ---------------------- Native Methods ----------------------
 -keepclasseswithmembernames class * {
     native <methods>;
 }
-
-# ---------------------- Browser / CustomTabs ----------------------
--keep class androidx.browser.** { *; }
--dontwarn androidx.browser.**
-
-# ---------------------- SDP / SSP ----------------------
--keep class com.intuit.sdp.** { *; }
--keep class com.intuit.ssp.** { *; }
-
-# ---------------------- Preference ----------------------
--keep class androidx.preference.** { *; }
--dontwarn androidx.preference.**

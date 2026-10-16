@@ -16,8 +16,8 @@ android {
         applicationId "com.widget.themes.controlcenter"
         minSdk 26
         targetSdk 36
-        versionCode 2
-        versionName "0.0.2"
+        versionCode 4
+        versionName "0.0.4"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -27,6 +27,15 @@ android {
     }
 
 
+    signingConfigs {
+        release {
+            storeFile rootProject.file("keystore/gameempire.jks")
+            storePassword "gameempire"
+            keyAlias "gameempire"
+            keyPassword "gameempire"
+        }
+    }
+
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
@@ -35,7 +44,7 @@ android {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
     }
 
@@ -140,11 +149,12 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-crashlytics")
     implementation("com.google.firebase:firebase-database")
-    // Google Mobile Ads
-    implementation("com.google.android.gms:play-services-ads:25.4.0")
+    // Google Mobile Ads (Replaced by Next-Gen GMA in library-gma)
+//    implementation("com.google.android.gms:play-services-ads:25.4.0")
 
     //lib ads
-    implementation("com.cscapp:library-test:0.3.0")
+//    implementation("com.cscapp:library-test:0.3.0")
+    implementation("com.cscapp:library-gma:0.0.7")
 
     // sdk mediation
     implementation("com.facebook.android:facebook-android-sdk:18.3.0")
@@ -163,4 +173,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+}
+
+configurations.configureEach {
+    exclude group: "com.google.android.gms", module: "play-services-ads"
+    exclude group: "com.google.android.gms", module: "play-services-ads-lite"
+    exclude group: "com.google.android.gms", module: "play-services-ads-base"
+    exclude group: "com.google.android.gms", module: "play-services-ads-api"
 }

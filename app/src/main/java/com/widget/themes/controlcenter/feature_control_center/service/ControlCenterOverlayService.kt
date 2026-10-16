@@ -37,7 +37,21 @@ class ControlCenterOverlayService : Service() {
         themeLoader = ControlThemeLoader(this)
 
         createNotificationChannel()
-        startForeground(NOTIF_ID, createNotification())
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                startForeground(
+                    NOTIF_ID,
+                    createNotification(),
+                    android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE
+                )
+            } else {
+                startForeground(NOTIF_ID, createNotification())
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+            stopSelf()
+            return
+        }
 
         createTriggerViews()
     }
@@ -350,30 +364,46 @@ class ControlCenterOverlayService : Service() {
 
         fun start(context: Context) {
             val intent = Intent(context, ControlCenterOverlayService::class.java)
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                context.startForegroundService(intent)
-            } else {
-                context.startService(intent)
+            try {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    context.startForegroundService(intent)
+                } else {
+                    context.startService(intent)
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
         }
 
         fun stop(context: Context) {
-            val intent = Intent(context, ControlCenterOverlayService::class.java)
-            context.stopService(intent)
+            try {
+                val intent = Intent(context, ControlCenterOverlayService::class.java)
+                context.stopService(intent)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
         }
 
         fun reloadTheme(context: Context) {
-            val intent = Intent(context, ControlCenterOverlayService::class.java).apply {
-                action = ACTION_RELOAD_THEME
+            try {
+                val intent = Intent(context, ControlCenterOverlayService::class.java).apply {
+                    action = ACTION_RELOAD_THEME
+                }
+                context.startService(intent)
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
-            context.startService(intent)
         }
 
         fun openPanel(context: Context) {
-            val intent = Intent(context, ControlCenterOverlayService::class.java).apply {
-                action = ACTION_OPEN_PANEL
+            try {
+                val intent = Intent(context, ControlCenterOverlayService::class.java).apply {
+                    action = ACTION_OPEN_PANEL
+                }
+                context.startService(intent)
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
-            context.startService(intent)
         }
     }
 }

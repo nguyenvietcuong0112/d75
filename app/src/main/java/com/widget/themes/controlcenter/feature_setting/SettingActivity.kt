@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.cscmobi.libraryads.commons.utils.Constants
 import com.cscmobi.libraryads.views.language.CSCLanguageActivity
 import com.iconchanger.wallpaper.rolling.icons.utils.RemoteConfigs
+import com.widget.themes.controlcenter.BuildConfig
 import com.widget.themes.controlcenter.R
 import com.widget.themes.controlcenter.core.ads.AdsManager
 import com.widget.themes.controlcenter.core.utils.SystemUtil
@@ -33,8 +34,19 @@ class SettingActivity : AppCompatActivity() {
         binding = ActivitySettingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        setupVersionInfo()
         setupClickListeners()
         loadAds()
+    }
+
+    private fun setupVersionInfo() {
+        val versionName = try {
+            val pInfo = packageManager.getPackageInfo(packageName, 0)
+            pInfo.versionName ?: BuildConfig.VERSION_NAME
+        } catch (e: Exception) {
+            BuildConfig.VERSION_NAME
+        }
+        binding.tvVersionName.text = "v$versionName"
     }
 
     private fun loadAds() {

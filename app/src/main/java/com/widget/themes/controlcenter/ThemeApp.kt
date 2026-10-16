@@ -50,9 +50,23 @@ class ThemeApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+            val processName = getProcessName()
+            if (packageName != processName) {
+                try {
+                    android.webkit.WebView.setDataDirectorySuffix(processName)
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                }
+            }
+        }
         initFO()
-        val filter = IntentFilter(Intent.ACTION_POWER_CONNECTED)
-        registerReceiver(chargingReceiver, filter)
+        try {
+            val filter = IntentFilter(Intent.ACTION_POWER_CONNECTED)
+            registerReceiver(chargingReceiver, filter)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
 
         val widgetFilter = IntentFilter().apply {
             addAction(Intent.ACTION_TIME_TICK)
@@ -181,7 +195,7 @@ class ThemeApp : Application() {
     }
 
     private fun initFO() {
-        val cscLibrary = CSCApplication(this, RemoteConfigs, BuildConfig.DEBUG)
+        val cscLibrary = CSCApplication(this, RemoteConfigs, getString(R.string.app_id), BuildConfig.DEBUG)
 
 
 

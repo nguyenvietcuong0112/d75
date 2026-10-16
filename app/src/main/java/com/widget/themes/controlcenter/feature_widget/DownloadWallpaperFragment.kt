@@ -231,7 +231,8 @@ class DownloadWallpaperFragment : Fragment() {
                         null
                     }
                     withContext(Dispatchers.Main) {
-                        binding.pbCreate.visibility = View.GONE
+                        _binding?.pbCreate?.visibility = View.GONE
+                        if (!isAdded || isStateSaved) return@withContext
                         if (loadedBmp != null) {
                             downloadedBitmap = loadedBmp
                             showSetWallpaperSheet(loadedBmp)
@@ -247,20 +248,25 @@ class DownloadWallpaperFragment : Fragment() {
     }
 
     private fun updateButtonState(isDownloaded: Boolean) {
+        val currentBinding = _binding ?: return
         if (isDownloaded) {
-            binding.tvAction.text = getString(R.string.set_wallpaper)
-            binding.btnAction.setBackgroundResource(R.drawable.bg_btn_theme_set_wallpaper)
-            binding.tvAction.setTextColor(android.graphics.Color.WHITE)
+            currentBinding.tvAction.text = getString(R.string.set_wallpaper)
+            currentBinding.btnAction.setBackgroundResource(R.drawable.bg_btn_theme_set_wallpaper)
+            currentBinding.tvAction.setTextColor(android.graphics.Color.WHITE)
         } else {
-            binding.tvAction.text = getString(R.string.download)
-            binding.btnAction.setBackgroundResource(R.drawable.bg_btn_theme_download_outline)
-            binding.tvAction.setTextColor(androidx.core.content.ContextCompat.getColor(requireContext(), R.color.brand_primary))
+            currentBinding.tvAction.text = getString(R.string.download)
+            currentBinding.btnAction.setBackgroundResource(R.drawable.bg_btn_theme_download_outline)
+            val ctx = context
+            if (ctx != null) {
+                currentBinding.tvAction.setTextColor(androidx.core.content.ContextCompat.getColor(ctx, R.color.brand_primary))
+            }
         }
     }
 
     private fun downloadWallpaper(wp: WidgetThemeWallpaper) {
+        val ctx = context ?: return
         val downloadDialog = DownloadDialogFragment()
-        val downloadUri = wp.getOnlineImageUri(requireContext()).toString().ifEmpty {
+        val downloadUri = wp.getOnlineImageUri(ctx).toString().ifEmpty {
             "file:///android_asset/assets_collection/theme/theme_1/wallpapers/bg_wallpaper.png"
         }
         downloadDialog.setParams(downloadUri, object : DownloadDialogFragment.DownloadCallback {
@@ -269,7 +275,8 @@ class DownloadWallpaperFragment : Fragment() {
                 updateButtonState(isDownloaded = true)
                 lifecycleScope.launch(Dispatchers.IO) {
                     try {
-                        val repo = com.widget.themes.controlcenter.feature_collections.data.CollectionRepository(requireContext().applicationContext)
+                        val currentContext = context?.applicationContext ?: return@launch
+                        val repo = com.widget.themes.controlcenter.feature_collections.data.CollectionRepository(currentContext)
                         val effectivePath = if (theme.path.isNotBlank()) theme.path else "assets_collection/theme/theme_1"
                         val previewUrl = theme.previewPath?.takeIf { it.isNotBlank() }
                             ?: theme.thumbPath?.takeIf { it.isNotBlank() }
@@ -279,9 +286,9 @@ class DownloadWallpaperFragment : Fragment() {
                             ?: "wp_${theme.id.ifEmpty { effectivePath.replace('/', '_') }}"
                         val wpName = wallpaper?.name?.takeIf { it.isNotBlank() } ?: theme.name
                         val wpTarget = wallpaper?.folder?.takeIf { it.isNotBlank() }
-                            ?: wallpaper?.getOnlineImageUri(requireContext()).toString().takeIf { it.isNotBlank() }
+                            ?: wallpaper?.getOnlineImageUri(currentContext).toString().takeIf { it.isNotBlank() }
                             ?: effectivePath
-                        val wpPreview = wallpaper?.getOnlinePreviewUri(requireContext())?.toString()?.takeIf { it.isNotBlank() }
+                        val wpPreview = wallpaper?.getOnlinePreviewUri(currentContext)?.toString()?.takeIf { it.isNotBlank() }
                             ?: previewUrl
 
                         repo.markAsDownloaded(
@@ -307,10 +314,19 @@ class DownloadWallpaperFragment : Fragment() {
             }
 
             override fun onDownloadFailed() {
-                Toast.makeText(context, getString(R.string.toast_failed_download_wallpaper), Toast.LENGTH_SHORT).show()
+                if (isAdded && context != null) {
+                    Toast.makeText(context, getString(R.string.toast_failed_download_wallpaper), Toast.LENGTH_SHORT).show()
+                }
             }
         })
-        downloadDialog.show(parentFragmentManager, "download")
+        try {
+            val fm = parentFragmentManager
+            if (!fm.isStateSaved) {
+                downloadDialog.show(fm, "download")
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 
     private fun showSetWallpaperSheet(bitmap: Bitmap) {
@@ -320,14 +336,22 @@ class DownloadWallpaperFragment : Fragment() {
                 applyWallpaper(bitmap, flag)
             }
         })
-        sheet.show(childFragmentManager, "set_wallpaper")
+        try {
+            val fm = childFragmentManager
+            if (!fm.isStateSaved) {
+                sheet.show(fm, "set_wallpaper")
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 
     private fun applyWallpaper(bitmap: Bitmap, flag: Int) {
-        binding.pbCreate.visibility = View.VISIBLE
+        _binding?.pbCreate?.visibility = View.VISIBLE
         lifecycleScope.launch(Dispatchers.IO) {
             try {
-                val wm = WallpaperManager.getInstance(requireContext())
+                val ctx = context ?: return@launch
+                val wm = WallpaperManager.getInstance(ctx)
                 if (flag == 0) {
                     // System and Lock
                     wm.setBitmap(bitmap, null, true, WallpaperManager.FLAG_SYSTEM)
@@ -335,7 +359,8 @@ class DownloadWallpaperFragment : Fragment() {
                 } else {
                     wm.setBitmap(bitmap, null, true, flag)
                 }
-                val repo = com.widget.themes.controlcenter.feature_collections.data.CollectionRepository(requireContext().applicationContext)
+                val currentContext = context?.applicationContext ?: return@launch
+                val repo = com.widget.themes.controlcenter.feature_collections.data.CollectionRepository(currentContext)
                 val effectivePath = if (theme.path.isNotBlank()) theme.path else "assets_collection/theme/theme_1"
                 val previewUrl = theme.previewPath?.takeIf { it.isNotBlank() }
                     ?: theme.thumbPath?.takeIf { it.isNotBlank() }
@@ -345,9 +370,9 @@ class DownloadWallpaperFragment : Fragment() {
                     ?: "wp_${theme.id.ifEmpty { effectivePath.replace('/', '_') }}"
                 val wpName = wallpaper?.name?.takeIf { it.isNotBlank() } ?: theme.name
                 val wpTarget = wallpaper?.folder?.takeIf { it.isNotBlank() }
-                    ?: wallpaper?.getOnlineImageUri(requireContext()).toString().takeIf { it.isNotBlank() }
+                    ?: wallpaper?.getOnlineImageUri(currentContext).toString().takeIf { it.isNotBlank() }
                     ?: effectivePath
-                val wpPreview = wallpaper?.getOnlinePreviewUri(requireContext())?.toString()?.takeIf { it.isNotBlank() }
+                val wpPreview = wallpaper?.getOnlinePreviewUri(currentContext)?.toString()?.takeIf { it.isNotBlank() }
                     ?: previewUrl
 
                 repo.markAsDownloaded(
@@ -367,14 +392,25 @@ class DownloadWallpaperFragment : Fragment() {
                     rawType = "collection_theme"
                 )
                 withContext(Dispatchers.Main) {
-                    binding.pbCreate.visibility = View.GONE
-                    SetupSucceedDialogFragment().show(parentFragmentManager, "success")
+                    _binding?.pbCreate?.visibility = View.GONE
+                    if (isAdded && !isStateSaved) {
+                        try {
+                            val fm = parentFragmentManager
+                            if (!fm.isStateSaved) {
+                                SetupSucceedDialogFragment().show(fm, "success")
+                            }
+                        } catch (e: Exception) {
+                            e.printStackTrace()
+                        }
+                    }
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
                 withContext(Dispatchers.Main) {
-                    binding.pbCreate.visibility = View.GONE
-                    Toast.makeText(context, getString(R.string.toast_failed_apply_wallpaper), Toast.LENGTH_SHORT).show()
+                    _binding?.pbCreate?.visibility = View.GONE
+                    if (isAdded && context != null) {
+                        Toast.makeText(context, getString(R.string.toast_failed_apply_wallpaper), Toast.LENGTH_SHORT).show()
+                    }
                 }
             }
         }
