@@ -191,6 +191,7 @@
         <receiver
             android:name="com.widget.themes.controlcenter.feature_widget.Widget2x2Provider"
             android:label="2x2 Analog Clock"
+            android:process=":widget"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -210,6 +211,7 @@
         <receiver
             android:name="com.widget.themes.controlcenter.feature_widget.Widget4x2Provider"
             android:label="4x2 Dashboard"
+            android:process=":widget"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -229,6 +231,7 @@
         <receiver
             android:name="com.widget.themes.controlcenter.feature_widget.Widget4x4Provider"
             android:label="4x4 Calendar Grid"
+            android:process=":widget"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -249,6 +252,7 @@
         <!-- Widget Pinning Callback Receiver -->
         <receiver
             android:name="com.widget.themes.controlcenter.feature_widget.WidgetReceiver"
+            android:process=":widget"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.widget.themes.controlcenter.WIDGET_PINNED" />
@@ -259,6 +263,7 @@
         <receiver
             android:name="com.widget.themes.controlcenter.feature_widget.SingleIconWidgetProvider"
             android:label="Themed Icon"
+            android:process=":widget"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -271,6 +276,7 @@
         <!-- Single 1x1 Icon Widget Pinning Callback Receiver -->
         <receiver
             android:name="com.widget.themes.controlcenter.feature_widget.SingleIconWidgetReceiver"
+            android:process=":widget"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.widget.themes.controlcenter.SINGLE_ICON_WIDGET_PINNED" />

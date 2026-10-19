@@ -53,8 +53,25 @@ class ThemeApp : Application() {
         }
     }
 
+    private fun isMainProcess(): Boolean {
+        val currentProcessName = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+            getProcessName()
+        } else {
+            try {
+                val pid = android.os.Process.myPid()
+                val am = getSystemService(Context.ACTIVITY_SERVICE) as? android.app.ActivityManager
+                am?.runningAppProcesses?.find { it.pid == pid }?.processName ?: packageName
+            } catch (e: Exception) {
+                packageName
+            }
+        }
+        return currentProcessName == packageName
+    }
+
     override fun onCreate() {
         super.onCreate()
+        val isMain = isMainProcess()
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
             val processName = getProcessName()
             if (packageName != processName) {
@@ -65,50 +82,54 @@ class ThemeApp : Application() {
                 }
             }
         }
-        initFO()
-        try {
-            val filter = IntentFilter(Intent.ACTION_POWER_CONNECTED)
-            registerReceiver(chargingReceiver, filter)
-        } catch (e: Exception) {
-            e.printStackTrace()
-        }
 
-        val widgetFilter = IntentFilter().apply {
-            addAction(Intent.ACTION_TIME_TICK)
-            addAction(Intent.ACTION_TIME_CHANGED)
-            addAction(Intent.ACTION_TIMEZONE_CHANGED)
-            addAction(Intent.ACTION_USER_PRESENT)
-            addAction(Intent.ACTION_SCREEN_ON)
-            addAction(Intent.ACTION_SCREEN_OFF)
-        }
-        registerReceiver(object : BroadcastReceiver() {
-            override fun onReceive(context: Context, intent: Intent) {
-                try {
-                    when (intent.action) {
-                        Intent.ACTION_SCREEN_OFF -> {
-                            com.widget.themes.controlcenter.feature_widget.WidgetClockTicker.onScreenOff()
-                        }
-                        Intent.ACTION_SCREEN_ON,
-                        Intent.ACTION_USER_PRESENT -> {
-                            com.widget.themes.controlcenter.feature_widget.WidgetClockTicker.onScreenOn(context)
-                            com.widget.themes.controlcenter.feature_widget.BaseWidgetProvider.updateAllWidgets(context)
-                        }
-                        else -> {
-                            com.widget.themes.controlcenter.feature_widget.BaseWidgetProvider.updateAllWidgets(context)
-                            com.widget.themes.controlcenter.feature_widget.BaseWidgetProvider.schedulePeriodicUpdate(context)
-                            com.widget.themes.controlcenter.feature_widget.WidgetClockTicker.start(context)
-                        }
-                    }
-                } catch (e: Exception) {
-                    e.printStackTrace()
-                }
+        if (isMain) {
+            initFO()
+            try {
+                val filter = IntentFilter(Intent.ACTION_POWER_CONNECTED)
+                registerReceiver(chargingReceiver, filter)
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
-        }, widgetFilter)
+            setupFullScreenLifecycle()
+        }
 
-        com.widget.themes.controlcenter.feature_widget.BaseWidgetProvider.schedulePeriodicUpdate(this)
-        com.widget.themes.controlcenter.feature_widget.WidgetClockTicker.start(this)
+        if (!isMain) {
+            val widgetFilter = IntentFilter().apply {
+                addAction(Intent.ACTION_TIME_TICK)
+                addAction(Intent.ACTION_TIME_CHANGED)
+                addAction(Intent.ACTION_TIMEZONE_CHANGED)
+                addAction(Intent.ACTION_USER_PRESENT)
+                addAction(Intent.ACTION_SCREEN_ON)
+                addAction(Intent.ACTION_SCREEN_OFF)
+            }
+            registerReceiver(object : BroadcastReceiver() {
+                override fun onReceive(context: Context, intent: Intent) {
+                    try {
+                        when (intent.action) {
+                            Intent.ACTION_SCREEN_OFF -> {
+                                com.widget.themes.controlcenter.feature_widget.WidgetClockTicker.onScreenOff()
+                            }
+                            Intent.ACTION_SCREEN_ON,
+                            Intent.ACTION_USER_PRESENT -> {
+                                com.widget.themes.controlcenter.feature_widget.WidgetClockTicker.onScreenOn(context)
+                                com.widget.themes.controlcenter.feature_widget.BaseWidgetProvider.updateAllWidgets(context)
+                            }
+                            else -> {
+                                com.widget.themes.controlcenter.feature_widget.BaseWidgetProvider.updateAllWidgets(context)
+                                com.widget.themes.controlcenter.feature_widget.BaseWidgetProvider.schedulePeriodicUpdate(context)
+                                com.widget.themes.controlcenter.feature_widget.WidgetClockTicker.start(context)
+                            }
+                        }
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    }
+                }
+            }, widgetFilter)
 
-        setupFullScreenLifecycle()
+            com.widget.themes.controlcenter.feature_widget.BaseWidgetProvider.schedulePeriodicUpdate(this)
+            com.widget.themes.controlcenter.feature_widget.WidgetClockTicker.start(this)
+        }
     }
 
     companion object {
