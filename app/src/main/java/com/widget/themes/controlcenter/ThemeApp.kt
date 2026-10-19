@@ -269,6 +269,7 @@ class ThemeApp : Application() {
 //                    nativeFullId = getString(R.string.native_splash_full),
 //                    nativeFullHighId = getString(R.string.native_splash_full_high),
                     nativeFullLayout = R.layout.layout_native_full,
+                    loadingAdFullLayout = R.layout.csc_dialog_loading_ads,
                     admobAOAId = getString(R.string.resume_open_app),
                     isCheckOrganicUser = true
                 )
