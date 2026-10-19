@@ -146,6 +146,24 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SettingActivity::class.java)
             startActivity(intent)
         }
+
+        /*
+        // Long-click Setting button -> Open Ad Inspector directly
+        binding.btnSetting.setOnLongClickListener {
+            try {
+                Toast.makeText(this, "Opening Ad Inspector...", Toast.LENGTH_SHORT).show()
+                com.google.android.libraries.ads.mobile.sdk.MobileAds.openAdInspector { error ->
+                    if (error != null) {
+                        Toast.makeText(this, "AdInspector error: ${error.message} (code: ${error.code})", Toast.LENGTH_LONG).show()
+                    }
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+                Toast.makeText(this, "AdInspector exception: ${e.message}", Toast.LENGTH_LONG).show()
+            }
+            true
+        }
+        */
     }
 
     override fun attachBaseContext(newBase: Context) {

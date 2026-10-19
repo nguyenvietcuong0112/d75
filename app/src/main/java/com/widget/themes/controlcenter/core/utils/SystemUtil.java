@@ -10,6 +10,8 @@ import android.provider.MediaStore;
 import android.util.Log;
 import android.webkit.MimeTypeMap;
 
+import com.cscmobi.libraryads.commons.sharepreference.CSCSPFHolder;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -76,9 +78,10 @@ public class SystemUtil {
     public static String getPreLanguage(Context mContext) {
         String cscLang = null;
         try {
-            cscLang = new com.cscmobi.libraryads.commons.sharepreference.CSCSPF(mContext).getLanguage_code_selected();
+            CSCSPFHolder.INSTANCE.init(mContext);
+            cscLang = CSCSPFHolder.INSTANCE.get().getLanguage_code_selected();
         } catch (Exception e) {
-            Log.e("LanguageDebug", "SystemUtil.getPreLanguage: CSCSPF read error=" + e.getMessage());
+            Log.e("LanguageDebug", "SystemUtil.getPreLanguage: CSCSPFHolder read error=" + e.getMessage());
         }
         SharedPreferences preferences = mContext.getSharedPreferences("data", Context.MODE_PRIVATE);
         String dataLang = preferences.getString("KEY_LANGUAGE", null);
@@ -98,10 +101,11 @@ public class SystemUtil {
             return;
         } else {
             try {
-                new com.cscmobi.libraryads.commons.sharepreference.CSCSPF(context).setLanguage_code_selected(language);
-                Log.d("LanguageDebug", "SystemUtil.setPreLanguage: saved to CSCSPF=" + language);
+                CSCSPFHolder.INSTANCE.init(context);
+                CSCSPFHolder.INSTANCE.get().setLanguage_code_selected(language);
+                Log.d("LanguageDebug", "SystemUtil.setPreLanguage: saved to CSCSPFHolder=" + language);
             } catch (Exception e) {
-                Log.e("LanguageDebug", "SystemUtil.setPreLanguage: CSCSPF write error=" + e.getMessage());
+                Log.e("LanguageDebug", "SystemUtil.setPreLanguage: CSCSPFHolder write error=" + e.getMessage());
             }
             SharedPreferences preferences = context.getSharedPreferences("data", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = preferences.edit();

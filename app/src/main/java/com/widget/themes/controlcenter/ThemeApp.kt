@@ -21,7 +21,7 @@ import com.widget.themes.controlcenter.feature_charging.ChargingActivity
 import com.widget.themes.controlcenter.feature_main.MainActivity
 import com.widget.themes.controlcenter.feature_main.PermissionActivity
 import com.cscmobi.libraryads.CSCApplication
-import com.cscmobi.libraryads.commons.sharepreference.CSCSPF
+import com.cscmobi.libraryads.commons.sharepreference.CSCSPFHolder
 import com.cscmobi.libraryads.data.AdsLanguageConfig
 import com.cscmobi.libraryads.data.AdsOBConfig
 import com.cscmobi.libraryads.data.AdsSplashConfig
@@ -195,6 +195,18 @@ class ThemeApp : Application() {
     }
 
     private fun initFO() {
+        /*
+        try {
+            val testConfig = com.google.android.libraries.ads.mobile.sdk.common.RequestConfiguration.Builder()
+                .setTestDeviceIds(listOf("BC1F52F968E97CA36AFAA3BDB937A169"))
+                .build()
+            com.google.android.libraries.ads.mobile.sdk.MobileAds.setRequestConfiguration(testConfig)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+        */
+
+        CSCSPFHolder.init(this)
         val cscLibrary = CSCApplication(this, RemoteConfigs, getString(R.string.app_id), BuildConfig.DEBUG)
 
 
@@ -229,7 +241,7 @@ class ThemeApp : Application() {
                         listLanguage = EnumSelectLanguage.toLanguageModelList(),
                         languageSetting = object : LanguageSetting {
                             override fun onDone(activity: Activity) {
-                                val code = CSCSPF(activity).language_code_selected
+                                val code = CSCSPFHolder.get().language_code_selected
                                 val finalCode = if (!code.isNullOrBlank()) code else SystemUtil.getPreLanguage(activity)
                                 android.util.Log.d("LanguageDebug", "App languageSetting.onDone: code=$code, finalCode=$finalCode")
                                 SystemUtil.changeLang(finalCode, activity)
@@ -255,7 +267,7 @@ class ThemeApp : Application() {
                         resFragmentOB4 = R.layout.fragment_intro4,
                         activityCallback = object : OnActivityCallBack {
                             override fun onNextActivity(activity: Activity, inSession2: Boolean) {
-                                val savedLang = CSCSPF(activity).language_code_selected
+                                val savedLang = CSCSPFHolder.get().language_code_selected
                                 if (!savedLang.isNullOrBlank()) {
                                     SystemUtil.changeLang(savedLang, activity)
                                 }

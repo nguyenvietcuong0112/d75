@@ -50,6 +50,13 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/app_id" />
 
+        <!-- Enable Next-Gen GMA SDK Ad Inspector (uncomment when debugging Ad Inspector)
+        <meta-data
+            android:name="com.google.android.libraries.ads.mobile.sdk.flag.DISABLE_AD_INSPECTOR"
+            android:value="false"
+            tools:replace="android:value" />
+        -->
+
         <!-- Facebook SDK App ID & Client Token (For Ads Mediation) -->
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"

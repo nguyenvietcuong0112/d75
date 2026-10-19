@@ -123,6 +123,11 @@
 -keep class com.iab.omid.library.bytedance2.** { *; }
 -keep class com.pgl.ssdk.** { *; }
 -keep class com.tiktok.** { *; }
+-keep class com.bytedance.sdk.openadsdk.** { *; }
+-keep class com.bykv.vk.openvk.** { *; }
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
 
 # Pangle JNI & Native Security (Crucial for Bidding Token Generation)
 -keep class ms.bd.o.Pgl.** { *; }
@@ -158,6 +163,10 @@
 # Pubscale Adapter
 -keep class com.pubscale.** { *; }
 -dontwarn com.pubscale.**
+
+# Google Next-Gen Mobile Ads SDK & Ad Inspector
+-keep class com.google.android.libraries.ads.mobile.sdk.** { *; }
+-dontwarn com.google.android.libraries.ads.mobile.sdk.**
 
 # ---------------------- Custom Views ----------------------
 -keep public class * extends android.view.View {

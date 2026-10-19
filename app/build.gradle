@@ -16,8 +16,8 @@ android {
         applicationId "com.widget.themes.controlcenter"
         minSdk 26
         targetSdk 36
-        versionCode 4
-        versionName "0.0.4"
+        versionCode 5
+        versionName "0.0.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -154,7 +154,7 @@ dependencies {
 
     //lib ads
 //    implementation("com.cscapp:library-test:0.3.0")
-    implementation("com.cscapp:library-gma:0.0.7")
+    implementation("com.cscapp:library-gma:0.0.9")
 
     // sdk mediation
     implementation("com.facebook.android:facebook-android-sdk:18.3.0")
