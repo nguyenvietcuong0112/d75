@@ -33,6 +33,11 @@ import com.cscmobi.libraryads.data.SplashConfig
 import com.cscmobi.libraryads.data.UiLanguageConfig
 import com.cscmobi.libraryads.data.UiOBConfig
 import com.cscmobi.libraryads.data.UiSplashConfig
+import com.google.firebase.remoteconfig.ConfigUpdate
+import com.google.firebase.remoteconfig.ConfigUpdateListener
+import com.google.firebase.remoteconfig.FirebaseRemoteConfig
+import com.google.firebase.remoteconfig.FirebaseRemoteConfigException
+import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 import com.iconchanger.wallpaper.rolling.icons.utils.RemoteConfigs
 
 class ThemeApp : Application() {
@@ -208,6 +213,21 @@ class ThemeApp : Application() {
 
         CSCSPFHolder.init(this)
         val cscLibrary = CSCApplication(this, RemoteConfigs, getString(R.string.app_id), BuildConfig.DEBUG)
+
+        val remoteConfig = FirebaseRemoteConfig.getInstance()
+        val configSettings = FirebaseRemoteConfigSettings.Builder()
+            .setMinimumFetchIntervalInSeconds(if (BuildConfig.DEBUG) 60L else 3600L)
+            .build()
+        remoteConfig.setConfigSettingsAsync(configSettings)
+
+        remoteConfig.addOnConfigUpdateListener(object : ConfigUpdateListener {
+            override fun onUpdate(configUpdate: ConfigUpdate) {
+                remoteConfig.activate()
+            }
+
+            override fun onError(error: FirebaseRemoteConfigException) {
+            }
+        })
 
 
 

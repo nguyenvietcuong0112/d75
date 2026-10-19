@@ -149,6 +149,7 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-crashlytics")
     implementation("com.google.firebase:firebase-database")
+    implementation("com.google.firebase:firebase-config")
     // Google Mobile Ads (Replaced by Next-Gen GMA in library-gma)
 //    implementation("com.google.android.gms:play-services-ads:25.4.0")
 
