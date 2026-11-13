@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.widget.themes.controlcenter.R
 import com.widget.themes.controlcenter.core.data.ResourceConfig
 import com.widget.themes.controlcenter.core.di.ServiceLocator
+import com.widget.themes.controlcenter.core.utils.showSafely
 import com.widget.themes.controlcenter.core.data.entity.ThemeItem
 import com.widget.themes.controlcenter.core.network.CategoryDto
 import com.widget.themes.controlcenter.feature_widget.data.WidgetRepository
@@ -328,7 +329,9 @@ class WidgetConfigFragment : Fragment() {
                 path = item.themePath
             )
             sheet.setParams(dummyTheme, item.widgetType, item.size, item.previewUrl, android.appwidget.AppWidgetManager.INVALID_APPWIDGET_ID)
-            sheet.show(parentFragmentManager, "select_widget")
+            if (isAdded && activity?.isFinishing == false && activity?.isDestroyed == false) {
+                sheet.showSafely(parentFragmentManager, "select_widget")
+            }
         }
         val act = activity
         if (act != null) {

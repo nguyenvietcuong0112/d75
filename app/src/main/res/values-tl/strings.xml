@@ -386,4 +386,5 @@ Keyboard</string>
     <string name="zoom">I-zoom</string>
     <string name="toast_all_permissions_granted">Naibigay na ang lahat ng pahintulot para sa Control Center!</string>
     <string name="toast_turn_off_in_settings">Pakipatay ang pahintulot na ito sa Mga Setting</string>
+    <string name="dialog_unlock_ad_message">Manood ng maikling video upang ma-unlock ang item na ito</string>
 </resources>

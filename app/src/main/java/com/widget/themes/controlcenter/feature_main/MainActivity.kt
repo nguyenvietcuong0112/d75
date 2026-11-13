@@ -9,9 +9,11 @@ import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
+import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.widget.ViewPager2
 import com.widget.themes.controlcenter.R
 import com.widget.themes.controlcenter.core.utils.SystemUtil
+import com.widget.themes.controlcenter.core.utils.showSafely
 import com.widget.themes.controlcenter.databinding.ActivityMainBinding
 import com.widget.themes.controlcenter.feature_setting.SettingActivity
 
@@ -131,7 +133,7 @@ class MainActivity : AppCompatActivity() {
     private fun showExitDialog() {
         val existing = supportFragmentManager.findFragmentByTag(ExitDialogFragment.TAG)
         if (existing == null || !existing.isAdded) {
-            ExitDialogFragment.newInstance().show(supportFragmentManager, ExitDialogFragment.TAG)
+            ExitDialogFragment.newInstance().showSafely(supportFragmentManager, ExitDialogFragment.TAG)
         }
     }
 
@@ -258,14 +260,35 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun selectTab(position: Int) {
-        if (::binding.isInitialized) {
-            if (binding.viewpager.currentItem != position) {
-                binding.viewpager.setCurrentItem(position, false)
-            } else if (position == 4) {
-                androidx.lifecycle.ViewModelProvider(this)[com.widget.themes.controlcenter.feature_collections.CollectionsViewModel::class.java].loadDataForSelectedTab()
+        if (!::binding.isInitialized || isFinishing || isDestroyed) return
+        updateHeaderTitle(position)
+        updateNavSelection(position)
+
+        val applyPage = {
+            if (!isFinishing && !isDestroyed && !supportFragmentManager.isDestroyed) {
+                if (binding.viewpager.currentItem != position) {
+                    try {
+                        binding.viewpager.setCurrentItem(position, false)
+                    } catch (_: IllegalStateException) {
+                        binding.viewpager.post {
+                            if (!isFinishing && !isDestroyed && !supportFragmentManager.isDestroyed) {
+                                binding.viewpager.setCurrentItem(position, false)
+                            }
+                        }
+                    }
+                } else if (position == 4) {
+                    androidx.lifecycle.ViewModelProvider(this)[com.widget.themes.controlcenter.feature_collections.CollectionsViewModel::class.java].loadDataForSelectedTab()
+                }
             }
-            updateHeaderTitle(position)
-            updateNavSelection(position)
+        }
+
+        if (!lifecycle.currentState.isAtLeast(Lifecycle.State.RESUMED) ||
+            binding.viewpager.isInLayout ||
+            supportFragmentManager.isStateSaved
+        ) {
+            binding.viewpager.post { applyPage() }
+        } else {
+            applyPage()
         }
     }
 

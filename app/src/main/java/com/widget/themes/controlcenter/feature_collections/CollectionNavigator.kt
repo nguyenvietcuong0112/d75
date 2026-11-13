@@ -4,6 +4,7 @@ import android.app.Activity
 import android.appwidget.AppWidgetManager
 import android.content.Intent
 import androidx.fragment.app.FragmentActivity
+import com.widget.themes.controlcenter.core.utils.showSafely
 import com.widget.themes.controlcenter.feature_control_center.ControlCenterPreviewBottomSheet
 import com.widget.themes.controlcenter.feature_icon.DownloadIconActivity
 import com.widget.themes.controlcenter.core.data.entity.ThemeItem
@@ -15,7 +16,8 @@ import com.widget.themes.controlcenter.feature_collections.data.CollectionItem
 object CollectionNavigator {
 
     fun navigateToDetail(activity: Activity, item: CollectionItem, isDownloaded: Boolean = false) {
-        val performNavigate = {
+        val performNavigate: () -> Unit = perform@{
+            if (activity.isFinishing || activity.isDestroyed) return@perform
             val categoryKey = item.category.lowercase()
             val rawTypeKey = item.rawType.lowercase()
             when {
@@ -86,7 +88,7 @@ object CollectionNavigator {
                     AppWidgetManager.INVALID_APPWIDGET_ID
                 )
                 if (activity is FragmentActivity) {
-                    sheet.show(activity.supportFragmentManager, "select_widget")
+                    sheet.showSafely(activity.supportFragmentManager, "select_widget")
                 }
             }
 

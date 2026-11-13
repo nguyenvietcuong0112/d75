@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.widget.themes.controlcenter.R
 import com.widget.themes.controlcenter.core.data.ResourceConfig
+import com.widget.themes.controlcenter.core.utils.showSafely
 import com.widget.themes.controlcenter.core.data.entity.ThemeItem
 import com.widget.themes.controlcenter.core.network.ApiClient
 import com.widget.themes.controlcenter.core.network.ApiResponse
@@ -354,7 +355,7 @@ class DownloadWidgetFragment : Fragment() {
             widgetList = widgetItems,
             initialIndex = widgetItems.indexOf(item).coerceAtLeast(0)
         )
-        sheet.show(parentFragmentManager, "select_widget_bottom_sheet")
+        if (isAdded) sheet.showSafely(parentFragmentManager, "select_widget_bottom_sheet")
     }
 
     private inner class DownloadWidgetItemAdapter(

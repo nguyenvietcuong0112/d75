@@ -386,4 +386,5 @@
     <string name="zoom">ज़ूम</string>
     <string name="toast_all_permissions_granted">कंट्रोल सेंटर के लिए सभी अनुमतियाँ दी गई हैं!</string>
     <string name="toast_turn_off_in_settings">कृपया इस अनुमति को सेटिंग्स में बंद करें</string>
+    <string name="dialog_unlock_ad_message">इस आइटम को अनलॉक करने के लिए एक छोटा वीडियो देखें</string>
 </resources>

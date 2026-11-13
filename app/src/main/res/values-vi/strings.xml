@@ -386,4 +386,5 @@ Bàn phím</string>
     <string name="v7_preference_on">BẬT</string>
     <string name="zoom">Thu phóng</string>
     <string name="toast_all_permissions_granted">Đã cấp đủ quyền cho Trung tâm điều khiển!</string>
+    <string name="dialog_unlock_ad_message">Xem một đoạn video ngắn để mở khóa mục này</string>
 </resources>

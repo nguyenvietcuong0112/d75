@@ -386,4 +386,5 @@
     <string name="zoom">확대/축소</string>
     <string name="toast_all_permissions_granted">제어 센터에 필요한 모든 권한이 부여되었습니다!</string>
     <string name="toast_turn_off_in_settings">시스템 설정에서 이 권한을 꺼주세요</string>
+    <string name="dialog_unlock_ad_message">짧은 동영상을 시청하여 이 항목을 잠금 해제하세요</string>
 </resources>

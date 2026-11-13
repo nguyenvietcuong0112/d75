@@ -386,4 +386,5 @@
     <string name="zoom">Масштаб</string>
     <string name="toast_all_permissions_granted">Все разрешения для Центра управления предоставлены!</string>
     <string name="toast_turn_off_in_settings">Пожалуйста, отключите это разрешение в Настройках</string>
+    <string name="dialog_unlock_ad_message">Посмотрите короткое видео, чтобы разблокировать этот элемент</string>
 </resources>

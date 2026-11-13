@@ -14,6 +14,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.widget.themes.controlcenter.R
 import com.widget.themes.controlcenter.feature_widget.data.entity.WidgetThemeWallpaper
 import com.widget.themes.controlcenter.core.di.ServiceLocator
+import com.widget.themes.controlcenter.core.utils.showSafely
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -112,7 +113,7 @@ class DownloadWallpaperActivity : AppCompatActivity() {
                         )
                     }
                 }
-                sheet.show(supportFragmentManager, "set_wallpaper_sheet")
+                sheet.showSafely(supportFragmentManager, "set_wallpaper_sheet")
             } else {
                 Toast.makeText(this, getString(R.string.toast_wallpaper_downloading), Toast.LENGTH_SHORT).show()
             }

@@ -23,6 +23,7 @@ import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
 import androidx.lifecycle.lifecycleScope
+import com.widget.themes.controlcenter.core.utils.showSafely
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.widget.themes.controlcenter.feature_widget.WidgetTheme
@@ -266,7 +267,7 @@ class WidgetThemeDetailActivity : AppCompatActivity() {
                     size = size,
                     previewUrl = previewUrl
                 )
-                sheet.show(supportFragmentManager, "select_widget")
+                sheet.showSafely(supportFragmentManager, "select_widget")
             }
             .show()
     }

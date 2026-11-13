@@ -386,4 +386,5 @@ teclado</string>
     <string name="zoom">Zoom</string>
     <string name="toast_all_permissions_granted">¡Todos los permisos para el Centro de control han sido otorgados!</string>
     <string name="toast_turn_off_in_settings">Desactive este permiso en Ajustes del sistema</string>
+    <string name="dialog_unlock_ad_message">Mira un video corto para desbloquear este elemento</string>
 </resources>

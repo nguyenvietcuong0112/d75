@@ -386,4 +386,5 @@ Keyboard</string>
     <string name="zoom">Perbesar</string>
     <string name="toast_all_permissions_granted">Semua izin untuk Pusat Kontrol telah diberikan!</string>
     <string name="toast_turn_off_in_settings">Harap nonaktifkan izin ini di Pengaturan</string>
+    <string name="dialog_unlock_ad_message">Tonton video singkat untuk membuka item ini</string>
 </resources>

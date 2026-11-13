@@ -386,4 +386,5 @@ tastiera</string>
     <string name="zoom">Zoom</string>
     <string name="toast_all_permissions_granted">Tutte le autorizzazioni per il Centro di controllo sono state concesse!</string>
     <string name="toast_turn_off_in_settings">Disattiva questa autorizzazione nelle Impostazioni</string>
+    <string name="dialog_unlock_ad_message">Guarda un breve video per sbloccare questo elemento</string>
 </resources>

@@ -17,7 +17,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.widget.themes.controlcenter.core.utils.EnumSelectLanguage
 import com.widget.themes.controlcenter.core.utils.SystemUtil
-import com.widget.themes.controlcenter.feature_charging.ChargingActivity
 import com.widget.themes.controlcenter.feature_main.MainActivity
 import com.widget.themes.controlcenter.feature_main.PermissionActivity
 import com.cscmobi.libraryads.CSCApplication
@@ -41,17 +40,6 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 import com.iconchanger.wallpaper.rolling.icons.utils.RemoteConfigs
 
 class ThemeApp : Application() {
-
-    private val chargingReceiver = object : BroadcastReceiver() {
-        override fun onReceive(context: Context, intent: Intent) {
-            if (intent.action == Intent.ACTION_POWER_CONNECTED) {
-                val launchIntent = Intent(context, ChargingActivity::class.java).apply {
-                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                }
-                context.startActivity(launchIntent)
-            }
-        }
-    }
 
     private fun isMainProcess(): Boolean {
         val currentProcessName = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
@@ -85,12 +73,6 @@ class ThemeApp : Application() {
 
         if (isMain) {
             initFO()
-            try {
-                val filter = IntentFilter(Intent.ACTION_POWER_CONNECTED)
-                registerReceiver(chargingReceiver, filter)
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
             setupFullScreenLifecycle()
         }
 
@@ -354,4 +336,3 @@ class ThemeApp : Application() {
         }
     }
 }
-

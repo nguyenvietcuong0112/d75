@@ -43,7 +43,9 @@ class CollectionsFragment : Fragment() {
         if (result.resultCode == Activity.RESULT_OK) {
             val targetTab = result.data?.getIntExtra("target_main_tab", -1) ?: -1
             if (targetTab != -1) {
-                (activity as? com.widget.themes.controlcenter.feature_main.MainActivity)?.selectTab(targetTab)
+                android.os.Handler(android.os.Looper.getMainLooper()).post {
+                    (activity as? com.widget.themes.controlcenter.feature_main.MainActivity)?.selectTab(targetTab)
+                }
             } else {
                 val category = result.data?.getStringExtra(DownloadedActivity.EXTRA_CATEGORY)
                 if (!category.isNullOrEmpty()) {

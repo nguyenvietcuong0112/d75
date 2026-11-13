@@ -446,4 +446,5 @@
     <string name="dialog_exit_btn_cancel">Cancel</string>
     <string name="toast_turn_off_in_settings">Please turn off this permission in Settings</string>
     <string name="toast_all_permissions_granted">All permissions granted for Control Center!</string>
+    <string name="dialog_unlock_ad_message">Watch a short video to unlock this item</string>
 </resources>

@@ -15,6 +15,7 @@ import com.widget.themes.controlcenter.core.data.entity.ThemeItem
 import com.widget.themes.controlcenter.feature_widget.data.entity.WidgetThemeWallpaper
 import com.widget.themes.controlcenter.databinding.FragmentDownloadWallpaperBinding
 import com.widget.themes.controlcenter.core.di.ServiceLocator
+import com.widget.themes.controlcenter.core.utils.showSafely
 import com.widget.themes.controlcenter.feature_theme.DownloadThemeWallpaperBottomSheet
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
@@ -322,7 +323,7 @@ class DownloadWallpaperFragment : Fragment() {
         try {
             val fm = parentFragmentManager
             if (!fm.isStateSaved) {
-                downloadDialog.show(fm, "download")
+                downloadDialog.showSafely(fm, "download")
             }
         } catch (e: Exception) {
             e.printStackTrace()
@@ -339,7 +340,7 @@ class DownloadWallpaperFragment : Fragment() {
         try {
             val fm = childFragmentManager
             if (!fm.isStateSaved) {
-                sheet.show(fm, "set_wallpaper")
+                sheet.showSafely(fm, "set_wallpaper")
             }
         } catch (e: Exception) {
             e.printStackTrace()
@@ -397,7 +398,7 @@ class DownloadWallpaperFragment : Fragment() {
                         try {
                             val fm = parentFragmentManager
                             if (!fm.isStateSaved) {
-                                SetupSucceedDialogFragment().show(fm, "success")
+                                SetupSucceedDialogFragment().showSafely(fm, "success")
                             }
                         } catch (e: Exception) {
                             e.printStackTrace()

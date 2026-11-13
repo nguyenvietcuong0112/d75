@@ -386,4 +386,5 @@ clavier</string>
     <string name="zoom">Zoom</string>
     <string name="toast_all_permissions_granted">Toutes les autorisations pour le Centre de contrôle sont accordées !</string>
     <string name="toast_turn_off_in_settings">Veuillez désactiver cette autorisation dans les Paramètres</string>
+    <string name="dialog_unlock_ad_message">Regardez une courte vidéo pour débloquer cet élément</string>
 </resources>

@@ -23,6 +23,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
+import com.widget.themes.controlcenter.core.utils.showSafely
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.widget.themes.controlcenter.R
@@ -207,9 +208,7 @@ class SelectIconBottomSheet : BottomSheetDialogFragment() {
             if (activity != null && !activity.isFinishing && !activity.isDestroyed) {
                 try {
                     val fm = activity.supportFragmentManager
-                    if (!fm.isStateSaved) {
-                        SetupSucceedDialogFragment().show(fm, "success")
-                    }
+                    SetupSucceedDialogFragment().showSafely(fm, "success")
                 } catch (e: Exception) {
                     e.printStackTrace()
                 }

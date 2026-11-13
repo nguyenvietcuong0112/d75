@@ -386,4 +386,5 @@
     <string name="zoom">缩放</string>
     <string name="toast_all_permissions_granted">控制中心所需权限已全部授予！</string>
     <string name="toast_turn_off_in_settings">请在系统设置中关闭此权限</string>
+    <string name="dialog_unlock_ad_message">观看一段短视频即可解锁此项目</string>
 </resources>

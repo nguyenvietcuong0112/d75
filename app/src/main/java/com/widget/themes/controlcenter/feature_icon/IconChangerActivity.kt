@@ -29,6 +29,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.widget.themes.controlcenter.R
 import com.widget.themes.controlcenter.core.utils.IconComposerHelper
+import com.widget.themes.controlcenter.core.utils.showSafely
 
 class IconChangerActivity : AppCompatActivity() {
 
@@ -203,7 +204,7 @@ class IconChangerActivity : AppCompatActivity() {
                 .setIntent(launchIntent)
 
             ShortcutManagerCompat.requestPinShortcut(this, builder.build(), null)
-            com.widget.themes.controlcenter.feature_widget.SetupSucceedDialogFragment().show(supportFragmentManager, "success")
+            com.widget.themes.controlcenter.feature_widget.SetupSucceedDialogFragment().showSafely(supportFragmentManager, "success")
             layoutCustomizationPanel.visibility = View.GONE
         } else {
             Toast.makeText(this, getString(R.string.toast_launch_intent_not_found), Toast.LENGTH_SHORT).show()

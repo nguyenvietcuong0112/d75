@@ -22,6 +22,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.FragmentActivity
+import com.widget.themes.controlcenter.core.utils.showSafely
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
@@ -364,7 +365,7 @@ class SelectWidgetBottomSheet : BottomSheetDialogFragment() {
                             Toast.makeText(activity, getString(R.string.toast_failed_download_widget_assets), Toast.LENGTH_SHORT).show()
                         }
                     })
-                    downloadDialog.show(parentFragmentManager, "download")
+                    if (isAdded) downloadDialog.showSafely(parentFragmentManager, "download")
                 }
                 return@launch
             }
@@ -462,7 +463,7 @@ class SelectWidgetBottomSheet : BottomSheetDialogFragment() {
                             Toast.makeText(activity, getString(R.string.toast_failed_download_widget_assets), Toast.LENGTH_SHORT).show()
                         }
                     })
-                    downloadDialog.show(parentFragmentManager, "download")
+                    if (isAdded) downloadDialog.showSafely(parentFragmentManager, "download")
                 }
             }
         }
@@ -645,7 +646,9 @@ class SelectWidgetBottomSheet : BottomSheetDialogFragment() {
         val activity = activity as? FragmentActivity
         dismissAllowingStateLoss()
         if (activity != null) {
-            SetupSucceedDialogFragment().show(activity.supportFragmentManager, "success")
+            if (!activity.isFinishing && !activity.isDestroyed) {
+                SetupSucceedDialogFragment().showSafely(activity.supportFragmentManager, "success")
+            }
         }
     }
 

@@ -17,6 +17,7 @@ import com.bumptech.glide.Glide
 import com.widget.themes.controlcenter.R
 import com.widget.themes.controlcenter.core.data.AppItemData
 import com.widget.themes.controlcenter.core.utils.IconComposerHelper
+import com.widget.themes.controlcenter.core.utils.showSafely
 import com.widget.themes.controlcenter.databinding.ActivityDownloadIconBinding
 import com.widget.themes.controlcenter.core.data.entity.ThemeItem
 import com.widget.themes.controlcenter.feature_widget.DownloadIconItemAdapter
@@ -592,7 +593,7 @@ class DownloadIconActivity : AppCompatActivity() {
                 updateSelectAllUI()
             }
         )
-        bottomSheet.show(supportFragmentManager, "app_selection")
+        bottomSheet.showSafely(supportFragmentManager, "app_selection")
     }
 
     private fun installSingleIcon(item: ThemeIconItem) {
@@ -603,7 +604,7 @@ class DownloadIconActivity : AppCompatActivity() {
         }
         val sheet = SelectIconBottomSheet()
         sheet.setParams(theme, listOf(item))
-        sheet.show(supportFragmentManager, "select_icons")
+        sheet.showSafely(supportFragmentManager, "select_icons")
     }
 
     private fun installSelectedIcons() {
@@ -614,7 +615,7 @@ class DownloadIconActivity : AppCompatActivity() {
         }
         val sheet = SelectIconBottomSheet()
         sheet.setParams(theme, selected)
-        sheet.show(supportFragmentManager, "select_icons")
+        sheet.showSafely(supportFragmentManager, "select_icons")
     }
 
     override fun onDestroy() {

@@ -386,4 +386,5 @@ Designs</string>
     <string name="zoom">Zoomen</string>
     <string name="toast_all_permissions_granted">Alle Berechtigungen für das Kontrollzentrum wurden erteilt!</string>
     <string name="toast_turn_off_in_settings">Bitte deaktivieren Sie diese Berechtigung in den Einstellungen</string>
+    <string name="dialog_unlock_ad_message">Sieh dir ein kurzes Video an, um dieses Element freizuschalten</string>
 </resources>

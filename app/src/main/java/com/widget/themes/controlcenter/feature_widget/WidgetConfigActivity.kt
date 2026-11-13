@@ -23,6 +23,7 @@ import com.widget.themes.controlcenter.feature_theme.data.model.DecorateCategory
 import com.widget.themes.controlcenter.core.data.ResourceConfig
 import com.widget.themes.controlcenter.feature_widget.data.entity.WidgetConfig
 import com.widget.themes.controlcenter.core.di.ServiceLocator
+import com.widget.themes.controlcenter.core.utils.showSafely
 import com.widget.themes.controlcenter.core.data.entity.ThemeItem
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
@@ -283,7 +284,7 @@ class WidgetConfigActivity : AppCompatActivity() {
                 path = item.themePath
             )
             sheet.setParams(dummyTheme, item.widgetType, item.size, item.previewUrl, AppWidgetManager.INVALID_APPWIDGET_ID)
-            sheet.show(supportFragmentManager, "select_widget")
+            sheet.showSafely(supportFragmentManager, "select_widget")
         } else {
             applyWidgetStyle(item)
         }

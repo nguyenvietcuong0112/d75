@@ -121,13 +121,6 @@
             android:name="com.widget.themes.controlcenter.feature_wallpaper.DownloadWallpaperActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
- 
-        <!-- Charging Animation Screen -->
-        <activity
-            android:name="com.widget.themes.controlcenter.feature_charging.ChargingActivity"
-            android:exported="true"
-            android:showOnLockScreen="true"
-            android:screenOrientation="portrait" />
 
         <activity
             android:name="com.widget.themes.controlcenter.feature_widget.DownloadThemeActivity"
